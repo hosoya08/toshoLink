@@ -3381,6 +3381,9 @@ th {
 .quote_head .product_head_block.n02-02 .product_head-box.n02-02 .select_style {
   width: 130px;
 }
+.quote_head .product_head-box {
+  margin-right: 10px;
+}
 .quote_head .product_head_block.n02-02,
 .quote_head .product_head_block.n01 {
   align-items: center;
@@ -3412,14 +3415,14 @@ th {
   border-top-right-radius: 0;
   border-right: 1px solid #fff;
 }
-.q_content .part_table tr td:nth-child(7) {
-  border-right: 1px solid #e6e8eb;
-}
 .q_content .part_table tr td:nth-child(8),
 .q_content .part_table tr th:nth-child(8) {
   width: 91px;
   border-top-right-radius: 7px;
   border: none;
+}
+.q_content .part_table tr td:nth-child(7) {
+  border-right: 1px solid #e6e8eb;
 }
 .q_content .part_table tr th:nth-child(7)::after,
 .q_content .part_table tr td:nth-child(7)::after,
