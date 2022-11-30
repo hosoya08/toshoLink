@@ -4661,3 +4661,214 @@ th {
  {
   margin-right: 0;
 }
+/* ================================ */
+/* 07_見積書-詳細01-プレビューpop quote_pop */
+/* ================================ */
+.quote02_pop {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(79, 86, 93,80%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.quote02_pop section {
+  width: 627px;
+  background-color: #fff;
+  margin: 0 auto;
+  padding-top: 18px;
+  padding-left: 30px;
+  padding-bottom: 23px;
+}
+.pop_content {
+  width: 532px;
+}
+.pop_content.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.quote02_pop-title {
+  font-size: 22px;
+  color: #424242;
+  font-weight: bold;
+}
+.quote02_pop-company {
+  font-size: 14px;
+  font-weight: bold;
+  color: #424242;
+  margin-top: 14px;
+}
+.quote02_pop-address {
+  margin-top: 20px;
+  font-size: 12px;
+  line-height: 17px;
+  color: #424242;
+}
+.quote02_pop-greeting {
+  margin-top: 15px;
+  font-size: 11px;
+  line-height: 17px;
+  color: #424242;
+}
+
+.pop_box .pop_block01 .quote02_days,
+.pop_box .pop_block01 .quote02_number,
+.pop_box .pop_block01 .quote02_expiry
+{
+  font-size: 11px;
+  line-height: 15px;
+  color: #424242;
+}
+.pop_block02 {
+  margin-top: 23px;
+}
+.pop_block02 img {
+  width: 110px;
+  height: 18px;
+}
+.pop_block03 {
+  display: flex;
+  align-items: flex-start;
+}
+.pop_block03 .pop_block02-box,
+.pop_block04,
+.pop_block05 p {
+  font-size: 11px;
+  color: #424242;
+  line-height: 16px;
+}
+.pop_block03 img {
+  margin-left: 10px;
+}
+.pop_block05 {
+  display: flex;
+  align-items: center;
+}
+.pop_block05 img {
+  margin-left: 8px;
+}
+.quote02_block_total_money {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #AAAAAA;
+}
+.quote02_block_total_money h2 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #424242;
+}
+.quote02_block_total_money p {
+  font-size: 11px;
+  font-weight: bold;
+  color: #424242;
+}
+.pop_content.blocks02 {
+  margin-top: 33px;
+}
+.product_num span {
+  font-weight: bold;
+}
+
+.product_num {
+  color: #424242;
+  border-bottom: 1px solid #AAAAAA;
+  display: flex;
+  justify-content: space-between;
+}
+.quote02product_content:nth-of-type(2) {
+  margin-top: 38px;
+}
+.product_num p {
+  font-size: 12px;
+}
+.quote02product_content-block {
+  display: flex;
+  justify-content: space-between;
+}
+/* table */
+.quote_table {
+  width: 417px;
+}
+.quote_table tr th {
+  font-size: 11px;
+  color: #424242;
+  line-height: 1;
+  height: auto;
+  padding-bottom: 3px;
+  padding-top: 7px;
+  text-align: end;
+}
+.quote_table tr th:first-child {
+  text-align: start;
+}
+.quote_table tr td {
+  font-size: 13px;
+  color: #424242;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-align: end;
+}
+.quote_table .bb {
+  border-bottom: 1px solid #AAAAAA;
+}
+.quote02product_content-block div {
+  width: 100px;
+  display: flex;
+  align-items: center;
+}
+.quote02product_content-block div img {
+  width: 100%;
+  height: fit-content;
+}
+.quote_table tr th:nth-child(1) {
+  width: 154px;
+}
+.quote_table tr th:nth-child(2) {
+  width: 87px;
+}
+.quote_table tr th:nth-child(3) {
+  width: 35px;
+}
+.quote_table tr th:nth-child(4) {
+  width: 66px;
+}
+.quote_table tr th:nth-child(5) {
+  width: 80px;
+}
+.quote_table tr.evens {
+  background-color: #F8F8F8;
+}
+.quote02product_content {
+  margin-top: 17px;
+}
+.quote02product_content-block_textarea {
+  margin-top: 100px;
+}
+.quote02product_content-block_textarea p {
+  font-size: 11px;
+  color: #424242;
+  margin-bottom: 3px;
+}
+.quote02product_content-block_textarea .textarea {
+  width: 100%;
+  height: 64px;
+  border: 1px solid #aaaaaa;
+  resize: none;
+
+}
+.pop_content.blocks02 .modal_close {
+  width: 150px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #707070;
+  border: 1px solid #707070;
+  border-radius: var(--radius5);
+  margin: auto;
+  margin-top: 48px;
+}
