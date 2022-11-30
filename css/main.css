@@ -3415,6 +3415,8 @@ th {
   border-top-right-radius: 0;
   border-right: 1px solid #fff;
 }
+
+
 .q_content .part_table tr td:nth-child(8),
 .q_content .part_table tr th:nth-child(8) {
   width: 91px;
