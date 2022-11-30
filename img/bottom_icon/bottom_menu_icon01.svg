@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="13.5" viewBox="0 0 15 13.5">
+  <g id="calculator" transform="translate(-0.5 -1.25)">
+    <path id="パス_870" data-name="パス 870" d="M14.75,1.25H1.25A.751.751,0,0,0,.5,2V14a.751.751,0,0,0,.75.75h13.5A.751.751,0,0,0,15.5,14V2a.751.751,0,0,0-.75-.75Zm-.25,12.5H1.5V2.25h13Z" fill="#4aa9ac"/>
+    <path id="パス_871" data-name="パス 871" d="M4.75,7.5h1V6.25H7v-1H5.75V4h-1V5.25H3.5v1H4.75Z" fill="#4aa9ac"/>
+    <path id="パス_872" data-name="パス 872" d="M6.134,8.909l-.884.884-.884-.884-.707.707.884.884-.884.884.707.707.884-.884.884.884.707-.707L5.957,10.5l.884-.884Z" fill="#4aa9ac"/>
+    <path id="パス_873" data-name="パス 873" d="M9,5.25h3.5v1H9Z" fill="#4aa9ac"/>
+    <path id="パス_874" data-name="パス 874" d="M9,9h3.5v1H9Z" fill="#4aa9ac"/>
+    <path id="パス_875" data-name="パス 875" d="M9,11h3.5v1H9Z" fill="#4aa9ac"/>
+  </g>
+</svg>
