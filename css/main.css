@@ -4680,6 +4680,7 @@ th {
   padding-top: 18px;
   padding-left: 30px;
   padding-bottom: 23px;
+  position: relative;
 }
 .pop_content {
   width: 532px;
@@ -4871,4 +4872,16 @@ th {
   border-radius: var(--radius5);
   margin: auto;
   margin-top: 48px;
+}
+.close_btn-clos {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-image: url(../img/content/close.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
 }
