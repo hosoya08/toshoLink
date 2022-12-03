@@ -1,4 +1,4 @@
-<!-- 07_見積書−検索画面 -->
+<!-- 12_工程表−検索 -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -1132,7 +1132,7 @@
             <!-- TAB -->
             <div class="tab_switch">
                 <ul id="tab" class="tab">
-                    <li class="active">見積書</li>
+                    <li class="active">工程表</li>
                 </ul>
                 <div class="tab_box02">
                     <span><img src="img/content/item02-left.svg" alt=""><img src="img/content/item02-right.svg"
@@ -1153,19 +1153,19 @@
                 <!-- TORIHIKI DAICHOU -->
                 <li class="tab_content_li open">
                     <!-- content -->
-                    <div class="product_head quote_head">
+                    <div class="product_head quote_head process_head">
                         <div class="product_head_block n01">
 
-                            <div class="product_head-box n01-02">
-                                <p>見積書No.</p>
-                                <input type="text">
-                            </div>
-                            <div class="product_head-box n01-02">
+                            <div class="product_head-box n01">
                                 <p>品番</p>
                                 <input type="text">
                             </div>
                             <div class="product_head-box n02-02">
-                                <p>商品名</p>
+                                <p>案件名</p>
+                                <input type="text">
+                            </div>
+                            <div class="product_head-box n02-02">
+                                <p>得意先</p>
                                 <input type="text">
                             </div>
                         </div>
@@ -1173,12 +1173,12 @@
                         <div class="product_head_block n02-02">
 
                             <div class="product_head-box n01-02">
-                                <p>得意先</p>
+                                <p>担当者</p>
                                 <input type="text">
                             </div>
 
                             <div class="product_head-box n02-02">
-                                <p>作成開始</p>
+                                <p>案件開始日</p>
                                 <div class="select_style">
                                     <select id="">
                                         <option value="日付選択">日付選択</option>
@@ -1188,7 +1188,7 @@
                             </div>
 
                             <div class="product_head-box n02-02">
-                                <p>作成締切</p>
+                                <p>希望納品日</p>
                                 <div class="select_style">
                                     <select id="">
                                         <option value="日付選択">日付選択</option>
@@ -1245,7 +1245,7 @@
                         </div>
                     </div>
 
-                    <div class="p_content q_content">
+                    <div class="p_content process_content">
                         <div class="borderRadius">
                             <table class="part_table">
                                 <thead>
@@ -1258,11 +1258,11 @@
                                                 </label>
                                             </div>
                                         </th>
-                                        <th>作成日</th>
-                                        <th>見積書No.</th>
-                                        <th>品番</th>
-                                        <th>商品名</th>
+                                        <th>案件</th>
+                                        <th>案件名</th>
                                         <th>得意先</th>
+                                        <th>案件開始日</th>
+                                        <th>希望納品日</th>
                                         <th>担当者</th>
                                         <th></th>
                                     </tr>
@@ -1277,11 +1277,11 @@
                                                 </label>
                                             </div>
                                         </td>
-                                        <td>2022-10-12</td>
-                                        <td>MF-012134567T</td>
                                         <td>1234567890</td>
-                                        <td>MFﾍﾞﾙﾄｶﾊﾞｰ　商品名商品名商品名商品名商品名商品名</td>
+                                        <td>MFﾍﾞﾙﾄｶﾊﾞｰ　商品開発カラーWダミーダミーダミーダミー案件</td>
                                         <td>株式会社ABCDEF　ダミー</td>
+                                        <td>2023-01-19</td>
+                                        <td>2023-01-19</td>
                                         <td>山田　太郎</td>
                                         <td>
                                             <div class="green_link">編集</div>
@@ -1296,11 +1296,11 @@
                                                 </label>
                                             </div>
                                         </td>
-                                        <td>2022-10-12</td>
-                                        <td>MF-012134567T</td>
                                         <td>1234567890</td>
-                                        <td>MFﾍﾞﾙﾄｶﾊﾞｰ　商品名商品名商品名商品名商品名商品名</td>
+                                        <td>MFﾍﾞﾙﾄｶﾊﾞｰ　商品開発カラーWダミーダミーダミーダミー案件</td>
                                         <td>株式会社ABCDEF　ダミー</td>
+                                        <td>2023-01-19</td>
+                                        <td>2023-01-19</td>
                                         <td>山田　太郎</td>
                                         <td>
                                             <div class="green_link">編集</div>
@@ -1315,11 +1315,11 @@
                                                 </label>
                                             </div>
                                         </td>
-                                        <td>2022-10-12</td>
-                                        <td>MF-012134567T</td>
                                         <td>1234567890</td>
-                                        <td>MFﾍﾞﾙﾄｶﾊﾞｰ　商品名商品名商品名商品名商品名商品名</td>
+                                        <td>MFﾍﾞﾙﾄｶﾊﾞｰ　商品開発カラーWダミーダミーダミーダミー案件</td>
                                         <td>株式会社ABCDEF　ダミー</td>
+                                        <td>2023-01-19</td>
+                                        <td>2023-01-19</td>
                                         <td>山田　太郎</td>
                                         <td>
                                             <div class="green_link">編集</div>
