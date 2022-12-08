@@ -1200,7 +1200,7 @@
                                         <label class="upload-label">
                                             ファイルを選択
                                             <input type="file">
-                                          </label>
+                                        </label>
                                     </div>
 
                                     <div class="u02_content-box_tab-container-con w148 mt40">
@@ -1238,13 +1238,13 @@
                                                 <p>ログイン許可</p>
                                                 <label class="ECM_CheckboxInput" id="ECM_CheckboxInput">
                                                     <input class="ECM_CheckboxInput-Input" type="checkbox"><span
-                                                        class="ECM_CheckboxInput-DummyInput white"></span>
+                                                        class="ECM_CheckboxInput-DummyInput white login_check"></span>
                                                 </label>
                                             </div>
                                         </div>
                                     </div>
                                     <script>
-                                        document.getElementById("check_table-box").addEventListener('click', function(){
+                                        document.getElementById("check_table-box").addEventListener('click', function () {
                                             document.getElementById('ECM_CheckboxInput').click();
                                         });
                                     </script>
@@ -1386,6 +1386,13 @@
             console.log(tab_content[index]);
         }
         tabBtn();
+    </script>
+    <!-- login kyoka  -->
+    <script>
+        const loginBtn = document.querySelector('.ECM_CheckboxInput-DummyInput.white.login_check');
+        loginBtn.addEventListener('click', function () {
+            document.getElementById('check_table-box').click();
+        })
     </script>
 
 
