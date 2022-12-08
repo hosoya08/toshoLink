@@ -6026,3 +6026,85 @@ th {
 .order_content .pagination {
   justify-content: center;
 }
+
+/* ========================= */
+/* 05_受注管理-詳細０１ */
+/* ========================= */
+.order02_content input[type="text"] {
+  border: 1px solid #E6E8EB;
+  background-color: #F8F8F8;
+  border-radius: var(--radius5);
+  height: 36px;
+  padding-left: 10px;
+  font-size: 14px;
+  color: #707070;
+}
+.order02_content input[type="text"].no_touch {
+  border: 1px solid #E6E8EB;
+  background-color: #E6E8EB;
+}
+.order02_content {
+  width: 1118px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
+  padding: 20px;
+}
+.order02_content h2 {
+  color: #00A29A;
+  font-size: 14px;
+  font-weight: 400;
+}
+.order02_flex {
+  display: flex;
+  align-items: center;
+}
+.order02_flex p {
+  width: 168px;
+  padding-left: 20px;
+  color: #758A90;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+}
+.order02_flex > .order02_flex:nth-of-type(2) p {
+  width: 82px;
+  padding-left: 20px;
+}
+.order02_flex .orange_span::after {
+  content: "必須";
+  font-size: 10px;
+  width: 30px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #E89A7B;
+  color: #E89A7B;
+  border-radius: var(--radius5);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+.order02_content .select_style {
+  height: 36px;
+  width: 140px;
+}
+.order02_content .w300 {
+  width: 300px;
+}
+.order02_content .w169 {
+  width: 169px;
+}
+.order02_content .w140 {
+  width: 140px;
+}
+.order02_flex.mron input[type="text"] {
+  margin-right: 20px;
+}
+.order02_flex.first-child {
+  margin-bottom: 20px;
+}
