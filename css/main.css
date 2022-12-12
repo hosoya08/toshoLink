@@ -38,15 +38,24 @@ body {
 select {
   color: #707070;
   outline: none;
+  font-size: 14px;
+  height: 36px;
 }
 
 option {
   color: #000;
 }
 
+input[type="text"] {
+  color: #707070;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
 input[type="text"],
 textarea {
   outline: none;
+  resize: none;
 }
 
 .orange_link,
@@ -264,6 +273,66 @@ input[readonly] {
 }
 
 /* end part head Line */
+
+/* part background white */
+.part_background_white {
+  width: 1118px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.10);
+  padding: 20px;
+  border-radius: var(--radius5);
+}
+
+.part_grenn-title {
+  color: #00A29A;
+  font-size: 14px;
+}
+
+.content_1038 {
+  width: 1038px;
+  margin: auto;
+}
+
+.part_select-box {
+  display: flex;
+  align-items: center
+}
+
+.part_select-box p {
+  font-size: 14px;
+  color: #758A90;
+  position: relative;
+}
+
+.part_select-box p span {
+  font-size: 10px;
+  color: var(--orange);
+  border: 1px solid var(--orange);
+  border-radius: 7px;
+  padding: 2px 3px;
+  line-height: 1;
+  height: fit-content;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+
+.select_style {
+  height: 36px;
+}
+
+.part_border_title {
+  font-size: 16px;
+  font-weight: bold;
+  border-top: 2px solid #8E9FA4;
+  border-bottom: 1px solid #8E9FA4;
+  line-height: 20px;
+  color: var(--styBlue);
+  padding: 2px 0;
+}
 
 /* FONT */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
@@ -1376,6 +1445,7 @@ table.space-top {
 .section_t_daichou .t_daichou-header .t_daichou-header_box.mr20 {
   margin-right: 20px;
 }
+
 
 .section_t_daichou .t_daichou-header .t_daichou-header_box p {
   color: #707070;
@@ -6442,4 +6512,274 @@ th {
   background-color: rgba(146, 156, 159, 20%);
   bottom: 0;
   right: -1px;
+}
+
+
+/* ============================================== */
+/* 08_出荷管理-詳細01（出荷予定一覧） */
+/* ============================================== */
+.shipping01_head-block {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #758A90;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+
+.shipping01_head-box,
+.shipping_schedule,
+.freight_management {
+  display: flex;
+}
+
+.shipping_schedule {
+  font-size: 18px;
+  font-weight: bold;
+  color: #758A90;
+  margin-right: 57px;
+  margin-bottom: 20px;
+}
+
+.shipping_schedule time {
+  margin-right: 20px;
+}
+
+.freight_management div {
+  font-size: 16px;
+  color: #758A90;
+  margin-right: 5px;
+}
+
+.freight_management .freight_management_number {
+  font-size: 18px;
+  font-weight: bold;
+  color: #758A90;
+}
+
+.shipping01_head-selects {
+  display: flex;
+}
+
+.shipping01_head-selects .select_style {
+  width: 140px;
+  height: 36px;
+}
+
+.shipping01_head-selects .select_style.w200 {
+  width: 200px;
+}
+
+.shipping01_head-selects .part_select-box p {
+  margin-right: 20px;
+}
+
+/* body */
+.shipping_body-block {
+  margin-top: 10px;
+  display: flex;
+}
+
+.shipping_body-block_left {
+  margin-right: 100px;
+}
+
+.shipping_body-block_left .part_select-box,
+.shipping_body-block_right .part_select-box {
+  margin-bottom: 10px;
+}
+
+.shipping_body-block_left .part_select-box:nth-child(2) {
+  margin-bottom: 30px;
+  align-items: baseline;
+}
+
+.shipping_body-block_left .part_select-box:nth-child(4) {
+  align-items: baseline;
+}
+
+.shipping_body-block_left .part_select-box p {
+  width: 150px;
+}
+
+.shipping_body-block_left .part_select-box textarea,
+.shipping_body-block_left .part_select-box .select_style {
+  width: 300px;
+}
+
+.shipping_body-block_left .part_select-box .select_style {
+  height: 36px;
+}
+
+.shipping_body-block_left .part_select-box textarea {
+  height: 100px;
+  background-color: #E6E8EB;
+  border-radius: var(--radius5);
+  padding: 7px 10px;
+}
+
+.shipping_body-block_right .part_select-box p {
+  width: 130px;
+}
+
+.shipping_body-block_right .part_select-box .select_style {
+  width: 140px;
+}
+
+/* footer */
+.shipping_footer-block {
+  margin-top: 30px;
+}
+
+/* footer table */
+.shipping_table-column th {
+  background-color: #EAECEC;
+  font-size: 12px;
+  color: var(--styBlue);
+  width: 116px;
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+  height: 35px;
+}
+
+.shipping_table-column th::after {
+  content: "";
+  width: 105px;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+
+
+
+.shipping_table-column .check_table-box {
+  margin: auto;
+}
+
+.shipping_table-column td {
+  width: 130px;
+  padding: 0 10px;
+  font-size: 14px;
+  color: #707070;
+  vertical-align: middle;
+  position: relative;
+}
+
+.shipping_table-column td.even {
+  background-color: #F8F8F8;
+}
+
+.shipping_table-column td::after {
+  content: "";
+  width: 110px;
+  height: 1px;
+  background-color: #E6E8EB;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+
+
+.shipping_table-column tr:nth-child(1) th::after,
+.shipping_table-column tr:last-child th::after,
+.shipping_table-column tr:nth-child(1) td::after,
+.shipping_table-column tr:nth-child(2) td::after,
+.shipping_table-column tr:last-child td::after {
+  display: none;
+}
+
+
+.table_flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table_flex p {
+  margin-right: 10px;
+}
+
+.img_tr img {
+  width: 110px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.add_probuct-btn {
+  width: 118px;
+  height: 28px;
+  border: 1px solid #758A90;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: var(--styBlue);
+  border-radius: var(--radius5);
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.add_probuct-btn:hover {
+  opacity: 0.8;
+}
+
+.shipping_footer-block .flex_box {
+  display: flex;
+  margin-top: 15px;
+}
+
+.bar_code-img img {
+  width: 83px;
+  height: auto;
+  margin: auto;
+  display: block;
+  margin-top: 5px;
+}
+
+/* footer nav */
+.t_daichou_footer-nav.shipping01 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 39px;
+  padding-right: 39px;
+}
+
+.t_daichou_footer-nav.shipping01 .left .left_btn img,
+.t_daichou_footer-nav.shipping01 .right .right_btn img {
+  margin-right: 8px;
+}
+
+.t_daichou_footer-nav.shipping01 .left .left_btn,
+.t_daichou_footer-nav.shipping01 .right .right_btn {
+  border: 1px solid var(--green);
+  color: var(--green);
+  background-color: #fff;
+  border-radius: var(--radius5);
+  width: 116px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.t_daichou_footer-nav.shipping01 .right .right_btn:nth-child(1) {
+  width: 84px;
+  margin-right: 10px;
+}
+
+.t_daichou_footer-nav.shipping01 .right .right_btn:nth-child(2) {
+  width: 72px;
+}
+
+
+.t_daichou_footer-nav.shipping01 .center,
+.t_daichou_footer-nav.shipping01 .right {
+  display: flex;
 }
