@@ -5916,6 +5916,9 @@ th {
 .order .head_line.n03 .head_line-flex {
   display: flex;
 }
+.head_line-flex {
+  display: flex;
+}
 .part_head_line.order .head_line {
   margin-bottom: 10px;
 }
@@ -6108,4 +6111,50 @@ th {
 }
 .order02_flex.first-child {
   margin-bottom: 20px;
+}
+
+/* ========================== */
+/* 08_出荷管理-検索画面 */
+/* ========================== */
+
+/* .part_head_line.shipping .head_line{
+  margin-top: 10px;
+} */
+.part_head_line.shipping .head_line:not(:first-child){
+  margin-top: 10px;
+}
+.part_head_line.shipping .head_line.n01 .head_content_part.n01 p {
+  text-align: right;
+}
+/* width 120 */
+.part_head_line.shipping .head_line.n01 .head_content_part.n01 input[type="text"] {
+  width: 120px;
+}
+/* width 110 */
+.part_head_line.shipping .head_line .head_content_part input[type="text"] {
+  height: 36px;
+}
+.part_head_line.shipping .head_line.n02 .head_content_part.n02 input[type="text"],
+.part_head_line.shipping .head_line.n02 .head_content_part.n03 input[type="text"],
+.part_head_line.shipping .head_line.n02 .head_content_part.n04 input[type="text"],
+.part_head_line.shipping .head_line.n03 .head_content_part .select_style,
+.part_head_line.shipping .head_line.n04 .head_content_part .select_style
+{
+  width: 110px;
+}
+/* width 127 */
+.part_head_line.shipping .head_line.n01 .head_content_part.n02 input[type="text"] {
+  width: 127px;
+}
+/* width 100 */
+.part_head_line.shipping .head_line.n01 .head_content_part.n03 input[type="text"] {
+  width: 100px;
+}
+/* width 137 */
+.part_head_line.shipping .head_line.n01 .head_content_part.n04 input[type="text"] {
+  width: 137px;
+}
+/* width 97 */
+.part_head_line.shipping .head_line.n02 .head_content_part.n01 input[type="text"] {
+  width: 97px;
 }
