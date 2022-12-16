@@ -1,43 +1,43 @@
-"use scrict";
+"use scrict"
 
 // =============
 // TAB
 // =============
-const tab = document.querySelectorAll(".tab li");
-const tab_content = document.querySelectorAll(".tab_content_li");
+const tab = document.querySelectorAll(".tab li")
+const tab_content = document.querySelectorAll(".tab_content_li")
 function tabBtn() {
   for (let i = 0; i < tab.length; i++) {
-    tab[i].addEventListener("click", swithFun);
+    tab[i].addEventListener("click", swithFun)
   }
 }
 
 function swithFun() {
   for (let i = 0; i < tab.length; i++) {
-    tab[i].classList.remove("active");
+    tab[i].classList.remove("active")
   }
 
   for (let i = 0; i < tab_content.length; i++) {
-    tab_content[i].classList.remove("open");
+    tab_content[i].classList.remove("open")
   }
 
-  this.classList.add("active");
+  this.classList.add("active")
 
-  const aryTabs = Array.prototype.slice.call(tab);
+  const aryTabs = Array.prototype.slice.call(tab)
 
-  const index = aryTabs.indexOf(this);
+  const index = aryTabs.indexOf(this)
 
-  tab_content[index].classList.add("open");
-  console.log(tab_content[index]);
+  tab_content[index].classList.add("open")
+  console.log(tab_content[index])
 }
-tabBtn();
+tabBtn()
 // ===============
 //  円グラフ
 // ===============
-var chartEl2 = document.getElementById("chart01");
-var chartEl3 = document.getElementById("chart02");
+var chartEl2 = document.getElementById("chart01")
+var chartEl3 = document.getElementById("chart02")
 
 var chartFunc2 = function () {
-  var ctx = chartEl2.getContext("2d");
+  var ctx = chartEl2.getContext("2d")
   chart = new Chart(ctx, {
     type: "doughnut",
     data: {
@@ -87,10 +87,10 @@ var chartFunc2 = function () {
         shadowColor: "rgba(0, 0, 0, 0.5)",
       },
     },
-  });
-};
+  })
+}
 var chartFunc3 = function () {
-  var ctx = chartEl3.getContext("2d");
+  var ctx = chartEl3.getContext("2d")
   chart = new Chart(ctx, {
     type: "doughnut",
     data: {
@@ -110,7 +110,7 @@ var chartFunc3 = function () {
       ],
     },
     options: {
-    animateScale: true,
+      animateScale: true,
       cutoutPercentage: 55,
       layout: {
         padding: {
@@ -141,11 +141,11 @@ var chartFunc3 = function () {
         shadowColor: "rgba(0, 0, 0, 0.5)",
       },
     },
-  });
-};
+  })
+}
 
-chartFunc2();
-chartFunc3();
+chartFunc2()
+chartFunc3()
 
 // ================
 // COUNT UP
@@ -153,49 +153,54 @@ chartFunc3();
 $(function () {
   $(window).on("load scroll", function () {
     $(".fadein").each(function () {
-      var txtPos = $(this).offset().top;
-      var scroll = $(window).scrollTop();
-      var windowHeight = $(window).height();
+      var txtPos = $(this).offset().top
+      var scroll = $(window).scrollTop()
+      var windowHeight = $(window).height()
       if (scroll > txtPos - windowHeight + windowHeight / 5) {
         $(this).css({
           opacity: "1",
           transform: "translateX(0)",
-        });
+        })
         if ($(".num", this).attr("data-num").indexOf(".") > -1) {
-          var rounding = 1;
+          var rounding = 1
         } else {
-          var rounding = 0;
+          var rounding = 0
         }
         $(".num", this).numerator({
           easing: "linear",
           duration: 500,
           toValue: $(".num", this).attr("data-num"),
           rounding: rounding,
-        });
+        })
       }
-    });
-  });
-});
+    })
+  })
+})
 
 // ==================
 // TAB CLOSE BTN
 // ==================
 document.getElementById("tabCloseBtn").addEventListener("click", function () {
-  document.getElementById("tabMenu").classList.toggle("open");
-});
-
+  document.getElementById("tabMenu").classList.toggle("open")
+})
 
 // ====================
 // SELECT
 // ====================
-$(function(){
-    $('select').on('change', function(){
-        if($(this).val() == "placeholder"){
-            $(this).css('color','#ddd')
-        } else {
-            $(this).css('color','#333')
-        }
-    });
-});
+// $(function () {
+//   $("select").on("change", function () {
+//     if ($(this).val() == "placeholder") {
+//       $(this).css("color", "red")
+//     } else {
+//       $(this).css("color", "blue")
+//     }
+//   })
+// })
 
-
+function changeColor(hoge) {
+  if (hoge.value == 0) {
+    hoge.style.color = ""
+  } else {
+    hoge.style.color = "#707070"
+  }
+}

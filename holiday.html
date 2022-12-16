@@ -1,4 +1,4 @@
-<!-- 07_見積書-詳細01 –商品複数時 -->
+<!-- 02_祝日管理-検索画面 -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -1132,7 +1132,7 @@
             <!-- TAB -->
             <div class="tab_switch">
                 <ul id="tab" class="tab">
-                    <li class="active">見積書</li>
+                    <li class="active">休日管理</li>
                 </ul>
                 <div class="tab_box02">
                     <span><img src="img/content/item02-left.svg" alt=""><img src="img/content/item02-right.svg"
@@ -1150,584 +1150,185 @@
             </div>
             <ul class="tab_content">
 
-                <!-- TORIHIKI DAICHOU -->
                 <li class="tab_content_li open">
                     <!-- content -->
-                    <section class="quote02_section">
-                        <div class="quote02_section_block">
-                            <div class="quote02_section_block-box">
-                                <h2>見積書</h2>
-                                <div class="quote02_input-box n01">
-                                    <p>得意先</p>
-                                    <span class="hisu">必須</span>
-                                    <div class="select_style">
-                                        <select id="" onchange="changeColor(this)">
-                                            <option value="選択してください" hidden>
-                                                選択してください</option>
-                                            <option value="株式会社ABCDEF　ダミー">株式会社ABCDEF　ダミー</option>
-                                            <option value="株式会社ABCDEF　ダミー">株式会社ABCDEF　ダミー</option>
-                                            <option value="株式会社ABCDEF　ダミー">株式会社ABCDEF　ダミー</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="quote02_input-box">
-                                    <p>担当者</p>
-                                    <span class="hisu">必須</span>
-                                    <div class="select_style">
-                                        <select id="" onchange="changeColor(this)">
-                                            <option class="red" disabled="" selected="" style="display:none;"
-                                                value="placeholder">選択してください</option>
-                                            <option value="株式会社ABCDEF　ダミー">株式会社ABCDEF　ダミー</option>
-                                            <option value="株式会社ABCDEF　ダミー">株式会社ABCDEF　ダミー</option>
-                                            <option value="株式会社ABCDEF　ダミー">株式会社ABCDEF　ダミー</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="quote02_textarea-box">
-                                    <p>得意先詳細</p>
-                                    <textarea placeholder="〒0000-000&#010;東京都港区六本木○○○"></textarea>
-                                </div>
-
-                                <div class="text_p">
-                                    毎度、格別のお引き立てを賜りありがとうございます。<br>
-                                    下記の通りお見積りをご提出させていただきます。
-                                </div>
-
-                                <div class="quote02_section_block-box-money_title">
-                                    <div>御見積合計金額</div>
-                                    <input type="text" placeholder="400000">
-                                    <span>円</span>
-                                </div>
-                            </div>
-
-                            <div class="quote02_section_block-box n02">
-                                <div class="quote02_section_block-box_input_box">
-                                    <div class="date">作成日</div>
-                                    <div class="dateNum">2022-07-14</div>
-                                </div>
-                                <div class="quote02_section_block-box_input_box">
-                                    <div class="date">見積書No.</div>
-                                    <div class="dateNum">MF-012134567T</div>
-                                </div>
-
-                                <img src="img/logo/logo.svg">
-
-                                <p class="quote02_section_block-box_p">
-                                    〒111-0052<br>
-                                    東京都台東区柳橋2丁目1番9号<br>
-                                    東商センタービル211
-                                </p>
-
-                                <div class="quote02_section_block-box_div">
-                                    <p class="tel">TEL:03-5839-2429</p>
-                                    <p class="fax">FAX:050-3737-6948</p>
-                                </div>
-
-                                <div class="quote02_section_block-box-input_box flex_jcsb">
-                                    <p>自社担当者</p>
-                                    <div class="select_style">
-                                        <select id="" onchange="changeColor(this)">
-                                            <option class="red" disabled="" selected="" style="display:none;"
-                                                value="placeholder">選択してください</option>
-                                            <option value="株式会社ABCDEF　ダミー">株式会社ABCDEF　ダミー</option>
-                                            <option value="株式会社ABCDEF　ダミー">株式会社ABCDEF　ダミー</option>
-                                            <option value="株式会社ABCDEF　ダミー">株式会社ABCDEF　ダミー</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="quote02_section_block-box-input_box flex_jcsb">
-                                    <p>見積有効期限</p>
-                                    <div class="select_style">
-                                        <select id="" onchange="changeColor(this)">
-                                            <option value="日付選択">日付選択</option>
-                                            <option value="日付選択">日付選択</option>
-                                            <option value="日付選択">日付選択</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="quote02_section_block-box-input_box">
-                                    <p>為替レート</p>
-                                    <input type="text">
-                                </div>
-
-                                <div class="quote02_section_block-box-input_box">
-                                    <p>印影の設定</p>
-                                    <div class="quote02_section_block-box-input_box_flex">
-                                        <label class="upload-label">
-                                            印影の画像ファイルを選択
-                                            <input type="file">
-                                        </label>
-
-                                        <div class="check_table-box">
-                                            <label class="ECM_CheckboxInput parente" id="parente">
-                                                <input class="ECM_CheckboxInput-Input" type="checkbox"><span
-                                                    class="ECM_CheckboxInput-DummyInput"></span>
-                                            </label>
-                                            登録済みの印影を表示する
+                    <div class="part_head_line holiday">
+                        <div class="part_head_content">
+                            <div class="head_line n01 head_line-flex">
+                                <div class="head_line-flex">
+                                    <div class="head_content_part n01">
+                                        <p>国名</p>
+                                        <div class="select_style">
+                                            <select onchange="changeColor(this)">
+                                                <option value="選択してください">選択してください</option>
+                                                <option value="オプション０１">オプション０１</option>
+                                                <option value="オプション０２">オプション０２</option>
+                                            </select>
                                         </div>
                                     </div>
+                                    <div class="head_line-flex">
+                                        <div class="head_content_part n01">
+                                            <p>検索期間</p>
+                                            <div class="select_style">
+                                                <select onchange="changeColor(this)">
+                                                    <option value="選択してください">選択してください</option>
+                                                    <option value="2023-05-03">2023-05-03</option>
+                                                    <option value="2023-05-03">2023-05-03</option>
+                                                    <option value="2023-05-03">2023-05-03</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="head_content_part n02">
+                                            <p>〜</p>
+                                            <div class="select_style">
+                                                <select onchange="changeColor(this)">
+                                                    <option value="選択してください">選択してください</option>
+                                                    <option value="2023-05-09">2023-05-09</option>
+                                                    <option value="2023-05-09">2023-05-09</option>
+                                                    <option value="2023-05-09">2023-05-09</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="head_content_part n03">
+                                        <p>休日名</p>
+                                        <input type="text">
+                                    </div>
                                 </div>
-
-
-                            </div>
-                        </div>
-
-                        <div class="quote02_input_block02">
-                            <div class="content_w998 border-bottom_b">
-                                <div class="box">
-                                    <p>品番</p>
-                                    <input type="text" placeholder="MF-123456TKG-W">
+                                <div class="head_content_part_btn-box">
+                                    <div class="green_link">検索</div>
+                                    <div class="close_btn">条件クリア</div>
                                 </div>
-                                <div class="box">
-                                    <p>商品名</p>
-                                    <input type="text" placeholder="MFﾍﾞﾙﾄｶﾊﾞｰ　商品名商品名商品名">
-                                </div>
-                                <div class="box">
-                                    <p>小計</p>
-                                    <input type="text" placeholder="400000" readonly>
-                                </div>
-                            </div>
-
-                            <!-- table -->
-                            <div class="content_w998 quote02s column">
-                                <table class="part_table quote02s">
-                                    <thead>
-                                        <tr class="first_tr_box">
-                                            <th>商品画像</th>
-                                            <th>計算</th>
-                                            <th>品目</th>
-                                            <th>数量</th>
-                                            <th>単位</th>
-                                            <th>単価</th>
-                                            <th>価格</th>
-                                            <th>行削除</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="first_tr_box">
-                                            <td rowspan="5">
-                                                <img src="img/content_items-img/img_box-n01_img03.jpg" alt="">
-                                            </td>
-                                            <td>
-                                                <label class="ECM_CheckboxInput parente" id="parente">
-                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"><span
-                                                        class="ECM_CheckboxInput-DummyInput"></span>
-                                                </label>
-                                            </td>
-                                            <td>
-                                                <input type="text" placeholder="本体　1SKU　各1000PCS">
-                                            </td>
-                                            <td>
-                                                <input type="text" placeholder="1000">
-                                            </td>
-                                            <td>
-                                                <div class="select_style">
-                                                    <select style="color: #707070;">
-                                                        <option value="RCS">RCS</option>
-                                                    </select>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <input type="text" placeholder="300">
-                                            </td>
-                                            <td>
-                                                <input type="text" placeholder="300000" readonly>
-                                            </td>
-                                            <td>
-                                                <div class="orange_link">削除</div>
-                                            </td>
-                                        </tr>
-                                        <tr class="second_tr_box">
-                                            <td>
-                                                <label class="ECM_CheckboxInput parente" id="parente">
-                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"><span
-                                                        class="ECM_CheckboxInput-DummyInput"></span>
-                                                </label>
-                                            </td>
-                                            <td>
-                                                <input type="text" placeholder="本体　0.5SKU　各1000PCS">
-                                            </td>
-                                            <td>
-                                                <input type="text" placeholder="1000">
-                                            </td>
-                                            <td>
-                                                <div class="select_style">
-                                                    <select style="color: #707070;">
-                                                        <option value="RCS">RCS</option>
-                                                    </select>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <input type="text" placeholder="100">
-                                            </td>
-                                            <td>
-                                                <input type="text" placeholder="100000" readonly>
-                                            </td>
-                                            <td>
-                                                <div class="orange_link">削除</div>
-                                            </td>
-                                        </tr>
-                                        <tr class="second_tr_box">
-                                            <td>
-                                                <label class="ECM_CheckboxInput parente" id="parente">
-                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"><span
-                                                        class="ECM_CheckboxInput-DummyInput"></span>
-                                                </label>
-                                            </td>
-                                            <td>
-                                                <input type="text">
-                                            </td>
-                                            <td>
-                                                <input type="text">
-                                            </td>
-                                            <td>
-                                                <div class="select_style">
-                                                    <select onchange="changeColor(this)">
-                                                        <option value="選択" disabled selected style="display:none;"
-                                                            value="placeholder">選択</option>
-                                                        <option value="RCS">RCS</option>
-                                                    </select>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <input type="text">
-                                            </td>
-                                            <td>
-                                                <input type="text" readonly>
-                                            </td>
-                                            <td>
-                                                <div class="orange_link">削除</div>
-                                            </td>
-                                        </tr>
-                                        <tr class="second_tr_box">
-                                            <td>
-                                                <label class="ECM_CheckboxInput parente" id="parente">
-                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"><span
-                                                        class="ECM_CheckboxInput-DummyInput"></span>
-                                                </label>
-                                            </td>
-                                            <td>
-                                                <input type="text">
-                                            </td>
-                                            <td>
-                                                <input type="text" readonly>
-                                            </td>
-                                            <td>
-                                                <div class="select_style">
-                                                    <select onchange="changeColor(this)">
-                                                        <option value="選択" disabled selected style="display:none;"
-                                                            value="placeholder">選択</option>
-                                                        <option value="RCS">RCS</option>
-                                                    </select>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <input type="text" name="" id="">
-                                            </td>
-                                            <td>
-                                                <input type="text" readonly>
-                                            </td>
-                                            <td>
-                                                <div class="orange_link">削除</div>
-                                            </td>
-                                        </tr>
-                                        <tr class="second_tr_box">
-                                            <td>
-                                                <label class="ECM_CheckboxInput parente" id="parente">
-                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"><span
-                                                        class="ECM_CheckboxInput-DummyInput"></span>
-                                                </label>
-                                            </td>
-                                            <td>
-                                                <input type="text">
-                                            </td>
-                                            <td>
-                                                <input type="text">
-                                            </td>
-                                            <td>
-                                                <div class="select_style">
-                                                    <select onchange="changeColor(this)">
-                                                        <option value="選択" disabled selected style="display:none;"
-                                                            value="placeholder">選択</option>
-                                                        <option value="RCS">RCS</option>
-                                                    </select>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <input type="text" name="" id="">
-                                            </td>
-                                            <td>
-                                                <input type="text" readonly>
-                                            </td>
-                                            <td>
-                                                <div class="orange_link">削除</div>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-
-                                <div class="orange_link w161">この商品の見積を削除</div>
-                            </div>
-
-
-
-                        </div>
-                        <div class="quote02_input_block02">
-                            <div class="content_w998 border-bottom_b">
-                                <div class="box">
-                                    <p>品番</p>
-                                    <input type="text" placeholder="">
-                                </div>
-                                <div class="box">
-                                    <p>商品名</p>
-                                    <input type="text" placeholder="">
-                                </div>
-                                <div class="box">
-                                    <p>小計</p>
-                                    <input type="text" placeholder="" readonly>
-                                </div>
-                            </div>
-
-                            <!-- table -->
-                            <div class="content_w998 quote02s column">
-                                <table class="part_table quote02s">
-                                    <thead>
-                                        <tr class="first_tr_box">
-                                            <th>商品画像</th>
-                                            <th>計算</th>
-                                            <th>品目</th>
-                                            <th>数量</th>
-                                            <th>単位</th>
-                                            <th>単価</th>
-                                            <th>価格</th>
-                                            <th>行削除</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="first_tr_box">
-                                            <td rowspan="5">
-                                                <label for="" class="quote02_img_up-lable">
-                                                    <input type="file" class="quote02_img_up">
-                                                    画像を選択してくだい。
-                                                </label>
-                                            </td>
-                                            <td>
-                                                <label class="ECM_CheckboxInput parente" id="parente">
-                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"><span
-                                                        class="ECM_CheckboxInput-DummyInput"></span>
-                                                </label>
-                                            </td>
-                                            <td>
-                                                <input type="text" placeholder="">
-                                            </td>
-                                            <td>
-                                                <input type="text" placeholder="">
-                                            </td>
-                                            <td>
-                                                <div class="select_style">
-                                                    <select onchange="changeColor(this)">
-                                                        <option value="選択">選択</option>
-                                                        <option value="RCS">RCS</option>
-                                                    </select>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <input type="text" placeholder="">
-                                            </td>
-                                            <td>
-                                                <input type="text" placeholder="" readonly>
-                                            </td>
-                                            <td>
-                                                <div class="orange_link">削除</div>
-                                            </td>
-                                        </tr>
-                                        <tr class="second_tr_box">
-                                            <td>
-                                                <label class="ECM_CheckboxInput parente" id="parente">
-                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"><span
-                                                        class="ECM_CheckboxInput-DummyInput"></span>
-                                                </label>
-                                            </td>
-                                            <td>
-                                                <input type="text" placeholder="">
-                                            </td>
-                                            <td>
-                                                <input type="text" placeholder="">
-                                            </td>
-                                            <td>
-                                                <div class="select_style">
-                                                    <select onchange="changeColor(this)">
-                                                        <option value="選択">選択</option>
-                                                        <option value="RCS">RCS</option>
-                                                    </select>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <input type="text" placeholder="">
-                                            </td>
-                                            <td>
-                                                <input type="text" placeholder="" readonly>
-                                            </td>
-                                            <td>
-                                                <div class="orange_link">削除</div>
-                                            </td>
-                                        </tr>
-                                        <tr class="second_tr_box">
-                                            <td>
-                                                <label class="ECM_CheckboxInput parente" id="parente">
-                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"><span
-                                                        class="ECM_CheckboxInput-DummyInput"></span>
-                                                </label>
-                                            </td>
-                                            <td>
-                                                <input type="text">
-                                            </td>
-                                            <td>
-                                                <input type="text">
-                                            </td>
-                                            <td>
-                                                <div class="select_style">
-                                                    <select onchange="changeColor(this)">
-                                                        <option value="選択" disabled selected style="display:none;"
-                                                            value="placeholder" onchange="changeColor(this)">選択</option>
-                                                        <option value="RCS">RCS</option>
-                                                    </select>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <input type="text">
-                                            </td>
-                                            <td>
-                                                <input type="text" readonly>
-                                            </td>
-                                            <td>
-                                                <div class="orange_link">削除</div>
-                                            </td>
-                                        </tr>
-                                        <tr class="second_tr_box">
-                                            <td>
-                                                <label class="ECM_CheckboxInput parente" id="parente">
-                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"><span
-                                                        class="ECM_CheckboxInput-DummyInput"></span>
-                                                </label>
-                                            </td>
-                                            <td>
-                                                <input type="text">
-                                            </td>
-                                            <td>
-                                                <input type="text" readonly>
-                                            </td>
-                                            <td>
-                                                <div class="select_style">
-                                                    <select onchange="changeColor(this)">
-                                                        <option value="選択" disabled selected style="display:none;"
-                                                            value="placeholder">選択</option>
-                                                        <option value="RCS">RCS</option>
-                                                    </select>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <input type="text" name="" id="">
-                                            </td>
-                                            <td>
-                                                <input type="text" readonly>
-                                            </td>
-                                            <td>
-                                                <div class="orange_link">削除</div>
-                                            </td>
-                                        </tr>
-                                        <tr class="second_tr_box">
-                                            <td>
-                                                <label class="ECM_CheckboxInput parente" id="parente">
-                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"><span
-                                                        class="ECM_CheckboxInput-DummyInput"></span>
-                                                </label>
-                                            </td>
-                                            <td>
-                                                <input type="text">
-                                            </td>
-                                            <td>
-                                                <input type="text">
-                                            </td>
-                                            <td>
-                                                <div class="select_style">
-                                                    <select onchange="changeColor(this)">
-                                                        <option value="選択" disabled selected style="display:none;"
-                                                            value="placeholder">選択</option>
-                                                        <option value="RCS">RCS</option>
-                                                    </select>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <input type="text" name="" id="">
-                                            </td>
-                                            <td>
-                                                <input type="text" readonly>
-                                            </td>
-                                            <td>
-                                                <div class="orange_link">削除</div>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <div class="orange_link w161">この商品の見積を削除</div>
-                            </div>
-                        </div>
-
-                        <div class="content_w998 add_content">
-                            <div class="add_content-btn">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27">
-                                    <g id="plus-circle-line" transform="translate(-2 -2)">
-                                        <path id="パス_1082" data-name="パス 1082"
-                                            d="M21.443,14.773H16.227V9.557a.727.727,0,1,0-1.455,0v5.215H9.557a.727.727,0,1,0,0,1.455h5.215v5.215a.727.727,0,1,0,1.455,0V16.227h5.215a.727.727,0,0,0,0-1.455Z"
-                                            fill="#99a8ad" />
-                                        <path id="パス_1083" data-name="パス 1083"
-                                            d="M15.5,2A13.5,13.5,0,1,0,29,15.5,13.5,13.5,0,0,0,15.5,2Zm0,25.313A11.812,11.812,0,1,1,27.313,15.5,11.812,11.812,0,0,1,15.5,27.313Z"
-                                            fill="#99a8ad" />
-                                    </g>
-                                </svg>
-                                他商品の見積を追加
-                            </div>
-                        </div>
-
-
-                        <div class="content_w998 textarea">
-                            <p>備考欄</p>
-                            <textarea></textarea>
-                        </div>
-
-
-                    </section>
-                    <!-- content -->
-
-                    <div class="t_daichou_footer-nav quote02">
-                        <div class="fotter_meniu_content">
-                            <div class="footer_nav_btn">
-                                <div class="select_style">
-                                    <select onchange="changeColor(this)">
-                                        <option value="A型">A型</option>
-                                        <option value="B型">B型</option>
-                                        <option value="C型">C型</option>
-                                    </select>
-                                </div>
-                                <div class="menu_btn"><img src="img/bottom_icon/bottom_menu_icon01.svg">計算</div>
-                                <div class="menu_btn"><img src="img/bottom_icon/bottom_menu_icon02.svg">原価計算履歴</div>
-                            </div>
-                            <div class="footer_nav_btn">
-                                <div class="modal_close"><img src="img/content/return-down-back.svg" alt="">戻る</div>
-                                <div class="modal_check green_link"><img src="img/content/save.svg" alt="">保存</div>
-                            </div>
-                            <div class="footer_nav_btn">
-                                <div class="menu_btn"><img src="img/bottom_icon/bottom_menu_icon03.svg">プレビュー</div>
-                                <div class="menu_btn"><img src="img/bottom_icon/bottom_menu_icon04.svg">PDF</div>
-                                <div class="menu_btn"><img src="img/bottom_icon/bottom_menu_icon05.svg">送信</div>
                             </div>
                         </div>
                     </div>
+
+                    <div class="u_content m_content">
+                        <div class="section_t_daichou-main_block01">
+                            <a class="orange_link" href="">削除</a>
+                            <div class="section_t_daichou-main_block01-box">
+                                <p class="mon">
+                                    検索結果　全<span>5</span> データ
+                                </p>
+
+                                <!-- page nation -->
+                                <div class="pagination">
+                                    <img src="img/content/pagenation-left.svg">
+                                    <div class="pagina_number active">1</div>
+                                    <div class="pagina_number">2</div>
+                                    <div class="pagina_number">3</div>
+                                    <div class="pagina_number">4</div>
+                                    <div class="pagina_number">...</div>
+                                    <div class="pagina_number">11</div>
+                                    <div class="pagina_number">12</div>
+                                    <img src="img/content/pagination-right.svg">
+                                </div>
+                                <!-- 件数表示数 -->
+                                <div class="open_num">
+                                    <p>一括表示件数</p>
+                                    <div class="select">
+                                        <select name="" id="">
+                                            <option value="50">50</option>
+                                            <option value="60">60</option>
+                                            <option value="70">70</option>
+                                            <option value="80">80</option>
+                                            <option value="90">90</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="green_link mr10 newBtn">新規追加</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="m_content holiday_contnet">
+                        <div class="borderRadius">
+                            <table class="part_table">
+                                <thead>
+                                    <tr>
+                                        <th>日付</th>
+                                        <th>休日名</th>
+                                        <th>国名</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>2023-05-03〜2023-05-04</td>
+                                        <td>労働節</td>
+                                        <td>中国</td>
+                                        <td>
+                                            <div class="green_link">編集</div>
+                                        </td>
+                                    </tr>
+                                    <tr class="even">
+                                        <td>2023-05-03〜2023-05-04</td>
+                                        <td>ゴールデンウィーク・定休日</td>
+                                        <td>日本</td>
+                                        <td>
+                                            <div class="green_link">編集</div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2023-05-03〜2023-05-04</td>
+                                        <td>定休日</td>
+                                        <td>中国</td>
+                                        <td>
+                                            <div class="green_link">編集</div>
+                                        </td>
+                                    </tr>
+                                    <tr class="even">
+                                        <td>2023-05-06</td>
+                                        <td>定休日</td>
+                                        <td>中国</td>
+                                        <td>
+                                            <div class="green_link">編集</div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2023-05-07</td>
+                                        <td>定休日</td>
+                                        <td>日本</td>
+                                        <td>
+                                            <div class="green_link">編集</div>
+                                        </td>
+                                    </tr>
+                                    <tr class="even">
+                                        <td>2023-05-08</td>
+                                        <td>臨時休業</td>
+                                        <td>日本</td>
+                                        <td>
+                                            <div class="green_link">編集</div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <!-- page nation -->
+                            <div class="pagination">
+                                <img src="img/content/pagenation-left.svg">
+                                <div class="pagina_number active">1</div>
+                                <div class="pagina_number">2</div>
+                                <div class="pagina_number">3</div>
+                                <div class="pagina_number">4</div>
+                                <div class="pagina_number">...</div>
+                                <div class="pagina_number">11</div>
+                                <div class="pagina_number">12</div>
+                                <img src="img/content/pagination-right.svg">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- content -->
+
+                    <div class="t_daichou_footer-nav">
+                        <div class="modal_close"><img src="img/content/return-down-back.svg" alt="">戻る</div>
+                        <div class="modal_check green_link"><img src="img/content/save.svg" alt="">決定</div>
+                    </div>
                 </li>
+
+
 
 
 
@@ -1770,9 +1371,6 @@
     </main>
     </section>
 
-
-
-
     <script>
         function changeColor(hoge) {
             if (hoge.value == 0) {
@@ -1782,6 +1380,37 @@
             }
         }
     </script>
+    <script>
+        const tab = document.querySelectorAll(".tab li");
+        const tab_content = document.querySelectorAll(".tab_content_li");
+        function tabBtn() {
+            for (let i = 0; i < tab.length; i++) {
+                tab[i].addEventListener("click", swithFun);
+            }
+        }
+
+        function swithFun() {
+            for (let i = 0; i < tab.length; i++) {
+                tab[i].classList.remove("active");
+            }
+
+            for (let i = 0; i < tab_content.length; i++) {
+                tab_content[i].classList.remove("open");
+            }
+
+            this.classList.add("active");
+
+            const aryTabs = Array.prototype.slice.call(tab);
+
+            const index = aryTabs.indexOf(this);
+
+            tab_content[index].classList.add("open");
+            console.log(tab_content[index]);
+        }
+        tabBtn();
+    </script>
+
+
 
 
 
@@ -1791,6 +1420,7 @@
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-style@0.5.0"></script>
     <script src="js/main.js"></script>
     <script src="js/modal.js"></script>
+    <script src="js/check.js"></script>
     <script src="js/profil.js"></script>
 
     <script>
