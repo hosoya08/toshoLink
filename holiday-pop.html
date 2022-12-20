@@ -1,4 +1,4 @@
-<!-- 02_祝日管理-検索画面 -->
+<!-- 02_祝日管理-検索画面 pop -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -1237,7 +1237,7 @@
                                     </div>
                                 </div>
 
-                                <a href="holiday-pop.html" class="green_link mr10 newBtn">新規追加</a>
+                                <div class="green_link mr10 newBtn">新規追加</div>
                             </div>
                         </div>
                     </div>
@@ -1320,50 +1320,171 @@
                         </div>
                     </div>
 
+                    <!-- pop -->
+                    <div class="part_pop-back">
+                        <div class="part_pop-content holiday">
+                            <a class="holi_back" href="holiday.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16.043"
+                                    viewBox="0 0 16 16.043">
+                                    <path id="クローズ"
+                                        d="M13.146,12l6.632-6.632A.8.8,0,0,0,18.65,4.241l-6.632,6.632L5.386,4.233A.8.8,0,0,0,4.25,5.369L10.89,12,4.25,18.633a.8.8,0,1,0,1.128,1.128l6.64-6.632,6.632,6.632a.8.8,0,0,0,1.128-1.128Z"
+                                        transform="translate(-3.97 -3.998)" fill="#929c9f" />
+                                </svg>
+                            </a>
+                            <h1>休日登録</h1>
+
+                            <div class="holiday_pop-content">
+
+                                <ul>
+                                    <li class="active">日本</li>
+                                    <li>中国</li>
+                                    <li>
+                                        <a href="#">
+                                            国を追加
+                                        </a>
+                                    </li>
+                                </ul>
+
+                                <div class="flex-box aling mt20">
+                                    <p class="flex-box-title">定休日の設定</p>
+                                    <div class="border-dotted green"></div>
+                                </div>
+
+                                <div class="flex-box year">
+                                    <p>年</p>
+                                    <div class="select_style">
+                                        <select style="color: #757575;">
+                                            <option value="2023">2023</option>
+                                            <option value="2022">2022</option>
+                                            <option value="2021">2021</option>
+                                            <option value="2020">2020</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="flex-box colum">
+                                    <div class="one">
+                                        <p>毎週</p>
+                                        <div class="check_block">
+                                            <label class="ECM_CheckboxInput parente" id="parente">
+                                                <input class="ECM_CheckboxInput-Input" type="checkbox"><span
+                                                    class="ECM_CheckboxInput-DummyInput"></span>
+                                                月
+                                            </label>
+                                            <label class="ECM_CheckboxInput parente" id="parente">
+                                                <input class="ECM_CheckboxInput-Input" type="checkbox"><span
+                                                    class="ECM_CheckboxInput-DummyInput"></span>
+                                                火
+                                            </label>
+                                            <label class="ECM_CheckboxInput parente" id="parente">
+                                                <input class="ECM_CheckboxInput-Input" type="checkbox"><span
+                                                    class="ECM_CheckboxInput-DummyInput"></span>
+                                                水
+                                            </label>
+                                            <label class="ECM_CheckboxInput parente" id="parente">
+                                                <input class="ECM_CheckboxInput-Input" type="checkbox"><span
+                                                    class="ECM_CheckboxInput-DummyInput"></span>
+                                                木
+                                            </label>
+                                            <label class="ECM_CheckboxInput parente" id="parente">
+                                                <input class="ECM_CheckboxInput-Input" type="checkbox"><span
+                                                    class="ECM_CheckboxInput-DummyInput"></span>
+                                                金
+                                            </label>
+                                            <label class="ECM_CheckboxInput parente" id="parente">
+                                                <input class="ECM_CheckboxInput-Input" type="checkbox"><span
+                                                    class="ECM_CheckboxInput-DummyInput"></span>
+                                                土
+                                            </label>
+                                            <label class="ECM_CheckboxInput parente" id="parente">
+                                                <input class="ECM_CheckboxInput-Input" type="checkbox"><span
+                                                    class="ECM_CheckboxInput-DummyInput"></span>
+                                                日
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <dvi class="green_link">登録</dvi>
+                                </div>
+
+                                <div class="flex-box aling mt20">
+                                    <p class="flex-box-title">祝日・連休・その他休日の設定</p>
+                                    <div class="border-dotted green"></div>
+                                </div>
+
+                                <div class="whire_holliday-content">
+                                    <div class="holiday-content">
+                                        <dl>
+                                            <dt>休日名</dt>
+                                            <dd><input type="text" placeholder="ゴールデンウィーク"></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>日付</dt>
+                                            <dd>
+                                                <div class="news_head_child-box" style="margin-right: 10px;">
+                                                    <div class="select_style" style="margin-right: 0px;">
+                                                        <select id="" style="color: #757575;">
+                                                            <option value="2023-05-03">2023-05-03</option>
+                                                            <option value="2023-05-05">2023-05-05</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="news_head_child-box" style="margin-right: 0px;">
+                                                    <p>〜</p>
+                                                    <div class="select_style" style="margin-right: 0px;">
+                                                        <select id="" style="color: #757575;">
+                                                            <option value="2023-05-07">2023-05-07</option>
+                                                            <option value="2023-05-07">2023-05-07</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+                                                <div class="holiday_buttons_box">
+                                                    <div class="green_link m_setting">登録</div>
+                                                    <div class="orange_link">削除</div>
+                                                </div>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>休日名</dt>
+                                            <dd><input type="text" placeholder="休日・祝日名を記入してください"></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>日付</dt>
+                                            <dd>
+                                                <div class="news_head_child-box" style="margin-right: 10px;">
+                                                    <div class="select_style">
+                                                        <select id="" onchange="changeColor(this)">
+                                                            <option value="日程選択">日程選択</option>
+                                                            <option value="2023-05-03">2023-05-03</option>
+                                                            <option value="2023-05-05">2023-05-05</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="holiday_add-btn">休日を期間で設定</div>
+
+                                                <div class="green_link m_setting">登録</div>
+                                                <div class="orange_link">削除</div>
+                                            </dd>
+                                        </dl>
+                                        <div class="add_btn">記入欄追加</div>
+                                    </div>
+                                </div>
+
+
+                                <a href="holiday.html" class="modal_close"><img src="img/content/return-down-back.svg"
+                                        alt="">戻る</a>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
                     <!-- content -->
+
                 </li>
-
-
-
-
-
-
-    </section>
-
-
-    </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </ul>
-    </main>
+            </ul>
+        </main>
     </section>
 
     <script>

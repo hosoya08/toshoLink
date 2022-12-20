@@ -330,6 +330,30 @@ input[readonly] {
   padding: 2px 0;
 }
 
+
+/* pop part */
+.part_pop-back {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(79, 86, 93, 0.8);
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+}
+
+.part_pop-content {
+  background-color: #fff;
+}
+
+.part_pop-content h1 {
+  color: var(--green);
+  font-size: 14px;
+}
+
+/* end pop part */
 /* FONT */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
 
@@ -6909,4 +6933,218 @@ table.quote02s {
 .part_head_line.holiday .head_content_part.n03 .select_style,
 .part_head_line.holiday .head_content_part.n04 .input {
   width: 150px;
+}
+
+/* ========================================= */
+/* 02_祝日管理-入力pop */
+/* ========================================= */
+.part_pop-content.holiday {
+  width: 610px;
+  height: 635px;
+  padding: 20px;
+  margin-top: 65px;
+  position: relative;
+}
+
+.part_pop-content.holiday .holi_back {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.holiday_pop-content {
+  width: 530px;
+  margin: 0 auto;
+}
+
+.part_pop-content ul {
+  display: flex;
+}
+
+.part_pop-content ul li {
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 20px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.part_pop-content ul li:nth-child(2) {
+  margin-right: 40px;
+}
+
+.part_pop-content ul li:nth-child(3) {
+  border: 1px solid #758A90;
+  border-radius: var(--radius5);
+  width: 80px;
+  font-size: 14px;
+  color: #758A90;
+}
+
+.part_pop-content ul li.active {
+  color: var(--green);
+  border-bottom: 3px solid rgba(74, 169, 172, 0.3);
+}
+
+.holiday .flex-box {
+  display: flex;
+  margin-top: 20px;
+}
+
+
+.holiday .flex-box.colum {
+  flex-direction: column;
+}
+
+.holiday .flex-box.colum .green_link {
+  width: fit-content;
+  margin-left: auto;
+}
+
+.holiday .flex-box.year,
+.holiday .flex-box .one {
+  display: flex;
+  align-items: center;
+}
+
+.holiday .flex-box.year p {
+  margin-right: 85px;
+}
+
+.holiday .flex-box.year .select_style {
+  width: 80px;
+}
+
+.holiday .flex-box .one p {
+  margin-right: 20px;
+}
+
+.holiday .flex-box.mt20 {
+  margin-top: 20px;
+}
+
+.holiday .flex-box.aling {
+  align-items: center;
+}
+
+.holiday .flex-box .flex-box-title {
+  font-size: 12px;
+  color: var(--green);
+  white-space: nowrap;
+  margin-right: 10px;
+}
+
+.holiday .flex-box .border-dotted.green {
+  width: 100%;
+  height: 1px;
+  border-top: 1px dotted var(--green);
+}
+
+.holiday-content {
+  margin-top: 15px;
+}
+
+.holiday-content dl dt {
+  width: 100px;
+}
+
+.holiday-content dl dt,
+.holiday .flex-box p {
+  font-size: 14px;
+  color: #758A90;
+  font-weight: 400;
+}
+
+.holiday .check_block {
+  display: flex;
+}
+
+.holiday .check_block .ECM_CheckboxInput-DummyInput {
+  margin-right: 10px;
+}
+
+.holiday .check_block .ECM_CheckboxInput.parente {
+  font-size: 14px;
+  color: #707070;
+}
+
+.holiday-content dl,
+.holiday-content dd {
+  display: flex;
+  align-items: center;
+}
+
+.holiday-content dd .select_style {
+  width: 130px;
+}
+
+.holiday-content dd input {
+  width: 431px;
+  height: 36px;
+  display: flex;
+  align-content: center;
+  border: 1px solid #E6E8EB;
+  background-color: #F8F8F8;
+  border-radius: var(--radius5);
+  font-size: 14px;
+  padding-left: 10px;
+  color: #757575;
+}
+
+.holiday_buttons_box {
+  display: flex;
+  margin-left: 20px;
+}
+
+.holiday .m_setting {
+  margin-right: 10px;
+}
+
+.add_btn,
+.holiday_add-btn {
+  border: 1px solid #758A90;
+  border-radius: var(--radius5);
+  color: #758A90;
+  padding: 4px 12px;
+  font-size: 14px;
+  margin-right: 17px;
+  display: inline-block;
+}
+
+.add_btn {
+  margin-top: 13px;
+  margin-left: auto;
+  display: table;
+}
+
+.modal_close {
+  margin: auto;
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 36px;
+  font-size: 14px;
+  color: #757575;
+  border: 1px solid #B8BBBE;
+  border-radius: var(--radius5);
+  cursor: pointer;
+}
+
+.modal_close img {
+  width: 15px;
+  margin-right: 10px;
+  display: block;
+}
+
+.holiday-content dl:first-child,
+.holiday-content dl:nth-child(3) {
+  margin-bottom: 10px;
+}
+
+.holiday-content dl:nth-child(2) {
+  margin-bottom: 20px;
 }
