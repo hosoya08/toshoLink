@@ -86,6 +86,7 @@ textarea {
 
 input[readonly] {
   cursor: not-allowed;
+  background-color: #E6E8EB;
 }
 
 /* part table */
@@ -281,7 +282,8 @@ input[readonly] {
   border-radius: var(--radius5);
 }
 
-.part_grenn-title {
+.part_grenn-title,
+.part_green-title {
   color: #00A29A;
   font-size: 14px;
 }
@@ -7219,4 +7221,174 @@ table.quote02s {
   border: 1px solid #E6E8EB;
   border-radius: var(--radius5);
   padding: 20px;
+}
+
+/* ============================= */
+/* 07_見積書-詳細０３（B型） */
+/* ============================= */
+.table_quote04 tr th {
+  background-color: #EAECEC;
+  width: 152px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  color: #758A90;
+  font-size: 12px;
+  position: relative;
+}
+
+.table_quote04 tr th::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 144px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.table_quote04 tr:last-child th::after {
+  display: none;
+}
+
+.table_quote04-n03 tr th {
+  border-bottom: 1px solid #fff;
+  background-color: #EAECEC;
+  width: 80px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #758A90;
+  padding-left: 10px;
+}
+
+.table_quote04-n03 tr td {
+  text-align: end;
+  border-bottom: 1px solid #EAECEC;
+  color: #707070;
+  font-size: 12px;
+  font-weight: 700;
+  vertical-align: baseline;
+  width: 100%;
+  padding-right: 10px;
+}
+
+.table_quote04-n03 tr:last-child td {
+  border: none;
+}
+
+.table_flex-quote04 {
+  display: flex;
+}
+
+.table_quote04 {
+  height: fit-content;
+}
+
+.table_quote04-content {
+  display: flex;
+}
+
+.table_quote04-content dl {
+  display: flex;
+  align-items: center;
+}
+
+.table_quote04-content dl dd {
+  font-size: 12px;
+  color: #758A90;
+}
+
+.table_quote04-content dl dt {
+  font-size: 12px;
+  color: #758A90;
+  font-weight: 400;
+}
+
+.table_quote04-content dl dt input,
+.table_quote04-content dl dd input {
+  font-size: 12px;
+  width: 45px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  background-color: #F8F8F8;
+  border: 1px solid #E6E8EB;
+  border-radius: var(--radius5);
+}
+
+.table_quote04-content.n01,
+.table_quote04-content.n02,
+.table_quote04-content.n03 {
+  border-bottom: 1px solid #E6E8EB;
+  height: 26px;
+}
+
+.table_quote04-content.n01 dl dt {
+  margin-right: 3px;
+  font-weight: 400;
+}
+
+.table_quote04-content.n01 dl {
+  margin-right: 10px;
+}
+
+.table_quote04-content.n01 dl:last-child {
+  margin-right: 0px;
+}
+
+.table_quote04-content.n02 dl:last-child dd:last-child input {
+  margin-right: 3px;
+  margin-left: 3px;
+  background-color: #E6E8EB;
+}
+
+.table_quote04-content.n02 dl:first-child input,
+.table_quote04-content.n03 dl dt {
+  margin-right: 3px;
+}
+
+.table_quote04-n02 {
+  margin-left: 10px;
+  width: 856px;
+  overflow-x: scroll;
+}
+
+.table_quote04-n02 td {
+  padding-left: 0px;
+}
+
+.table_quote04-n02 td:not(:first-child) {
+  padding-left: 10px;
+}
+
+.table_quote04-content.n02 dl:first-child {
+  padding-right: 5px;
+}
+
+
+.table_quote04-content.n02 dl:last-child dd:last-child {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+
+.table_quote04-content.n02 dl:last-child {
+  padding-left: 5px;
+}
+
+.scroll_table {
+  width: 856px;
+  overflow-y: scroll;
+}
+
+/* SCROLL BAR NONE */
+.scroll_table::-webkit-scrollbar {
+  display: none;
+
 }

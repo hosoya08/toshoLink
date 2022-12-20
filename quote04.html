@@ -1152,173 +1152,448 @@
 
                 <li class="tab_content_li open">
                     <!-- content -->
-                    <div class="part_head_line holiday">
-                        <div class="part_head_content">
-                            <div class="head_line n01 head_line-flex">
-                                <div class="head_line-flex">
-                                    <div class="head_content_part n01">
-                                        <p>国名</p>
-                                        <div class="select_style">
-                                            <select onchange="changeColor(this)">
-                                                <option value="選択してください">選択してください</option>
-                                                <option value="オプション０１">オプション０１</option>
-                                                <option value="オプション０２">オプション０２</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="head_line-flex">
-                                        <div class="head_content_part n01">
-                                            <p>検索期間</p>
-                                            <div class="select_style">
-                                                <select onchange="changeColor(this)">
-                                                    <option value="選択してください">選択してください</option>
-                                                    <option value="2023-05-03">2023-05-03</option>
-                                                    <option value="2023-05-03">2023-05-03</option>
-                                                    <option value="2023-05-03">2023-05-03</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="head_content_part n02">
-                                            <p>〜</p>
-                                            <div class="select_style">
-                                                <select onchange="changeColor(this)">
-                                                    <option value="選択してください">選択してください</option>
-                                                    <option value="2023-05-09">2023-05-09</option>
-                                                    <option value="2023-05-09">2023-05-09</option>
-                                                    <option value="2023-05-09">2023-05-09</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="head_content_part n03">
-                                        <p>休日名</p>
-                                        <input type="text">
-                                    </div>
-                                </div>
-                                <div class="head_content_part_btn-box">
-                                    <div class="green_link">検索</div>
-                                    <div class="close_btn">条件クリア</div>
+                    <div class="part_background_white quote04">
+                        <h1 class="part_green-title">原価計算類型：B型</h1>
+                        <div class="content_1038">
+
+                            <div class="table_flex-quote04">
+                                <table class="table_quote04">
+                                    <tbody>
+                                        <tr>
+                                            <th>商品サイズ（mm）
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th>並び数（mm）
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th>CTNサイズ（mm）
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th>入数
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th>CTN重量（g）</th>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <div class="scroll_table">
+                                    <table class="table_quote04-n02">
+                                        <tbody>
+                                            <tr>
+                                                <!-- 1 -->
+                                                <td style="border-right: 1px dotted #757575; padding-right: 13px;">
+                                                    <div class="table_quote04-content n01">
+                                                        <dl>
+                                                            <dt>W</dt>
+                                                            <dd><input type="text" value="1000"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>L</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>H</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                    </div>
+                                                    <div class="table_quote04-content n01">
+                                                        <dl>
+                                                            <dt>W</dt>
+                                                            <dd><input type="text" value="1000"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>L</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>H</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                    </div>
+                                                    <div class="table_quote04-content n01">
+                                                        <dl>
+                                                            <dt>W</dt>
+                                                            <dd><input type="text" value="1000"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>L</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>H</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                    </div>
+                                                    <div class="table_quote04-content n03">
+                                                        <dl>
+                                                            <dt><input type="text" value="8"></dt>
+                                                            <dd>個</dd>
+                                                        </dl>
+                                                    </div>
+                                                    <div class="table_quote04-content n02">
+                                                        <dl>
+                                                            <dt><input type="text" value="40"></dt>
+                                                            <dd>個</dd>
+                                                        </dl>
+                                                        <dl style="border-left: 1px solid #E6E8EB;">
+                                                            <dt>→1CTN</dt>
+                                                            <dd><input type="text" value="5" readonly>ｇ/個</dd>
+                                                        </dl>
+                                                    </div>
+
+                                                    <table class="table_quote04-n03">
+                                                        <tbody>
+                                                            <tr>
+                                                                <th>カートン数
+                                                                </th>
+                                                                <td>125</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>概算M3
+                                                                </th>
+                                                                <td>23.184</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>概算混債費</th>
+                                                                <td>347,760 円</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <!-- 1 -->
+                                                <td style="border-right: 1px dotted #757575; padding-right: 13px;">
+                                                    <div class="table_quote04-content n01">
+                                                        <dl>
+                                                            <dt>W</dt>
+                                                            <dd><input type="text" value="1000"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>L</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>H</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                    </div>
+                                                    <div class="table_quote04-content n01">
+                                                        <dl>
+                                                            <dt>W</dt>
+                                                            <dd><input type="text" value="1000"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>L</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>H</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                    </div>
+                                                    <div class="table_quote04-content n01">
+                                                        <dl>
+                                                            <dt>W</dt>
+                                                            <dd><input type="text" value="1000"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>L</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>H</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                    </div>
+                                                    <div class="table_quote04-content n03">
+                                                        <dl>
+                                                            <dt><input type="text" value="8"></dt>
+                                                            <dd>個</dd>
+                                                        </dl>
+                                                    </div>
+                                                    <div class="table_quote04-content n02">
+                                                        <dl>
+                                                            <dt><input type="text" value="40"></dt>
+                                                            <dd>個</dd>
+                                                        </dl>
+                                                        <dl style="border-left: 1px solid #E6E8EB;">
+                                                            <dt>→1CTN</dt>
+                                                            <dd><input type="text" value="5" readonly>ｇ/個</dd>
+                                                        </dl>
+                                                    </div>
+
+                                                    <table class="table_quote04-n03">
+                                                        <tbody>
+                                                            <tr>
+                                                                <th>カートン数
+                                                                </th>
+                                                                <td>125</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>概算M3
+                                                                </th>
+                                                                <td>23.184</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>概算混債費</th>
+                                                                <td>347,760 円</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <!-- 1 -->
+                                                <td style="border-right: 1px dotted #757575; padding-right: 13px;">
+                                                    <div class="table_quote04-content n01">
+                                                        <dl>
+                                                            <dt>W</dt>
+                                                            <dd><input type="text" value="1000"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>L</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>H</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                    </div>
+                                                    <div class="table_quote04-content n01">
+                                                        <dl>
+                                                            <dt>W</dt>
+                                                            <dd><input type="text" value="1000"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>L</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>H</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                    </div>
+                                                    <div class="table_quote04-content n01">
+                                                        <dl>
+                                                            <dt>W</dt>
+                                                            <dd><input type="text" value="1000"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>L</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>H</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                    </div>
+                                                    <div class="table_quote04-content n03">
+                                                        <dl>
+                                                            <dt><input type="text" value="8"></dt>
+                                                            <dd>個</dd>
+                                                        </dl>
+                                                    </div>
+                                                    <div class="table_quote04-content n02">
+                                                        <dl>
+                                                            <dt><input type="text" value="40"></dt>
+                                                            <dd>個</dd>
+                                                        </dl>
+                                                        <dl style="border-left: 1px solid #E6E8EB;">
+                                                            <dt>→1CTN</dt>
+                                                            <dd><input type="text" value="5" readonly>ｇ/個</dd>
+                                                        </dl>
+                                                    </div>
+
+                                                    <table class="table_quote04-n03">
+                                                        <tbody>
+                                                            <tr>
+                                                                <th>カートン数
+                                                                </th>
+                                                                <td>125</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>概算M3
+                                                                </th>
+                                                                <td>23.184</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>概算混債費</th>
+                                                                <td>347,760 円</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <!-- 1 -->
+                                                <td style="border-right: 1px dotted #757575; padding-right: 13px;">
+                                                    <div class="table_quote04-content n01">
+                                                        <dl>
+                                                            <dt>W</dt>
+                                                            <dd><input type="text" value="1000"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>L</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>H</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                    </div>
+                                                    <div class="table_quote04-content n01">
+                                                        <dl>
+                                                            <dt>W</dt>
+                                                            <dd><input type="text" value="1000"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>L</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>H</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                    </div>
+                                                    <div class="table_quote04-content n01">
+                                                        <dl>
+                                                            <dt>W</dt>
+                                                            <dd><input type="text" value="1000"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>L</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>H</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                    </div>
+                                                    <div class="table_quote04-content n03">
+                                                        <dl>
+                                                            <dt><input type="text" value="8"></dt>
+                                                            <dd>個</dd>
+                                                        </dl>
+                                                    </div>
+                                                    <div class="table_quote04-content n02">
+                                                        <dl>
+                                                            <dt><input type="text" value="40"></dt>
+                                                            <dd>個</dd>
+                                                        </dl>
+                                                        <dl style="border-left: 1px solid #E6E8EB;">
+                                                            <dt>→1CTN</dt>
+                                                            <dd><input type="text" value="5" readonly>ｇ/個</dd>
+                                                        </dl>
+                                                    </div>
+
+                                                    <table class="table_quote04-n03">
+                                                        <tbody>
+                                                            <tr>
+                                                                <th>カートン数
+                                                                </th>
+                                                                <td>125</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>概算M3
+                                                                </th>
+                                                                <td>23.184</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>概算混債費</th>
+                                                                <td>347,760 円</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <!-- 1 -->
+                                                <td style="border-right: 1px dotted #757575; padding-right: 13px;">
+                                                    <div class="table_quote04-content n01">
+                                                        <dl>
+                                                            <dt>W</dt>
+                                                            <dd><input type="text" value="1000"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>L</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>H</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                    </div>
+                                                    <div class="table_quote04-content n01">
+                                                        <dl>
+                                                            <dt>W</dt>
+                                                            <dd><input type="text" value="1000"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>L</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>H</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                    </div>
+                                                    <div class="table_quote04-content n01">
+                                                        <dl>
+                                                            <dt>W</dt>
+                                                            <dd><input type="text" value="1000"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>L</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                        <dl>
+                                                            <dt>H</dt>
+                                                            <dd><input type="text" value="0"></dd>
+                                                        </dl>
+                                                    </div>
+                                                    <div class="table_quote04-content n03">
+                                                        <dl>
+                                                            <dt><input type="text" value="8"></dt>
+                                                            <dd>個</dd>
+                                                        </dl>
+                                                    </div>
+                                                    <div class="table_quote04-content n02">
+                                                        <dl>
+                                                            <dt><input type="text" value="40"></dt>
+                                                            <dd>個</dd>
+                                                        </dl>
+                                                        <dl style="border-left: 1px solid #E6E8EB;">
+                                                            <dt>→1CTN</dt>
+                                                            <dd><input type="text" value="5" readonly>ｇ/個</dd>
+                                                        </dl>
+                                                    </div>
+
+                                                    <table class="table_quote04-n03">
+                                                        <tbody>
+                                                            <tr>
+                                                                <th>カートン数
+                                                                </th>
+                                                                <td>125</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>概算M3
+                                                                </th>
+                                                                <td>23.184</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>概算混債費</th>
+                                                                <td>347,760 円</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
+
                         </div>
                     </div>
 
-                    <div class="u_content m_content">
-                        <div class="section_t_daichou-main_block01">
-                            <a class="orange_link" href="">削除</a>
-                            <div class="section_t_daichou-main_block01-box">
-                                <p class="mon">
-                                    検索結果　全<span>5</span> データ
-                                </p>
-
-                                <!-- page nation -->
-                                <div class="pagination">
-                                    <img src="img/content/pagenation-left.svg">
-                                    <div class="pagina_number active">1</div>
-                                    <div class="pagina_number">2</div>
-                                    <div class="pagina_number">3</div>
-                                    <div class="pagina_number">4</div>
-                                    <div class="pagina_number">...</div>
-                                    <div class="pagina_number">11</div>
-                                    <div class="pagina_number">12</div>
-                                    <img src="img/content/pagination-right.svg">
-                                </div>
-                                <!-- 件数表示数 -->
-                                <div class="open_num">
-                                    <p>一括表示件数</p>
-                                    <div class="select">
-                                        <select name="" id="">
-                                            <option value="50">50</option>
-                                            <option value="60">60</option>
-                                            <option value="70">70</option>
-                                            <option value="80">80</option>
-                                            <option value="90">90</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="green_link mr10 newBtn">新規追加</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="m_content holiday_contnet">
-                        <div class="borderRadius">
-                            <table class="part_table">
-                                <thead>
-                                    <tr>
-                                        <th>日付</th>
-                                        <th>休日名</th>
-                                        <th>国名</th>
-                                        <th></th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>2023-05-03〜2023-05-04</td>
-                                        <td>労働節</td>
-                                        <td>中国</td>
-                                        <td>
-                                            <div class="green_link">編集</div>
-                                        </td>
-                                    </tr>
-                                    <tr class="even">
-                                        <td>2023-05-03〜2023-05-04</td>
-                                        <td>ゴールデンウィーク・定休日</td>
-                                        <td>日本</td>
-                                        <td>
-                                            <div class="green_link">編集</div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>2023-05-03〜2023-05-04</td>
-                                        <td>定休日</td>
-                                        <td>中国</td>
-                                        <td>
-                                            <div class="green_link">編集</div>
-                                        </td>
-                                    </tr>
-                                    <tr class="even">
-                                        <td>2023-05-06</td>
-                                        <td>定休日</td>
-                                        <td>中国</td>
-                                        <td>
-                                            <div class="green_link">編集</div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>2023-05-07</td>
-                                        <td>定休日</td>
-                                        <td>日本</td>
-                                        <td>
-                                            <div class="green_link">編集</div>
-                                        </td>
-                                    </tr>
-                                    <tr class="even">
-                                        <td>2023-05-08</td>
-                                        <td>臨時休業</td>
-                                        <td>日本</td>
-                                        <td>
-                                            <div class="green_link">編集</div>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-
-                            <!-- page nation -->
-                            <div class="pagination">
-                                <img src="img/content/pagenation-left.svg">
-                                <div class="pagina_number active">1</div>
-                                <div class="pagina_number">2</div>
-                                <div class="pagina_number">3</div>
-                                <div class="pagina_number">4</div>
-                                <div class="pagina_number">...</div>
-                                <div class="pagina_number">11</div>
-                                <div class="pagina_number">12</div>
-                                <img src="img/content/pagination-right.svg">
-                            </div>
-                        </div>
-                    </div>
 
                     <!-- content -->
 
