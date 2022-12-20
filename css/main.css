@@ -3698,6 +3698,10 @@ th {
   margin-bottom: 20px;
 }
 
+.news_head_child.n02 .head_content_part_btn-box {
+  margin-left: auto;
+}
+
 .news_head_child.n01 .style_select {
   width: 345px;
   height: 36px;
