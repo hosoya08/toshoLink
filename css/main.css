@@ -291,6 +291,11 @@ input[readonly] {
   margin: auto;
 }
 
+.content_1058 {
+  width: 1058px;
+  margin: auto;
+}
+
 .part_select-box {
   display: flex;
   align-items: center
@@ -7119,7 +7124,7 @@ table.quote02s {
   display: table;
 }
 
-.modal_close {
+.holiday_pop-content .modal_close {
   margin: auto;
   margin-top: 12px;
   display: flex;
@@ -7134,7 +7139,7 @@ table.quote02s {
   cursor: pointer;
 }
 
-.modal_close img {
+.holiday_pop-content .modal_close img {
   width: 15px;
   margin-right: 10px;
   display: block;
@@ -7147,4 +7152,71 @@ table.quote02s {
 
 .holiday-content dl:nth-child(2) {
   margin-bottom: 20px;
+}
+
+/* ========================================== */
+/* ニュース　詳細　ページ　０２ */
+/* ========================================== */
+
+.part_background_white.news_edit .flex_box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.part_background_white.news_edit .flex_box:first-child {
+  margin-top: 10px;
+}
+
+.part_background_white.news_edit .flex_box:last-child,
+.part_background_white.news_edit .flex_box>.flex_box {
+  margin-bottom: 0;
+}
+
+.part_background_white.news_edit .flex_box p {
+  font-size: 14px;
+  color: #758A90;
+  width: 147px;
+}
+
+.part_background_white.news_edit .flex_box:nth-child(1) .select_style {
+  width: 300px;
+}
+
+.part_background_white.news_edit .flex_box:nth-child(2) .select_style {
+  width: 158px;
+  margin-right: 15px;
+}
+
+.part_background_white.news_edit .flex_box:nth-child(2) input[type="text"] {
+  width: 127px;
+  height: 36px;
+  background-color: #F8F8F8;
+  border: 1px solid #E6E8EB;
+  border-radius: var(--radius5);
+}
+
+.part_background_white.news_edit .flex_box:nth-child(3) input[type="text"] {
+  width: 550px;
+  height: 36px;
+  background-color: #F8F8F8;
+  border: 1px solid #E6E8EB;
+  border-radius: var(--radius5);
+}
+
+.part_background_white.news_edit .flex_box:nth-child(4) {
+  align-items: flex-start;
+}
+
+.part_background_white.news_edit .flex_box:nth-child(4) p {
+  margin-top: 7px;
+}
+
+.part_background_white.news_edit .flex_box:nth-child(4) textarea {
+  width: 890px;
+  height: 210px;
+  background-color: #F8F8F8;
+  border: 1px solid #E6E8EB;
+  border-radius: var(--radius5);
+  padding: 20px;
 }
