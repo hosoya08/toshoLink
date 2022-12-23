@@ -1182,7 +1182,7 @@
                                     </tbody>
                                 </table>
 
-                                <div class="scroll_table">
+                                <div id="s1" class="scroll_table">
                                     <table class="table_quote04-n02">
                                         <tbody>
                                             <tr>
@@ -1255,7 +1255,7 @@
                                                                 <td>125</td>
                                                             </tr>
                                                             <tr>
-                                                                <th>概算M3
+                                                                <th>概算M<sup>3</sup>
                                                                 </th>
                                                                 <td>23.184</td>
                                                             </tr>
@@ -1335,7 +1335,7 @@
                                                                 <td>125</td>
                                                             </tr>
                                                             <tr>
-                                                                <th>概算M3
+                                                                <th>概算M<sup>3</sup>
                                                                 </th>
                                                                 <td>23.184</td>
                                                             </tr>
@@ -1415,7 +1415,7 @@
                                                                 <td>125</td>
                                                             </tr>
                                                             <tr>
-                                                                <th>概算M3
+                                                                <th>概算M<sup>3</sup>
                                                                 </th>
                                                                 <td>23.184</td>
                                                             </tr>
@@ -1495,7 +1495,7 @@
                                                                 <td>125</td>
                                                             </tr>
                                                             <tr>
-                                                                <th>概算M3
+                                                                <th>概算M<sup>3</sup>
                                                                 </th>
                                                                 <td>23.184</td>
                                                             </tr>
@@ -1575,7 +1575,7 @@
                                                                 <td>125</td>
                                                             </tr>
                                                             <tr>
-                                                                <th>概算M3
+                                                                <th>概算M<sup>3</sup>
                                                                 </th>
                                                                 <td>23.184</td>
                                                             </tr>
@@ -1668,11 +1668,11 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="gray secound_td">海運20FT 28M3
+                                                <td class="gray secound_td">海運20FT 28M<sup>3</sup>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="gray secound_td">海運40FT 67M3
+                                                <td class="gray secound_td">海運40FT 67M<sup>3</sup>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -1775,7 +1775,7 @@
                                 </div>
                             </div>
                             <!-- right -->
-                            <section class="quote04_block03-box02">
+                            <section id="s2" class="quote04_block03-box02">
                                 <!-- this while content -->
                                 <table class="quote04_block03-box02_table">
                                     <tr>
@@ -3318,59 +3318,29 @@
                         <!-- 表のセクション　ここまで -->
 
                     </div>
-
-
                     <!-- content -->
-
                     <div class="t_daichou_footer-nav">
                         <div class="modal_close"><img src="img/content/return-down-back.svg" alt="">戻る</div>
                         <div class="modal_check green_link"><img src="img/content/save.svg" alt="">決定</div>
                     </div>
                 </li>
-
-
-
-
-
-
+            </ul>
+        </main>
     </section>
 
+    <script>
+        const s1 = document.getElementById("s1");
+        const s2 = document.getElementById("s2");
 
-    </li>
+        s1.addEventListener("scroll", () => {
+            s2.scrollLeft = s1.scrollLeft;
+        });
 
+        s2.addEventListener("scroll", () => {
+            s1.scrollLeft = s2.scrollLeft;
+        });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </ul>
-    </main>
-    </section>
-
+    </script>
     <script>
         function changeColor(hoge) {
             if (hoge.value == 0) {
@@ -3422,15 +3392,6 @@
     <script src="js/modal.js"></script>
     <script src="js/check.js"></script>
     <script src="js/profil.js"></script>
-
-    <script>
-        modal(document.querySelector('.greenBtn'), document.querySelector(".t_daichou-pop01"));
-        modal(document.querySelector('.close_pop'), document.querySelector(".t_daichou-pop01"));
-        modal(document.querySelector('.close_pop-num02'), document.querySelector(".t_daichou-pop01"));
-        modal(document.querySelector('#pop2_btn'), document.querySelector(".t_daichou-pop02"));
-        modal(document.querySelector('.close_pop02'), document.querySelector(".t_daichou-pop02"));
-        modal(document.querySelector('.modal_close02'), document.querySelector(".t_daichou-pop02"));
-    </script>
 </body>
 
 </html>

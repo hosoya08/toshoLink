@@ -7288,6 +7288,7 @@ table.quote02s {
 .table_flex-quote04 {
   display: flex;
   margin-top: 10px;
+  padding-left: 20px;
 }
 
 .table_quote04 {
@@ -7359,7 +7360,7 @@ table.quote02s {
 }
 
 .table_quote04-n02 {
-  margin-left: 10px;
+  margin-left: 12px;
   width: 856px;
   overflow-x: scroll;
 }
