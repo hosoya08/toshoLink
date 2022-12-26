@@ -1154,20 +1154,12 @@
                 <li class="tab_content_li open">
                     <!-- content -->
                     <section class="quote03_section">
-                        <h2 class="quote03_h2">原価計算類型：A型</h2>
                         <div class="quote03_content">
-                            <div class="quote03_content-box">品目：<span>本体　1SKU　各1000PCS</span></div>
 
                             <div class="quote03_flex">
                                 <div class="quote03_block01">
-                                    <div class="quote03_block01-head">
-                                        <p>申告日通貨レート</p>
-                                        <div>
-                                            為替レート
-                                            <input type="text" placeholder="138">
-                                            円
-                                        </div>
-                                    </div>
+                                    <h2 class="quote03_h2">原価計算類型：A型</h2>
+                                    <div class="quote03_content-box">品目：<span>本体　1SKU　各1000PCS</span></div>
                                     <div class="quote03_block01-body">
                                         <div class="quote03_block01-body_content">
                                             <div class="quote03_block01-body_content-title">
@@ -1185,7 +1177,7 @@
                                                 </div>
                                                 <div>
                                                     <p>合計</p>
-                                                    <input type="text" placeholder="5586.00">
+                                                    <input type="text" placeholder="5586.00" readonly>
                                                 </div>
                                             </div>
                                         </div>
@@ -1220,17 +1212,20 @@
                                     </div>
                                 </div>
                                 <div class="quote03_block01">
-                                    <div class="quote03_block01-head sec02">
-                                        <p>船積地</p>
-                                        <div class="select_style">
-                                            <select>
-                                                <option value="SHANGHAI">SHANGHAI</option>
-                                                <option value="SHANGHAI">SHANGHAI</option>
-                                                <option value="SHANGHAI">SHANGHAI</option>
-                                            </select>
+                                    <div class="quote03_title-box">
+                                        <div class="flex_box">
+                                            <p>通貨為替レート</p>
+                                            <input type="text" value="138"><span>円</span>
+                                        </div>
+                                        <div class="flex_box">
+                                            <p>船積地</p>
+                                            <div class="select_style">
+                                                <select name="" id="" style="color:#707070;">
+                                                    <option value="SHANGHAI">SHANGHAI</option>
+                                                </select>
+                                            </div>
                                         </div>
                                     </div>
-
                                     <table class="quote03_table02">
                                         <tbody>
                                             <tr>
@@ -1241,33 +1236,33 @@
                                                     Change</td>
                                             </tr>
                                             <tr>
-                                                <td>LCL
+                                                <td>LCL Per m<sup>3</sup>
                                                 </td>
-                                                <td>5000
+                                                <td><input type="text" value="5000">
                                                 </td>
-                                                <td>12000
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>20FT
-                                                </td>
-                                                <td>120000
-                                                </td>
-                                                <td>150000
+                                                <td><input type="text" value="12000">
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>40FT
+                                                <td>20FT Per Van
                                                 </td>
-                                                <td>250000
+                                                <td><input type="text" value="12000">
                                                 </td>
-                                                <td>250000
+                                                <td><input type="text" value="150000">
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>40FTHQ</td>
-                                                <td>350000</td>
-                                                <td>45000</td>
+                                                <td>20FT Per Van
+                                                </td>
+                                                <td><input type="text" value="250000">
+                                                </td>
+                                                <td><input type="text" value="250000">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>40FTHQ Per Van</td>
+                                                <td><input type="text" value="350000"></td>
+                                                <td><input type="text" value="45000"></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -1280,7 +1275,7 @@
                                         </div>
                                         <div class="quote03_table-bottom-box">
                                             <p>箱数</p>
-                                            <input type="text" placeholder="105" class="vesion_gray">
+                                            <input type="text" placeholder="105" class="vesion_gray" readonly>
                                             <span>CTNS</span>
                                         </div>
                                         <div class="quote03_table-bottom-box">
@@ -1290,13 +1285,13 @@
                                         </div>
                                         <div class="quote03_table-bottom-box">
                                             <p>CBM合計</p>
-                                            <input type="text" placeholder="5.25" class="vesion_gray">
+                                            <input type="text" placeholder="5.25" class="vesion_gray" readonly>
                                             <span>CBM</span>
                                         </div>
                                         <div class="quote03_table-bottom-box">
                                             <p>輸送形態</p>
                                             <div class="select_style">
-                                                <select>
+                                                <select style="color: #707070;">
                                                     <option value="20FT">20FT</option>
                                                     <option value="20FT">20FT</option>
                                                     <option value="20FT">20FT</option>
@@ -1360,7 +1355,7 @@
                                             </div>
 
                                             <div class="box_column n01 w154">
-                                                <span>②の100円未満切捨て</span>
+                                                <span style="font-size: 12px;">②の100円未満切捨て</span>
                                                 <p>34,800<span>円</span></p>
                                             </div>
 
@@ -1395,8 +1390,8 @@
                                             </div>
 
                                             <div class="box_column box_row green--line">
-                                                <div class="moji-green">②関税</div>
-                                                <p>34,808</p>
+                                                <div class="moji-green">④消費税</div>
+                                                <p>74,178</p>
                                                 <span>円</span>
                                             </div>
 
@@ -1630,9 +1625,48 @@
 
 
                     <!-- content -->
-                    <div class="t_daichou_footer-nav">
-                        <div class="modal_close"><img src="img/content/return-down-back.svg" alt="">戻る</div>
-                        <div class="modal_check green_link"><img src="img/content/save.svg" alt="">決定</div>
+                    <div class="t_daichou_footer-nav quote03">
+                        <div class="footer-nav_left">
+                            <div class="button-left">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13.5" viewBox="0 0 15 13.5">
+                                    <g id="calculator" transform="translate(-0.5 -1.25)">
+                                        <path id="パス_870" data-name="パス 870"
+                                            d="M14.75,1.25H1.25A.751.751,0,0,0,.5,2V14a.751.751,0,0,0,.75.75h13.5A.751.751,0,0,0,15.5,14V2a.751.751,0,0,0-.75-.75Zm-.25,12.5H1.5V2.25h13Z"
+                                            fill="#4aa9ac" />
+                                        <path id="パス_871" data-name="パス 871"
+                                            d="M4.75,7.5h1V6.25H7v-1H5.75V4h-1V5.25H3.5v1H4.75Z" fill="#4aa9ac" />
+                                        <path id="パス_872" data-name="パス 872"
+                                            d="M6.134,8.909l-.884.884-.884-.884-.707.707.884.884-.884.884.707.707.884-.884.884.884.707-.707L5.957,10.5l.884-.884Z"
+                                            fill="#4aa9ac" />
+                                        <path id="パス_873" data-name="パス 873" d="M9,5.25h3.5v1H9Z" fill="#4aa9ac" />
+                                        <path id="パス_874" data-name="パス 874" d="M9,9h3.5v1H9Z" fill="#4aa9ac" />
+                                        <path id="パス_875" data-name="パス 875" d="M9,11h3.5v1H9Z" fill="#4aa9ac" />
+                                    </g>
+                                </svg>
+                                <p>計算</p>
+                            </div>
+                        </div>
+                        <div class="footer-nav_center">
+                            <div class="modal_close"><img src="img/content/return-down-back.svg" alt="">戻る</div>
+                            <div class="modal_check green_link"><img src="img/content/save.svg" alt="">決定</div>
+                        </div>
+                        <div class="footer-nav_right">
+                            <div class="button-right">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16.125" height="8.281"
+                                    viewBox="0 0 16.125 8.281">
+                                    <g id="return-down-back" transform="translate(0.562 0.563)">
+                                        <path id="パス_796" data-name="パス 796" d="M1.688,12.375l2.25-2.25-2.25-2.25"
+                                            transform="translate(11.062 -5.452)" fill="none" stroke="#797979"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.125" />
+                                        <path id="パス_797" data-name="パス 797"
+                                            d="M16.688,10.125H6.076a3.829,3.829,0,0,1-3.826-3.8v-.7"
+                                            transform="translate(-2.25 -5.625)" fill="none" stroke="#797979"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.125" />
+                                    </g>
+                                </svg>
+                                <p>次の商品へ</p>
+                            </div>
+                        </div>
                     </div>
                 </li>
 
