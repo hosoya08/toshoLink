@@ -8830,3 +8830,111 @@ table.quote02s {
 .shipping02-table th div.after_none {
   border: none;
 }
+
+/* ============================ */
+/* shipping02 pop */
+/* ============================ */
+.part_pop-back.shipping02_pop .part_pop-content {
+  height: fit-content;
+  padding: 20px;
+  width: 451px;
+  margin-top: 183px;
+  position: relative;
+}
+
+.shipping_pop-close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 16px;
+  height: 16px;
+}
+
+.part_pop-back.shipping02_pop .part_pop-content h1 {
+  margin-bottom: 12px;
+}
+
+.part_pop-back.shipping02_pop .flex_box>p {
+  font-size: 14px;
+  color: #758A90;
+  width: 112px;
+}
+
+.part_pop-back.shipping02_pop .flex_box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.part_pop-back.shipping02_pop .flex_box span {
+  margin-left: 10px;
+}
+
+.part_pop-back.shipping02_pop .flex_box.column {
+  flex-direction: column;
+  align-items: start;
+}
+
+.part_pop-back.shipping02_pop>.flex_box {
+  display: flex;
+  align-items: center;
+}
+
+.part_pop-back.shipping02_pop .flex_box input {
+  border-radius: var(--radius5);
+  background-color: #F8F8F8;
+  border: 1px solid #e6e6e6;
+  height: 36px;
+  color: #707070;
+  padding-left: 10px;
+  font-size: 14px;
+  width: 135px;
+}
+
+.part_pop-back.shipping02_pop .flex_box.n02 .flex_box {
+  display: flex;
+  align-items: center;
+}
+
+.part_pop-back.shipping02_pop .flex_box.n02 .flex_box input {
+  width: 45px;
+}
+
+.part_pop-back.shipping02_pop .flex_box.n02>.flex_box p {
+  width: fit-content;
+  margin-right: 4px;
+}
+
+.part_pop-back.shipping02_pop .flex_box.n03 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.part_pop-back.shipping02_pop .flex_box.n03 a {
+  border-radius: var(--radius5);
+  font-size: 14px;
+  font-weight: 400;
+  width: 150px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.part_pop-back.shipping02_pop .flex_box.n03 svg {
+  margin-right: 5px;
+}
+
+.part_pop-back.shipping02_pop .flex_box.n03 a:first-child {
+  border: 1px solid #B8BBBE;
+  color: #707070;
+  margin-right: 11px;
+}
+
+.part_pop-back.shipping02_pop .flex_box.n03 a:last-child {
+  background-color: #4AA9AC;
+  color: #fff;
+  margin-left: 11px;
+}
