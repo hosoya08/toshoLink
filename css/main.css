@@ -185,6 +185,14 @@ input[readonly] {
   border-bottom: 5px solid rgb(255, 255, 255);
 }
 
+.gray {
+  background-color: #EAECEC;
+}
+
+.light-green {
+  background-color: rgba(74, 169, 172, 0.1);
+}
+
 /* end part table */
 
 /* part head Line */
@@ -234,6 +242,7 @@ input[readonly] {
   margin-right: 0;
 }
 
+/* CLEAR AND SEARCH BUTTON SECTION */
 .head_content_part_btn-box {
   display: flex;
   align-items: center;
@@ -8937,4 +8946,174 @@ table.quote02s {
   background-color: #4AA9AC;
   color: #fff;
   margin-left: 11px;
+}
+
+/* ============================ */
+/* EARNINGS PAGES */
+/* ============================ */
+/* HEAD */
+.part_head_line.earnings .head_content_part:nth-child(1) .select_style,
+.part_head_line.earnings .head_content_part:nth-child(2) .select_style {
+  width: 195px;
+}
+
+.part_head_line.earnings .head_content_part:nth-child(3) .select_style,
+.part_head_line.earnings .head_content_part:nth-child(4) .select_style {
+  width: 110px;
+}
+
+.part_head_line.earnings .head_line.n01 {
+  margin-bottom: 20px;
+}
+
+.part_head_line.earnings .head_line.n02 input {
+  width: 159px;
+}
+
+.part_head_line.earnings .head_line.n02 .select_style {
+  width: 110px;
+}
+
+.part_head_line.earnings .head_line.n02 .head_content_part:nth-child(2) p:nth-of-type(2),
+.part_head_line.earnings .head_line.n01 .head_content_part:nth-child(1) p:nth-of-type(2) {
+  margin-left: 10px;
+}
+
+.part_head_line.earnings .head_line.n02 .head_content_part_btn-box {
+  margin-left: auto;
+  margin-right: 83px;
+}
+
+
+
+.table_wrapper {
+  display: flex;
+}
+
+.earnings_table01 {
+  width: 116px;
+}
+
+.earnings_table01 tr:first-child th {
+  height: 33px;
+}
+
+.earnings_table01 tr th {
+  color: #758A90;
+  vertical-align: middle;
+  text-align: center;
+  height: 35px;
+  border: 1px solid #fff;
+  border-right: none;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.earnings_table02 {
+  width: max-content;
+}
+
+.earnings_table02 tr:last-child td,
+.earnings_table02 tr:nth-child(13) td,
+.earnings_table02 tr:nth-child(12) td,
+.earnings_table02 tr td:last-child {
+  font-weight: bold;
+}
+
+.earnings_table02 tr td {
+  font-size: 12px;
+  border: 1px solid #e6e6e6;
+  height: 35px;
+  vertical-align: middle;
+  text-align: right;
+  padding-right: 5px;
+  color: #707070;
+  font-weight: 400;
+}
+
+.earnings_table02 tr th {
+  width: 90px;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid #fff;
+  text-align: center;
+  vertical-align: middle;
+  height: 33px;
+  color: #758A90;
+}
+
+.earnings_table02 tr th:last-child {
+  width: 107px;
+}
+
+.div_scroll-box {
+  width: 963px;
+  overflow: scroll;
+}
+
+.chart_items {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.chart_items p {
+  position: relative;
+  font-size: 14px;
+  color: #758A90;
+  font-weight: 400;
+}
+
+.chart_items p.red {
+  margin: 0 42px;
+}
+
+.chart_items p.red::after {
+  background-color: #FCA988;
+}
+
+.chart_items p.blue::after {
+  background-color: #96A4E3;
+}
+
+.chart_items p.green::after {
+  background-color: #4AA9AC;
+}
+
+.chart_items p::after {
+  content: "";
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  margin-right: 5px;
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  transform: translateY(-50%);
+}
+
+#myChart {
+  height: 100% !important;
+}
+
+.chart_js-after {
+  position: relative;
+}
+
+.chart_js-after::after {
+  position: absolute;
+  bottom: 5px;
+  left: 45px;
+  content: "（円）";
+  font-size: 14px;
+  color: #CCCCCC;
+}
+
+.chart_js-after::before {
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+  content: "（%）";
+  font-size: 14px;
+  color: #CCCCCC;
 }
