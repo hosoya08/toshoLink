@@ -9117,3 +9117,99 @@ table.quote02s {
   font-size: 14px;
   color: #CCCCCC;
 }
+
+/* ==================================== */
+/* 10_商品検査依頼−検索画面 */
+/* ==================================== */
+.shouhin_content {
+  max-width: 1118px;
+  margin: 0 auto;
+}
+
+.shouhin_content .part_table {
+  width: 100%;
+}
+
+.shouhin_content .part_table tr th {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.shouhin_content .part_table tr th .check_table-box,
+.shouhin_content .part_table tr td .check_table-box,
+.shouhin_content .part_table tr td:nth-child(1),
+.shouhin_content .part_table tr th:nth-child(1) {
+  width: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.shouhin_content .part_table tr td:nth-child(2),
+.shouhin_content .part_table tr th:nth-child(2) {
+  width: 98px;
+}
+
+.shouhin_content .part_table tr td:nth-child(3),
+.shouhin_content .part_table tr th:nth-child(3) {
+  width: 101px;
+}
+
+.shouhin_content .part_table tr td:nth-child(4),
+.shouhin_content .part_table tr th:nth-child(4) {
+  width: 153px;
+}
+
+.shouhin_content .part_table tr td:nth-child(5),
+.shouhin_content .part_table tr th:nth-child(5) {
+  width: 229px;
+}
+
+.shouhin_content .part_table tr td:nth-child(6),
+.shouhin_content .part_table tr th:nth-child(6) {
+  width: 185px;
+}
+
+.shouhin_content .part_table tr td:nth-child(7),
+.shouhin_content .part_table tr th:nth-child(7) {
+  width: 143px;
+}
+
+.shouhin_content .part_table tr td:nth-child(8),
+.shouhin_content .part_table tr th:nth-child(8) {
+  width: 71px;
+}
+
+.shouhin_content .part_table tr td:nth-child(9),
+.shouhin_content .part_table tr th:nth-child(9) {
+  width: 91px;
+}
+
+.part_head_line.shouhin .head_line.n01 {
+  margin-bottom: 20px;
+}
+
+.part_head_line.shouhin .head_line.n01 .head_content_part:nth-child(1) input {
+  width: 150px;
+}
+
+.part_head_line.shouhin .head_line.n01 .head_content_part:nth-child(2) input {
+  width: 346px;
+}
+
+.part_head_line.shouhin .head_line.n01 .head_content_part:nth-child(3) .select_style {
+  width: 186px;
+}
+
+.part_head_line.shouhin .head_line.n02 .head_content_part:nth-child(3) .select_style,
+.part_head_line.shouhin .head_line.n02 .head_content_part:nth-child(1) .select_style {
+  width: 110px;
+}
+
+.part_head_line.shouhin .head_line.n02 .head_content_part:nth-child(2) input {
+  width: 149px;
+}
+
+.part_head_line.shouhin .head_line.n02 .head_content_part:nth-child(4) input {
+  width: 200px;
+}
