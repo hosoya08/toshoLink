@@ -1593,6 +1593,18 @@ table.space-top {
   justify-content: space-between;
 }
 
+.mail_page-section .section_t_daichou-main_block01 {
+  justify-content: flex-start;
+}
+
+.mail_page-section .section_t_daichou-main_block01 .section_t_daichou-main_block01-box {
+  margin-left: 180px;
+}
+
+.mail_page-section .section_t_daichou-main_block01 .section_t_daichou-main_block01-box .mon {
+  margin-right: 20px;
+}
+
 .section_t_daichou-main_block01-box p {
   font-size: 14px;
   color: #707070;
@@ -9212,4 +9224,8 @@ table.quote02s {
 
 .part_head_line.shouhin .head_line.n02 .head_content_part:nth-child(4) input {
   width: 200px;
+}
+
+.shouhin_content .pagination {
+  justify-content: center;
 }
