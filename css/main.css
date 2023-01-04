@@ -9229,3 +9229,7 @@ table.quote02s {
 .shouhin_content .pagination {
   justify-content: center;
 }
+
+.p_content.shouhin .mon {
+  margin-right: 20px;
+}
