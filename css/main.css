@@ -9233,3 +9233,200 @@ table.quote02s {
 .p_content.shouhin .mon {
   margin-right: 20px;
 }
+
+/* ================================== */
+/* 10_商品検査依頼−詳細01 */
+/* ================================== */
+.content.appraisal {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding-top: 27px;
+  margin-top: 21px;
+}
+
+.appraisal_section {
+  width: 574px;
+  margin: 0 auto;
+}
+
+.appraisal_section h1 {
+  display: flex;
+  font-size: 22px;
+  font-weight: bold;
+  border-bottom: 5px double #000;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.appraisal_section .appraisal_section-box01 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appraisal_section .appraisal_section-box01_left {
+  display: flex;
+  align-items: center;
+}
+
+.appraisal_section .appraisal_section-box01_left svg {
+  width: 65px;
+  height: 42px;
+  margin-right: 5px;
+}
+
+.appraisal_section .appraisal_section-box01_left p {
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 400;
+}
+
+.appraisal_section .appraisal_section-box01_right {
+  display: flex;
+  flex-direction: column;
+  width: 181px;
+}
+
+.appraisal_section .appraisal_section-box01_right dl dd,
+.appraisal_section .appraisal_section-box01_right dl {
+  display: flex;
+  align-items: center;
+}
+
+.appraisal_section .appraisal_section-box01_right dl:nth-child(2) {
+  margin: 5px 0;
+}
+
+.appraisal_section .appraisal_section-box01_right dl dt {
+  font-size: 11px;
+  font-weight: 400;
+  width: auto;
+  margin-right: 5px;
+}
+
+.appraisal_section .appraisal_section-box01_right dl dd {
+  border-bottom: 1px solid #000;
+  margin-right: 0;
+  margin-left: auto;
+  flex: auto;
+}
+
+.appraisal_section .appraisal_section-box01_right dl dd span {
+  font-size: 11px;
+  font-weight: 400;
+  display: block;
+  margin-left: auto;
+}
+
+.appraisal_section .appraisal_section-box01_right dl:nth-child(3) dd span {
+  margin-right: auto;
+  margin-left: 0;
+  padding-left: 10px;
+}
+
+.appraisal_section-box02_con {
+  width: 100%;
+  font-size: 11px;
+  color: #000;
+  font-weight: 400;
+  border: 3px solid #000;
+}
+
+.appraisal_section-box02_con-head {}
+
+.appraisal_section-box02_con-head .left {}
+
+.appraisal_section-box02_con-head .left .heads {
+  display: flex;
+}
+
+.appraisal_section-box02_con-head .left .heads p {
+  display: flex;
+  border-right: 1px solid #000;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 2px;
+}
+
+.appraisal_section-box02_con-head .left .heads .bottom,
+.appraisal_section-box02_con-head .left .heads .top {
+  display: flex;
+}
+
+.top_box01 {
+  width: 196px;
+  border-right: 1px solid #000;
+}
+
+.top_box01 span {
+  border-right: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+  padding: 3px 3px 4px 5px;
+  display: inline-block;
+}
+
+.top_box01 form {
+  display: flex;
+  align-items: center;
+  height: auto;
+}
+
+.top_box01 form input {
+  font-size: 11px;
+  height: 24px;
+  width: 100%;
+  padding: 0;
+  padding-left: 4px;
+}
+
+.top_box02 .box02-content-2 {
+  width: 159px;
+}
+
+.top_box02 .box02-content-1,
+.top_box02 .box02-content-2 {
+  display: flex;
+}
+
+.top_box02 .box02-content-1 span,
+.top_box02 .box02-content-2 span {
+  font-size: 11px;
+  width: 29px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: none;
+}
+
+.top_box02 .box02-content-1 input {
+  font-size: 11px;
+}
+
+.top_box02 .box02-content-2 .select_style {
+  background-color: transparent;
+  border: none;
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding-left: 6px;
+}
+
+.top_box02 .box02-content-2 .select_style select {
+  font-size: 11px;
+  padding: 0;
+}
+
+.appraisal_section-box02_con .bottom .top_box01.n01 {
+  display: flex;
+}
+
+.appraisal_section-box02_con .bottom .top_box01.n01 span {
+  height: 24px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4px;
+}
