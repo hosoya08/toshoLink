@@ -1,0 +1,852 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="574" height="528" viewBox="0 0 574 528">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="288" height="406" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="286" height="91" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect width="286" height="211" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect width="286" height="76" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="グループ_2473" data-name="グループ 2473" transform="translate(-19126 -8716)">
+    <g id="グループ_2472" data-name="グループ 2472">
+      <g id="細枠_表" data-name="細枠　表" transform="translate(18876 8339)">
+        <g id="リピートグリッド_95" data-name="リピートグリッド 95" transform="translate(536 393)" clip-path="url(#clip-path)">
+          <g transform="translate(-250 -393)">
+            <g id="長方形_1372" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="破_裂_強_度" data-name="破　裂　強　度" transform="translate(334 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-38.5" y="0">破　裂　強　度</tspan></text>
+            <text id="ミューレン" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-27.5" y="0">ミューレン</tspan></text>
+            <line id="線_1153" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_201" data-name="201" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">201</tspan></text>
+            <line id="線_1154" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <path id="パス_1073" data-name="パス 1073" d="M0,0V15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -378)">
+            <g id="長方形_1372-2" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="引_張_強_度" data-name="引　張　強　度" transform="translate(334 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-38.5" y="0">引　張　強　度</tspan></text>
+            <text id="ストリップ" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-27.5" y="0">ストリップ</tspan></text>
+            <line id="線_1153-2" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_204" data-name="204" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">204</tspan></text>
+            <line id="線_1154-2" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-2" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <path id="パス_1073-2" data-name="パス 1073" d="M0,0V15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-2" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -363)">
+            <g id="長方形_1372-3" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="引_裂_強_度" data-name="引　裂　強　度" transform="translate(334 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-38.5" y="0">引　裂　強　度</tspan></text>
+            <text id="ペンジュラム" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-33" y="0">ペンジュラム</tspan></text>
+            <line id="線_1153-3" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_208" data-name="208" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">208</tspan></text>
+            <line id="線_1154-3" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-3" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <path id="パス_1073-3" data-name="パス 1073" d="M0,0V15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-3" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -348)">
+            <g id="長方形_1372-4" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="摩_耗_強_度" data-name="摩　耗　強　度" transform="translate(334 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-38.5" y="0">摩　耗　強　度</tspan></text>
+            <text id="_" data-name="ﾕﾆﾌｫｰﾑ･ﾕﾆﾊﾞｰｻﾙ" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-38.5" y="0">ﾕﾆﾌｫｰﾑ･ﾕﾆﾊﾞｰｻﾙ</tspan></text>
+            <line id="線_1153-4" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_209" data-name="209" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">209</tspan></text>
+            <line id="線_1154-4" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-4" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <path id="パス_1073-4" data-name="パス 1073" d="M0,0V15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-4" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -333)">
+            <g id="長方形_1372-5" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="縫_目_強_度" data-name="縫　目　強　度" transform="translate(334 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-38.5" y="0">縫　目　強　度</tspan></text>
+            <text id="グラブ" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.5" y="0">グラブ</tspan></text>
+            <line id="線_1153-5" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_217" data-name="217" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">217</tspan></text>
+            <line id="線_1154-5" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-5" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <path id="パス_1073-5" data-name="パス 1073" d="M0,0V15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-5" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -318)">
+            <g id="長方形_1372-6" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="滑脱抵抗力" transform="translate(334 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-27.5" y="0">滑脱抵抗力</tspan></text>
+            <text id="縫目B_49.0_117.7" data-name="縫目B 49.0 117.7" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-41.503" y="0">縫目</tspan><tspan y="0">B 49.0 117.7</tspan></text>
+            <line id="線_1153-6" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_218" data-name="218" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">218</tspan></text>
+            <line id="線_1154-6" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-6" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <path id="パス_1073-6" data-name="パス 1073" d="M0,0V15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-6" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -303)">
+            <g id="長方形_1372-7" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="ピ_リ_ン_グ" data-name="ピ　リ　ン　グ" transform="translate(334 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-38.5" y="0">ピ　リ　ン　グ</tspan></text>
+            <text id="A_5_10_IY" data-name="A(5 ･ 10) ･ IY" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-31.174" y="0">A(5 ･ 10) ･ IY</tspan></text>
+            <line id="線_1153-7" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_550" data-name="550" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">550</tspan></text>
+            <line id="線_1154-7" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-7" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <path id="パス_1073-7" data-name="パス 1073" d="M0,0V15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-7" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -288)">
+            <g id="長方形_1372-8" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="ス_ナ_ッ_グ" data-name="ス　ナ　ッ　グ" transform="translate(334 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-38.5" y="0">ス　ナ　ッ　グ</tspan></text>
+            <text id="メース" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.225" y="0">メース</tspan></text>
+            <line id="線_1153-8" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_556" data-name="556" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">556</tspan></text>
+            <line id="線_1154-8" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-8" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <path id="パス_1073-8" data-name="パス 1073" d="M0,0V15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-8" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -273)">
+            <g id="長方形_1372-9" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="_保持性" data-name="ﾊﾟｲﾙ保持性" transform="translate(334 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-27.5" y="0">ﾊﾟｲﾙ</tspan><tspan y="0">保持性</tspan></text>
+            <text id="A法_化検法" data-name="A法 ･ 化検法" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-30.552" y="0">A</tspan><tspan y="0">法 ･ 化検法</tspan></text>
+            <line id="線_1153-9" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_559" data-name="559" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">559</tspan></text>
+            <line id="線_1154-9" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-9" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <path id="パス_1073-9" data-name="パス 1073" d="M0,0V15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-9" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -258)">
+            <g id="長方形_1372-10" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="毛_羽_付_着" data-name="毛 羽 付 着" transform="translate(334 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-25.696" y="0">毛 羽 付 着</tspan></text>
+            <text id="_2" data-name="　" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <line id="線_1153-10" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_561" data-name="561" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">561</tspan></text>
+            <line id="線_1154-10" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-10" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <path id="パス_1073-10" data-name="パス 1073" d="M0,0V15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-10" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -243)">
+            <g id="長方形_1372-11" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="繊_維_鑑_別" data-name="繊 維 鑑 別" transform="translate(334 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-25.696" y="0">繊 維 鑑 別</tspan></text>
+            <text id="_3" data-name="　" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <line id="線_1153-11" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_851" data-name="851" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">851</tspan></text>
+            <line id="線_1154-11" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-11" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <path id="パス_1073-11" data-name="パス 1073" d="M0,0V15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-11" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -228)">
+            <g id="長方形_1372-12" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="混_用_率" data-name="混 用 率" transform="translate(334 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-18.964" y="0">混 用 率</tspan></text>
+            <text id="鑑別_種" data-name="鑑別 ･ 　　種" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-32.714" y="0">鑑別 ･ 　　種</tspan></text>
+            <line id="線_1153-12" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_854" data-name="854" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">854</tspan></text>
+            <line id="線_1154-12" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-12" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <path id="パス_1073-12" data-name="パス 1073" d="M0,0V15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-12" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -213)">
+            <g id="長方形_1372-13" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="羽毛混合率" transform="translate(334 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-27.5" y="0">羽毛混合率</tspan></text>
+            <text id="_4" data-name="　" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <line id="線_1153-13" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_859" data-name="859" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">859</tspan></text>
+            <line id="線_1154-13" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-13" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <path id="パス_1073-13" data-name="パス 1073" d="M0,0V15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-13" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -198)">
+            <g id="長方形_1372-14" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="抗_菌" data-name="抗  菌" transform="translate(334 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-13.464" y="0" xml:space="preserve">抗  菌</tspan></text>
+            <text id="_5" data-name="　" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <line id="線_1153-14" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_710" data-name="710" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">710</tspan></text>
+            <line id="線_1154-14" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-14" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <path id="パス_1073-14" data-name="パス 1073" d="M0,0V15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-14" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -183)">
+            <g id="長方形_1372-15" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="番手_繊度" data-name="番手・繊度" transform="translate(334 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-27.5" y="0">番手・繊度</tspan></text>
+            <text id="_6" data-name="　" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <line id="線_1153-15" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_101" data-name="101" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">101</tspan></text>
+            <line id="線_1154-15" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-15" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <path id="パス_1073-15" data-name="パス 1073" d="M0,0V15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-15" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -168)">
+            <g id="長方形_1372-16" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="ホルマリン" transform="translate(334 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-27.5" y="0">ホルマリン</tspan></text>
+            <text id="ベビー_一般" data-name="ベビー ･ 一般" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-32.714" y="0">ベビー ･ </tspan><tspan y="0">一般</tspan></text>
+            <line id="線_1153-16" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_702" data-name="702" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">702</tspan></text>
+            <line id="線_1154-16" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-16" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <path id="パス_1073-16" data-name="パス 1073" d="M0,0V15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-16" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -153)">
+            <g id="長方形_1372-17" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="_移染調査試験布" data-name="ﾎﾙﾏﾘﾝ移染調査試験布" transform="translate(334 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-52.25" y="0">ﾎﾙﾏﾘﾝ</tspan><tspan y="0">移染調査試験布</tspan></text>
+            <text id="_7" data-name="　" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <line id="線_1153-17" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_8994" data-name="8994" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-22.2" y="0">8994</tspan></text>
+            <line id="線_1154-17" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-17" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <path id="パス_1073-17" data-name="パス 1073" d="M0,0V15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-17" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -138)">
+            <g id="長方形_1372-18" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="_8" data-name="　" transform="translate(334 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <text id="_9" data-name="　" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <line id="線_1153-18" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_10" data-name="　" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-10" y="0">　</tspan></text>
+            <line id="線_1154-18" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-18" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <path id="パス_1073-18" data-name="パス 1073" d="M0,0V15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-18" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -123)">
+            <g id="長方形_1372-19" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="_11" data-name="　" transform="translate(334 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <text id="_12" data-name="　" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <line id="線_1153-19" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_13" data-name="　" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-10" y="0">　</tspan></text>
+            <line id="線_1154-19" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-19" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <path id="パス_1073-19" data-name="パス 1073" d="M0,0V15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-19" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -108)">
+            <g id="長方形_1372-20" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="_14" data-name="　" transform="translate(334 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <text id="_15" data-name="　" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <line id="線_1153-20" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_16" data-name="　" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-10" y="0">　</tspan></text>
+            <line id="線_1154-20" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-20" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <path id="パス_1073-20" data-name="パス 1073" d="M0,0V15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-20" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -93)">
+            <g id="長方形_1372-21" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="品質検査報告書" transform="translate(334 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-38.5" y="0">品質検査報告書</tspan></text>
+            <text id="_17" data-name="　" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <line id="線_1153-21" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_18" data-name="　" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-10" y="0">　</tspan></text>
+            <line id="線_1154-21" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-21" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <path id="パス_1073-21" data-name="パス 1073" d="M0,0V15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-21" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -78)">
+            <g id="長方形_1372-22" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="証明書_和文_" data-name="証明書（和文）" transform="translate(334 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-38.5" y="0">証明書（和文）</tspan></text>
+            <text id="_19" data-name="　" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <line id="線_1153-22" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_052" data-name="052" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">052</tspan></text>
+            <line id="線_1154-22" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-22" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <path id="パス_1073-22" data-name="パス 1073" d="M0,0V15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-22" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -63)">
+            <g id="長方形_1372-23" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="染色堅牢度成績表" transform="translate(334 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-44" y="0">染色堅牢度成績表</tspan></text>
+            <text id="_20" data-name="　" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <line id="線_1153-23" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_053" data-name="053" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">053</tspan></text>
+            <line id="線_1154-23" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-23" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <path id="パス_1073-23" data-name="パス 1073" d="M0,0V15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-23" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -48)">
+            <g id="長方形_1372-24" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="試験成績表" transform="translate(334 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-27.5" y="0">試験成績表</tspan></text>
+            <text id="_21" data-name="　" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <line id="線_1153-24" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_058" data-name="058" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">058</tspan></text>
+            <line id="線_1154-24" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-24" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <path id="パス_1073-24" data-name="パス 1073" d="M0,0V15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-24" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -33)">
+            <g id="長方形_1372-25" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="転_記" data-name="転　　記" transform="translate(334 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-22" y="0">転　　記</tspan></text>
+            <text id="_22" data-name="　" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <line id="線_1153-25" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_054" data-name="054" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">054</tspan></text>
+            <line id="線_1154-25" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-25" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <path id="パス_1073-25" data-name="パス 1073" d="M0,0V15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-25" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -18)">
+            <g id="長方形_1372-26" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="所_見" data-name="所　　見" transform="translate(334 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-22" y="0">所　　見</tspan></text>
+            <text id="_23" data-name="　" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <line id="線_1153-26" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_24" data-name="　" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-10" y="0">　</tspan></text>
+            <line id="線_1154-26" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-26" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <path id="パス_1073-26" data-name="パス 1073" d="M0,0V15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-26" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -3)">
+            <g id="長方形_1372-27" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="EMS_DHL_その他" data-name="EMS ･ DHL ･ その他" transform="translate(334 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-48.681" y="0">EMS ･ DHL ･ </tspan><tspan y="0">その</tspan><tspan y="0">他</tspan></text>
+            <text id="_25" data-name="　" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <line id="線_1153-27" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_26" data-name="　" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-10" y="0">　</tspan></text>
+            <line id="線_1154-27" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-27" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <path id="パス_1073-27" data-name="パス 1073" d="M0,0V15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-27" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 12)">
+            <g id="長方形_1372-28" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="品_番" data-name="品　番" transform="translate(334 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.5" y="0">品　番</tspan></text>
+            <text id="_移染調査試験布-2" data-name="ﾎﾙﾏﾘﾝ移染調査試験布" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-52.25" y="0">ﾎﾙﾏﾘﾝ</tspan><tspan y="0">移染調査試験布</tspan></text>
+            <line id="線_1153-28" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_899" data-name="899" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">899</tspan></text>
+            <line id="線_1154-28" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-28" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <path id="パス_1073-28" data-name="パス 1073" d="M0,0V15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-28" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+        </g>
+        <text id="_製品検査" data-name="（１）製品検査" transform="translate(250 390)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="0" y="0">（１）製品検査</tspan></text>
+        <text id="_染色堅牢度" data-name="（２）染色堅牢度" transform="translate(250 496)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="0" y="0">（２）染色堅牢度</tspan></text>
+        <text id="_寸法変化" data-name="（３）寸法変化" transform="translate(250 721)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="0" y="0">（３）寸法変化</tspan></text>
+        <g id="リピートグリッド_94" data-name="リピートグリッド 94" transform="translate(250 393)" clip-path="url(#clip-path-2)">
+          <g transform="translate(-250 -393)">
+            <g id="長方形_1372-29" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="製_品_検_査" data-name="製　品　検　査" transform="translate(333 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-38.5" y="0">製　品　検　査</tspan></text>
+            <text id="_27" data-name="　" transform="translate(424 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <line id="線_1153-29" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_802" data-name="802" transform="translate(278 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">802</tspan></text>
+            <line id="線_1154-29" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-29" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1156" data-name="線 1156" y2="15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-29" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -378)">
+            <g id="長方形_1372-30" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="耐洗濯_性" data-name="耐洗濯・ﾄﾞﾗｲ性" transform="translate(333 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-38.5" y="0">耐洗濯・</tspan><tspan y="0">ﾄﾞﾗｲ</tspan><tspan y="0">性</tspan></text>
+            <text id="_28" data-name="　" transform="translate(424 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <line id="線_1153-30" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_812" data-name="812" transform="translate(278 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">812</tspan></text>
+            <line id="線_1154-30" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-30" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1156-2" data-name="線 1156" y2="15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-30" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -363)">
+            <g id="長方形_1372-31" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="繰返し回数_回" data-name="繰返し回数 　 回" transform="translate(333 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-40.964" y="0">繰返</tspan><tspan y="0">し</tspan><tspan y="0">回数 　 回</tspan></text>
+            <text id="_29" data-name="　" transform="translate(424 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <line id="線_1153-31" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_962" data-name="962" transform="translate(278 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">962</tspan></text>
+            <line id="線_1154-31" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-31" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1156-3" data-name="線 1156" y2="15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-31" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -348)">
+            <g id="長方形_1372-32" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="表_示_検_査" data-name="表　示　検　査" transform="translate(333 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-38.5" y="0">表　示　検　査</tspan></text>
+            <text id="_30" data-name="　" transform="translate(424 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <line id="線_1153-32" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_805" data-name="805" transform="translate(278 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">805</tspan></text>
+            <line id="線_1154-32" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-32" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1156-4" data-name="線 1156" y2="15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-32" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -333)">
+            <g id="長方形_1372-33" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="製_品_検_査-2" data-name="製　品　検　査" transform="translate(333 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-38.5" y="0">製　品　検　査</tspan></text>
+            <text id="_31" data-name="　" transform="translate(424 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <line id="線_1153-33" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_126" data-name="126" transform="translate(278 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">126</tspan></text>
+            <line id="線_1154-33" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-33" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1156-5" data-name="線 1156" y2="15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-33" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -318)">
+            <g id="長方形_1372-34" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="仕_様_書_照_合" data-name="仕 様 書 照 合" transform="translate(333 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-32.428" y="0">仕 様 書 照 合</tspan></text>
+            <text id="_32" data-name="　" transform="translate(424 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <line id="線_1153-34" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_33" data-name="　" transform="translate(278 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-10" y="0">　</tspan></text>
+            <line id="線_1154-34" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-34" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1156-6" data-name="線 1156" y2="15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-34" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -303)">
+            <g id="長方形_1372-35" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="品_番-2" data-name="品　番" transform="translate(333 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.5" y="0">品　番</tspan></text>
+            <text id="_移染調査試験布-3" data-name="ﾎﾙﾏﾘﾝ移染調査試験布" transform="translate(424 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-52.25" y="0">ﾎﾙﾏﾘﾝ</tspan><tspan y="0">移染調査試験布</tspan></text>
+            <line id="線_1153-35" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_899-2" data-name="899" transform="translate(278 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">899</tspan></text>
+            <line id="線_1154-35" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-35" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1156-7" data-name="線 1156" y2="15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-35" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+        </g>
+        <g id="リピートグリッド_96" data-name="リピートグリッド 96" transform="translate(250 498)" clip-path="url(#clip-path-3)">
+          <g transform="translate(-250 -393)">
+            <g id="長方形_1372-36" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="_一_括_" data-name="（　一　括　）" transform="translate(330 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-38.5" y="0">（　一　括　）</tspan></text>
+            <text id="試験項目は下記" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-38.5" y="0">試験項目</tspan><tspan y="0">は</tspan><tspan y="0">下記</tspan></text>
+            <line id="線_1153-36" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_401" data-name="401" transform="translate(278 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">401</tspan></text>
+            <line id="線_1154-36" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-36" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1156-8" data-name="線 1156" y2="15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-36" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -378)">
+            <g id="長方形_1372-37" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="洗_濯" data-name="洗　　　　濯" transform="translate(330 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-33" y="0">洗　　　　濯</tspan></text>
+            <text id="A-1_2_3" data-name="A-1 ･ 2 ･ 3" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-24.833" y="0">A-1 ･ 2 ･ 3</tspan></text>
+            <line id="線_1153-37" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_411" data-name="411" transform="translate(278 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">411</tspan></text>
+            <line id="線_1154-37" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-37" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1156-9" data-name="線 1156" y2="15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-37" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -363)">
+            <g id="長方形_1372-38" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="汗" transform="translate(330 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">汗</tspan></text>
+            <text id="酸_アルカリ" data-name="酸 ･ アルカリ" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-32.494" y="0">酸 ･ </tspan><tspan y="0">アルカリ</tspan></text>
+            <line id="線_1153-38" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_417" data-name="417" transform="translate(278 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">417</tspan></text>
+            <line id="線_1154-38" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-38" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1156-10" data-name="線 1156" y2="15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-38" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -348)">
+            <g id="長方形_1372-39" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="摩_擦" data-name="摩　　　擦" transform="translate(330 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-27.5" y="0">摩　　　擦</tspan></text>
+            <text id="乾_湿" data-name="乾 ･ 湿" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.214" y="0">乾 ･ 湿</tspan></text>
+            <line id="線_1153-39" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_422" data-name="422" transform="translate(278 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">422</tspan></text>
+            <line id="線_1154-39" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-39" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1156-11" data-name="線 1156" y2="15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-39" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -333)">
+            <g id="長方形_1372-40" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="耐_光" data-name="耐　　　光" transform="translate(330 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-27.5" y="0">耐　　　光</tspan></text>
+            <text id="_3級_4級_級" data-name="3級 ･ 4級 ･　級" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-37.301" y="0">3級 ･ 4級 ･　級</tspan></text>
+            <line id="線_1153-40" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_428" data-name="428" transform="translate(278 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">428</tspan></text>
+            <line id="線_1154-40" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-40" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1156-12" data-name="線 1156" y2="15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-40" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -318)">
+            <g id="長方形_1372-41" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="_34" data-name="ﾄﾞﾗｲｸﾘｰﾆﾝｸﾞ" transform="translate(330 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-30.25" y="0">ﾄﾞﾗｲｸﾘｰﾆﾝｸﾞ</tspan></text>
+            <text id="_石油" data-name="ﾊﾟｰｸ ･ 石油" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-27.214" y="0">ﾊﾟｰｸ ･ </tspan><tspan y="0">石油</tspan></text>
+            <line id="線_1153-41" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_431" data-name="431" transform="translate(278 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">431</tspan></text>
+            <line id="線_1154-41" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-41" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1156-13" data-name="線 1156" y2="15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-41" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -303)">
+            <g id="長方形_1372-42" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="水" transform="translate(330 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">水</tspan></text>
+            <text id="_35" data-name="　" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <line id="線_1153-42" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_433" data-name="433" transform="translate(278 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">433</tspan></text>
+            <line id="線_1154-42" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-42" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1156-14" data-name="線 1156" y2="15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-42" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -288)">
+            <g id="長方形_1372-43" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="塩素処理水" transform="translate(330 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-27.5" y="0">塩素処理水</tspan></text>
+            <text id="_10_20_" data-name="10 ･ 20･" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-20.174" y="0">10 ･ 20･</tspan></text>
+            <line id="線_1153-43" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_435" data-name="435" transform="translate(278 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">435</tspan></text>
+            <line id="線_1154-43" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-43" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1156-15" data-name="線 1156" y2="15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-43" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -273)">
+            <g id="長方形_1372-44" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="汗_耐光" data-name="汗－耐光" transform="translate(330 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-22" y="0">汗－耐光</tspan></text>
+            <text id="A_B_ATTS" data-name="A ･ B ･ ATTS" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-30.014" y="0">A ･ B ･ ATTS</tspan></text>
+            <line id="線_1153-44" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_473" data-name="473" transform="translate(278 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">473</tspan></text>
+            <line id="線_1154-44" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-44" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1156-16" data-name="線 1156" y2="15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-44" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -258)">
+            <g id="長方形_1372-45" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="色_泣_き" data-name="色　泣　き" transform="translate(330 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-27.5" y="0">色　泣　</tspan><tspan y="0">き</tspan></text>
+            <text id="大丸_" data-name="大丸 ･ ﾊﾞｲﾚｯｸ" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-32.714" y="0">大丸 ･ </tspan><tspan y="0">ﾊﾞｲﾚｯｸ</tspan></text>
+            <line id="線_1153-45" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_465" data-name="465" transform="translate(278 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">465</tspan></text>
+            <line id="線_1154-45" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-45" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1156-17" data-name="線 1156" y2="15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-45" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -243)">
+            <g id="長方形_1372-46" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="窒素酸化物" transform="translate(330 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-27.5" y="0">窒素酸化物</tspan></text>
+            <text id="弱_強" data-name="弱 ･ 強" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.214" y="0">弱 ･ 強</tspan></text>
+            <line id="線_1153-46" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_444" data-name="444" transform="translate(278 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">444</tspan></text>
+            <line id="線_1154-46" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-46" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1156-18" data-name="線 1156" y2="15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-46" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -228)">
+            <g id="長方形_1372-47" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="洗_液_汚_染" data-name="洗　液　汚　染" transform="translate(330 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-38.5" y="0">洗　液　汚　染</tspan></text>
+            <text id="_36" data-name="　" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <line id="線_1153-47" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_467" data-name="467" transform="translate(278 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">467</tspan></text>
+            <line id="線_1154-47" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-47" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1156-19" data-name="線 1156" y2="15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-47" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -213)">
+            <g id="長方形_1372-48" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="昇_華" data-name="昇　　華" transform="translate(330 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-22" y="0">昇　　華</tspan></text>
+            <text id="_37" data-name="　" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <line id="線_1153-48" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_458" data-name="458" transform="translate(278 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">458</tspan></text>
+            <line id="線_1154-48" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-48" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1156-20" data-name="線 1156" y2="15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-48" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -198)">
+            <g id="長方形_1372-49" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="_38" data-name="　" transform="translate(330 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <text id="_39" data-name="　" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <line id="線_1153-49" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_40" data-name="　" transform="translate(278 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-10" y="0">　</tspan></text>
+            <line id="線_1154-49" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-49" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1156-21" data-name="線 1156" y2="15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-49" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -183)">
+            <g id="長方形_1372-50" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="_41" data-name="　" transform="translate(330 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <text id="_42" data-name="　" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <line id="線_1153-50" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_43" data-name="　" transform="translate(278 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-10" y="0">　</tspan></text>
+            <line id="線_1154-50" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-50" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1156-22" data-name="線 1156" y2="15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-50" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+        </g>
+        <g id="リピートグリッド_97" data-name="リピートグリッド 97" transform="translate(250 723)" clip-path="url(#clip-path-4)">
+          <g transform="translate(-250 -393)">
+            <g id="長方形_1372-51" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="浸せき処理" transform="translate(332 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-27.5" y="0">浸</tspan><tspan y="0">せき</tspan><tspan y="0">処理</tspan></text>
+            <text id="C_D" data-name="C ･ D" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-12.501" y="0">C ･ D</tspan></text>
+            <line id="線_1153-51" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_340" data-name="340" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">340</tspan></text>
+            <line id="線_1154-51" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-51" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1156-23" data-name="線 1156" y2="15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-51" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -378)">
+            <g id="長方形_1372-52" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="洗濯処理" transform="translate(332 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-22" y="0">洗濯処理</tspan></text>
+            <text id="_吊_平" data-name="ﾀﾝﾌﾞﾙ ･ 吊 ･ 平" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-35.178" y="0">ﾀﾝﾌﾞﾙ ･ </tspan><tspan y="0">吊 ･ 平</tspan></text>
+            <line id="線_1153-52" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_310" data-name="310" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">310</tspan></text>
+            <line id="線_1154-52" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-52" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1156-24" data-name="線 1156" y2="15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-52" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -363)">
+            <g id="長方形_1372-53" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="ドライ処理" transform="translate(332 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-27.5" y="0">ドライ</tspan><tspan y="0">処理</tspan></text>
+            <text id="_石油系" data-name="ﾊﾟｰｸ ･ 石油系" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-32.714" y="0">ﾊﾟｰｸ ･ </tspan><tspan y="0">石油系</tspan></text>
+            <line id="線_1153-53" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_330" data-name="330" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">330</tspan></text>
+            <line id="線_1154-53" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-53" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1156-25" data-name="線 1156" y2="15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-53" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -348)">
+            <g id="長方形_1372-54" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="プレス処理" transform="translate(332 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-27.5" y="0">プレス</tspan><tspan y="0">処理</tspan></text>
+            <text id="H-1_2_3_4" data-name="H-1 ･ 2 ･ 3 ･ 4" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-33.764" y="0">H-1 ･ 2 ･ 3 ･ 4</tspan></text>
+            <line id="線_1153-54" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_320" data-name="320" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">320</tspan></text>
+            <line id="線_1154-54" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-54" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1156-26" data-name="線 1156" y2="15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-54" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -333)">
+            <g id="長方形_1372-55" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="_44" data-name="　" transform="translate(332 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <text id="_45" data-name="　" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-5.5" y="0">　</tspan></text>
+            <line id="線_1153-55" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_46" data-name="　" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-10" y="0">　</tspan></text>
+            <line id="線_1154-55" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-55" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1156-27" data-name="線 1156" y2="15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-55" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+          <g transform="translate(-250 -318)">
+            <g id="長方形_1372-56" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+              <rect width="285" height="16" stroke="none"/>
+              <rect x="0.5" y="0.5" width="284" height="15" fill="none"/>
+            </g>
+            <text id="_47" data-name="ﾄﾞﾗｲｸﾘｰﾆﾝｸﾞ" transform="translate(332 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-30.25" y="0">ﾄﾞﾗｲｸﾘｰﾆﾝｸﾞ</tspan></text>
+            <text id="パーク_石油" data-name="パーク ･ 石油" transform="translate(432 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-32.714" y="0">パーク ･ </tspan><tspan y="0">石油</tspan></text>
+            <line id="線_1153-56" data-name="線 1153" y2="15" transform="translate(255 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <text id="_431-2" data-name="431" transform="translate(279 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-16.65" y="0">431</tspan></text>
+            <line id="線_1154-56" data-name="線 1154" y2="15" transform="translate(280 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1155-56" data-name="線 1155" y2="15" transform="translate(388 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1156-28" data-name="線 1156" y2="15" transform="translate(475 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+            <line id="線_1157-56" data-name="線 1157" y2="15" transform="translate(480 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          </g>
+        </g>
+        <g id="グループ_2439" data-name="グループ 2439" transform="translate(0 406)">
+          <g id="長方形_1372-57" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+            <rect width="336" height="106" stroke="none"/>
+            <rect x="0.5" y="0.5" width="335" height="105" fill="none"/>
+          </g>
+          <text id="_備考_" data-name="（備考）" transform="translate(251 405)" font-size="10" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="0" y="0">（備考）</tspan></text>
+        </g>
+        <text id="_物性_分析_その他" data-name="（４）物性 ・ 分析 ・ その他" transform="translate(536 390)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="0" y="0">（４）物性 ・ 分析 ・ </tspan><tspan y="0">その</tspan><tspan y="0">他</tspan></text>
+        <g id="グループ_2443" data-name="グループ 2443" transform="translate(336 406)">
+          <g id="長方形_1372-58" data-name="長方形 1372" transform="translate(250 393)" fill="#fff" stroke="#707070" stroke-width="1">
+            <rect width="235" height="106" stroke="none"/>
+            <rect x="0.5" y="0.5" width="234" height="105" fill="none"/>
+          </g>
+          <text id="_扱い部所_" data-name="（扱い部所）" transform="translate(293 405)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-33" y="0">（扱</tspan><tspan y="0">い</tspan><tspan y="0">部所）</tspan></text>
+          <text id="東_部" data-name="東　　　部" transform="translate(293 420)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-27.5" y="0">東　　　部</tspan></text>
+          <text id="中_部" data-name="中　　　部" transform="translate(293 435)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-27.5" y="0">中　　　部</tspan></text>
+          <text id="西_部" data-name="西　　　部" transform="translate(293 450)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-27.5" y="0">西　　　部</tspan></text>
+          <text id="上_海" data-name="上　　　海" transform="translate(293 465)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-27.5" y="0">上　　　海</tspan></text>
+          <text id="受付担当" transform="translate(380 465)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-22" y="0">受付担当</tspan></text>
+          <text id="確認" transform="translate(440 465)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-11" y="0">確認</tspan></text>
+          <text id="完_了_日" data-name="完　了　日" transform="translate(293 480)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-27.5" y="0">完　了　日</tspan></text>
+          <text id="_月_日" data-name="　　月　　日" transform="translate(336 495)" font-size="11" font-family="NotoSansCJKjp-Regular, Noto Sans CJK JP"><tspan x="-66" y="0">　　月　　日</tspan></text>
+          <line id="線_1155-57" data-name="線 1155" y2="105" transform="translate(338 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          <line id="線_1156-29" data-name="線 1156" y2="105" transform="translate(425 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+          <path id="パス_1074" data-name="パス 1074" d="M0,0V59.891" transform="translate(430 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+        </g>
+        <g id="グループ_2447" data-name="グループ 2447" transform="translate(433 466)">
+          <line id="線_1155-58" data-name="線 1155" y2="45.5" transform="translate(358 393.5)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+        </g>
+        <line id="線_1164" data-name="線 1164" x2="235" transform="translate(586.5 814)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+        <line id="線_1165" data-name="線 1165" x2="235" transform="translate(586.5 829)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+        <line id="線_1166" data-name="線 1166" x2="235" transform="translate(586.5 844)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+        <line id="線_1167" data-name="線 1167" x2="235" transform="translate(586.5 859)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+        <line id="線_1168" data-name="線 1168" x2="88" transform="translate(586.5 874)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+        <line id="線_1169" data-name="線 1169" x2="88" transform="translate(586.5 889)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

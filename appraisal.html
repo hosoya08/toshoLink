@@ -1263,7 +1263,7 @@
                                                     <div class="bottom" style="border-top: 1px solid #000;">
                                                         <div class="top_box01 n01">
                                                             <span>所在地</span>
-                                                            <input type="text" placeholder="記入してください">
+                                                            <textarea placeholder="記入してください"></textarea>
                                                         </div>
                                                         <div class="top_box02" style="border-right: 1px solid #000;">
                                                             <div class="box02-content-1">
@@ -1283,14 +1283,516 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="footers"></div>
+                                            <div class="heads" style="border-top: 1px solid #000;">
+                                                <p>請求先<br>
+                                                    (付款公司)</p>
+
+                                                <div class="heads_right-box">
+                                                    <div class="top">
+                                                        <div class="top_box01">
+                                                            <span>会社名</span>
+                                                            <form>
+                                                                <input type="text" name="" list="campany"
+                                                                    placeholder="選択もしくは記入してください" autocomplete="off"
+                                                                    value="株式会社AAA">
+                                                                <datalist id="campany">
+                                                                    <option value="選択肢０１">
+                                                                    <option value="選択肢０２">
+                                                                    <option value="選択肢０３">
+                                                                </datalist>
+                                                            </form>
+                                                        </div>
+                                                        <div class="top_box02" style="border-right: 1px solid #000;">
+                                                            <div class="box02-content-1">
+                                                                <span style="border-right: 1px solid #000;">部課</span>
+                                                                <input type="text" placeholder="記入してください" value="総務課">
+                                                            </div>
+                                                            <div class="box02-content-2"
+                                                                style="border-top: 1px solid #000;">
+                                                                <span style="border-right: 1px solid #000;">担当</span>
+                                                                <div class="select_style">
+                                                                    <select name="" id="" style="color: #000;">
+                                                                        <option value="田中たけし">田中たけし</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="bottom" style="border-top: 1px solid #000;">
+                                                        <div class="top_box01 n01">
+                                                            <span>所在地</span>
+                                                            <textarea
+                                                                placeholder="記入してください">東京都台東区台東1-2-2台東ビル13行目</textarea>
+                                                        </div>
+                                                        <div class="top_box02" style="border-right: 1px solid #000;">
+                                                            <div class="box02-content-1">
+                                                                <span style="border-right: 1px solid #000;">部課</span>
+                                                                <input type="text" placeholder="記入してください">
+                                                            </div>
+                                                            <div class="box02-content-2"
+                                                                style="border-top: 1px solid #000;">
+                                                                <span style="border-right: 1px solid #000;">担当</span>
+                                                                <div class="select_style">
+                                                                    <select name="" id="" onchange="changeColor(this)">
+                                                                        <option value="選択してください">選択してください</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="heads" style="border-top: 1px solid #000;">
+                                                <p>適用基準</p>
+                                                <div class="heads_right-box">
+                                                    <div class="top" style="height: 100%;">
+                                                        <div class="top_box01">
+                                                            <input type="text" placeholder="記入してください">
+                                                        </div>
+                                                        <div class="top_box02"
+                                                            style="border-right: 1px solid #000; width: 160px; display: flex; align-items: center; padding-left: 8px;">
+                                                            部門・MD等
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="heads_n02">
+                                                <div class="box" style="border-right: 1px solid #ccc;">
+                                                    <div class="inner">
+                                                        <p>品　名</p>
+                                                        <input type="text" placeholder="記入してください">
+                                                    </div>
+                                                    <div class="inner" style="border-top: 1px solid #cccccc;">
+                                                        <p>品　番</p>
+                                                        <input type="text" placeholder="記入してください">
+                                                    </div>
+                                                </div>
+                                                <div class="box">
+                                                    <p>色数</p>
+                                                    <input type="text" placeholder="0">
+                                                </div>
+                                                <div class="box">
+                                                    <p>組成<br>
+                                                        繊維</p>
+                                                    <input type="text" placeholder="記入してください">
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="right"></div>
+                                        <div class="right">
+                                            <div class="right_box">
+                                                <p>依頼確認</p>
+                                                <p>TEL・FAX・手渡</p>
+                                            </div>
+                                            <div class="right_box"
+                                                style="height: 25px; display: flex; align-items: center;">
+                                                依頼内容変更記入欄
+                                            </div>
+                                            <div class="right_box">
+                                                <p>1.連絡日</p>
+                                                <p>　　月　　　日</p>
+                                            </div>
+                                            <div class="right_box" style="height: 100px;">
+                                                <p>2.変更内容</p>
+                                            </div>
+                                            <div class="right_box" style="border: none; height: 47px;">
+                                                <p>3.受信者</p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="appraisal_section-box02_con-footer"></div>
                                 </div>
                             </div>
 
+                            <div class="appraisal_section-box03">
+                                <div class="flex">
+                                    <section>
+                                        <h1>（１）製品検査</h1>
+
+                                        <div class="table_sec">
+                                            <div class="tr">
+                                                <div class="td01">802</div>
+                                                <div class="td02">製　品　検　査</div>
+                                                <div class="td03"><input type="text"></div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">812</div>
+                                                <div class="td02">耐洗濯・ﾄﾞﾗｲ性</div>
+                                                <div class="td03"><input type="text"></div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">962</div>
+                                                <div class="td02">繰返し回数 　 回</div>
+                                                <div class="td03"><input type="text"></div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">805</div>
+                                                <div class="td02">表　示　検　査</div>
+                                                <div class="td03"><input type="text"></div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">126</div>
+                                                <div class="td02">製　品　検　査</div>
+                                                <div class="td03"><input type="text"></div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01"></div>
+                                                <div class="td02">仕 様 書 照 合</div>
+                                                <div class="td03"><input type="text"></div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <section style="margin-top: 1px;">
+                                        <h1>（２）染色堅牢度</h1>
+
+                                        <div class="table_sec">
+                                            <div class="tr">
+                                                <div class="td01">401</div>
+                                                <div class="td02">（　一　括　）</div>
+                                                <div class="td03">試験項目は下記</div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">411</div>
+                                                <div class="td02">洗　　　　濯</div>
+                                                <div class="td03">A-1 ･ 2 ･ 3</div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">417</div>
+                                                <div class="td02">汗</div>
+                                                <div class="td03">酸 ･ アルカリ</div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">422</div>
+                                                <div class="td02">摩　　　擦</div>
+                                                <div class="td03">乾 ･ 湿</div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">428</div>
+                                                <div class="td02">耐　　　光</div>
+                                                <div class="td03">3級 ･ 4級 ･　級</div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">431</div>
+                                                <div class="td02">ﾄﾞﾗｲｸﾘｰﾆﾝｸﾞ</div>
+                                                <div class="td03">ﾊﾟｰｸ ･ 石油</div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">433</div>
+                                                <div class="td02">水</div>
+                                                <div class="td03"></div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">435</div>
+                                                <div class="td02">塩素処理水</div>
+                                                <div class="td03">10 ･ 20･</div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">473</div>
+                                                <div class="td02">汗－耐光</div>
+                                                <div class="td03">A ･ B ･ ATTS</div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">465</div>
+                                                <div class="td02">色　泣　き</div>
+                                                <div class="td03">大丸 ･ ﾊﾞｲﾚｯｸ</div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">444</div>
+                                                <div class="td02">窒素酸化物</div>
+                                                <div class="td03">弱 ･ 強</div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">467</div>
+                                                <div class="td02">洗　液　汚　染</div>
+                                                <div class="td03"></div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">458</div>
+                                                <div class="td02">昇　　華</div>
+                                                <div class="td03"></div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01"></div>
+                                                <div class="td02"></div>
+                                                <div class="td03"></div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <section>
+                                        <h1>（３）寸法変化</h1>
+
+                                        <div class="table_sec">
+                                            <div class="tr">
+                                                <div class="td01">340</div>
+                                                <div class="td02">浸せき処理</div>
+                                                <div class="td03">C ･ D</div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">310</div>
+                                                <div class="td02">洗濯処理</div>
+                                                <div class="td03">ﾀﾝﾌﾞﾙ ･ 吊 ･ 平</div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">330</div>
+                                                <div class="td02">ドライ処理</div>
+                                                <div class="td03">ﾊﾟｰｸ ･ 石油系</div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">320</div>
+                                                <div class="td02">プレス処理</div>
+                                                <div class="td03">H-1 ･ 2 ･ 3 ･ 4</div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01"></div>
+                                                <div class="td02"></div>
+                                                <div class="td03"></div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                                <div class="flex">
+                                    <section>
+                                        <h1>（４）物性 ・ 分析 ・ その他</h1>
+
+                                        <div class="table_sec">
+                                            <div class="tr">
+                                                <div class="td01">201</div>
+                                                <div class="td02">破　裂　強　度</div>
+                                                <div class="td03">ミューレン</div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">204</div>
+                                                <div class="td02">引　張　強　度</div>
+                                                <div class="td03">ストリップ</div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">208</div>
+                                                <div class="td02">引　裂　強　度</div>
+                                                <div class="td03">ペンジュラム</div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">209</div>
+                                                <div class="td02">摩　耗　強　度</div>
+                                                <div class="td03">ﾕﾆﾌｫｰﾑ･ﾕﾆﾊﾞｰｻﾙ</div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">217</div>
+                                                <div class="td02">縫　目　強　度</div>
+                                                <div class="td03">グラブ</div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">218</div>
+                                                <div class="td02">滑脱抵抗力</div>
+                                                <div class="td03">縫目B 49.0 117.7</div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">550</div>
+                                                <div class="td02">ピ　リ　ン　グ</div>
+                                                <div class="td03">A(5 ･ 10) ･ IY</div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">556</div>
+                                                <div class="td02">ス　ナ　ッ　グ</div>
+                                                <div class="td03">メース</div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">559</div>
+                                                <div class="td02">ﾊﾟｲﾙ保持性</div>
+                                                <div class="td03">A法 ･ 化検法</div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">561</div>
+                                                <div class="td02">毛 羽 付 着</div>
+                                                <div class="td03"></div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">851</div>
+                                                <div class="td02">繊 維 鑑 別</div>
+                                                <div class="td03"></div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">854</div>
+                                                <div class="td02">混 用 率</div>
+                                                <div class="td03">鑑別 ･ 　　種</div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">859</div>
+                                                <div class="td02">羽毛混合率</div>
+                                                <div class="td03"></div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">710</div>
+                                                <div class="td02">抗 菌</div>
+                                                <div class="td03"></div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">101</div>
+                                                <div class="td02">番手・繊度</div>
+                                                <div class="td03"></div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">702</div>
+                                                <div class="td02">ホルマリン</div>
+                                                <div class="td03">ベビー ･ 一般</div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">8994</div>
+                                                <div class="td02">ﾎﾙﾏﾘﾝ移染調査試験布</div>
+                                                <div class="td03"></div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01"></div>
+                                                <div class="td02"></div>
+                                                <div class="td03"></div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01"></div>
+                                                <div class="td02"></div>
+                                                <div class="td03"></div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01"></div>
+                                                <div class="td02"></div>
+                                                <div class="td03"></div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01"></div>
+                                                <div class="td02">品質検査報告書</div>
+                                                <div class="td03"></div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">052</div>
+                                                <div class="td02">証明書（和文）</div>
+                                                <div class="td03"></div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">053</div>
+                                                <div class="td02">染色堅牢度成績表</div>
+                                                <div class="td03"></div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">058</div>
+                                                <div class="td02">試験成績表</div>
+                                                <div class="td03"></div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01">054</div>
+                                                <div class="td02">転　　記</div>
+                                                <div class="td03"></div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01"></div>
+                                                <div class="td02">所　　見</div>
+                                                <div class="td03"></div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                            <div class="tr">
+                                                <div class="td01"></div>
+                                                <div class="td02">EMS ･ DHL ･ その他</div>
+                                                <div class="td03"></div>
+                                                <div class="td04"><input type="text"></div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+
+                            <div class="flex gred">
+                                <div class="box_con">
+                                    <p>（備考）</p>
+                                    <textarea></textarea>
+                                </div>
+                                <div class="box_con">
+                                    <div class="tr">
+                                        <div class="td">（扱い部所）</div>
+                                        <div class="td"></div>
+                                        <div class="td"></div>
+                                    </div>
+                                    <div class="tr">
+                                        <div class="td">東　　　部</div>
+                                        <div class="td"></div>
+                                        <div class="td"></div>
+                                    </div>
+                                    <div class="tr">
+                                        <div class="td">中　　　部</div>
+                                        <div class="td"></div>
+                                        <div class="td"></div>
+                                    </div>
+                                    <div class="tr">
+                                        <div class="td">西　　　部</div>
+                                        <div class="td"></div>
+                                        <div class="td"></div>
+                                    </div>
+                                    <div class="tr">
+                                        <div class="td">上　　　海</div>
+                                        <div class="td" style="border-bottom: none;">受付担当</div>
+                                        <div class="td" style="border-bottom: none; width: 25px; border-left: none;">確認
+                                        </div>
+                                        <div class="td" style="border-bottom: none;"></div>
+                                    </div>
+                                    <div class="tr">
+                                        <div class="td">完　了　日</div>
+                                        <div class="td" style="border-bottom: none; border-left: none;"></div>
+                                        <div class="td" style="border-bottom: none; border-left: none; width: 25px;">
+                                        </div>
+                                        <div class="td" style="border-bottom: none;"></div>
+                                    </div>
+                                    <div class="tr">
+                                        <div class="td" style="justify-content: flex-end;">　　月　　日</div>
+                                        <div class="td"></div>
+                                        <div class="td" style="border-left: none; width: 25px;"></div>
+                                        <div class="td" style="border-bottom: none;"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </section>
 
 
@@ -1299,49 +1801,29 @@
 
 
                     <!-- content -->
+                    <div class="t_daichou_footer-nav quote03 process02">
+                        <div class="footer-nav_left">
+                        </div>
+                        <div class="footer-nav_center">
+                            <div class="modal_close"><img src="img/content/return-down-back.svg" alt="">戻る</div>
+                            <div class="modal_check green_link"><img src="img/content/save.svg" alt="">決定</div>
+                        </div>
+                        <div class="footer-nav_right process02">
+                            <div class="button-right n02">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15.026"
+                                    viewBox="0 0 14 15.026">
+                                    <path id="send"
+                                        d="M14.826.621a.635.635,0,0,0-.675-.087L1.054,6.681v1.19l5.5,2.2L10.084,15.5h1.19L15.033,1.269a.636.636,0,0,0-.207-.648ZM10.539,14.365,7.506,9.7l4.667-5.112-.738-.674-4.7,5.152L2.2,7.25l11.67-5.478Z"
+                                        transform="translate(-1.054 -0.474)" fill="#4aa9ac" />
+                                </svg>
+                                <p>送信</p>
+                            </div>
+                        </div>
+                    </div>
                 </li>
 
-
-
-
-
-
-    </section>
-
-
-    </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </ul>
-    </main>
+            </ul>
+        </main>
     </section>
 
     <script>
