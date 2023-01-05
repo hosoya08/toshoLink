@@ -9704,3 +9704,69 @@ table.quote02s {
   width: 30px;
   border-left: 1px dotted #707070;
 }
+
+/* ============================================= */
+/* TRANSPORTATION PAGE */
+/* ============================================= */
+.part_table.transportation thead tr th:nth-child(2),
+.part_table.transportation tbody tr td:nth-child(2) {
+  width: 68px;
+}
+
+.part_table.transportation thead tr th:nth-child(3),
+.part_table.transportation tbody tr td:nth-child(3) {
+  width: 151px;
+}
+
+.part_table.transportation thead tr th:nth-child(4),
+.part_table.transportation tbody tr td:nth-child(4) {
+  width: 153px;
+}
+
+.part_table.transportation thead tr th:nth-child(5),
+.part_table.transportation tbody tr td:nth-child(5) {
+  width: 248px;
+}
+
+.part_table.transportation thead tr th:nth-child(6),
+.part_table.transportation tbody tr td:nth-child(6) {
+  width: 354px;
+}
+
+.part_table.transportation thead tr th:nth-child(7),
+.part_table.transportation tbody tr td:nth-child(7) {
+  width: 91px;
+}
+
+.part_head_line.transportion .head_line:nth-child(1) .head_content_part:nth-child(1) .select_style {
+  width: 145px;
+}
+
+.part_head_line.transportion .head_line:nth-child(1) .head_content_part:nth-child(2) input {
+  width: 140px;
+}
+
+.part_head_line.transportion .head_line:nth-child(1) .head_content_part:nth-child(3) input {
+  width: 100px;
+}
+
+.part_head_line.transportion .head_line:nth-child(1) .head_content_part:nth-child(4) .select_style {
+  width: 189px;
+}
+
+.part_head_line.transportion .head_line:nth-child(1) {
+  margin-bottom: 20px;
+}
+
+.part_head_line.transportion .head_line:nth-child(2) .head_content_part input {
+  width: 550px;
+}
+
+.part_head_line.transportion .head_line:nth-child(2) .head_content_part_btn-box {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.mail_page-section .section_t_daichou-main_block01.transportation {
+  justify-content: space-between;
+}
