@@ -9,6 +9,7 @@
 
 body {
   font-family: "Noto Sans JP", sans-serif;
+  position: relative;
 }
 
 .title_part {
@@ -9769,4 +9770,200 @@ table.quote02s {
 
 .mail_page-section .section_t_daichou-main_block01.transportation {
   justify-content: space-between;
+}
+
+/* =================================== */
+/* TRANSPORTATIAON POP PAGE */
+/* =================================== */
+.part_pop-back.transportation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.transportation_paper {
+  width: 627px;
+  margin: auto;
+  background-color: #fff;
+  padding: 46px 50px 20px 44px;
+  color: #424242;
+  min-height: 800px;
+  overflow: scroll;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.transportation_paper .day {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.transportation_paper span,
+.transportation_paper time {
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.transportation_paper h1 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.transportation_names {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.transportation_names h2 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.transportation_names h3 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.transportation_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 0;
+  margin-left: auto;
+  width: fit-content;
+  margin-top: 10px;
+}
+
+.transportation_info svg {
+  width: 110px;
+  height: 18px;
+}
+
+.transportation_info .responsible_person,
+.transportation_info .post-num,
+.transportation_info .address,
+.transportation_info .numbers {
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.transportation_info .responsible_person {
+  margin-top: 7px;
+}
+
+.transportation_content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.transportation_content .flex_box:first-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+.transportation_content .flex_box .left,
+.transportation_content .flex_box .right {
+  width: 250px;
+}
+
+.transportation_content .flex_box .right dl,
+.transportation_content .flex_box .left dl {
+  margin-bottom: 20px;
+}
+
+.transportation_content .flex_box .right dl dt,
+.transportation_content .flex_box .left dl dt {
+  font-size: 11px;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+  padding-bottom: 2px;
+}
+
+.transportation_content .flex_box .right dl dd,
+.transportation_content .flex_box .left dl dd {
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 2px;
+  line-height: 17px;
+}
+
+.transportation_content .bottom {
+  margin-top: 30px;
+}
+
+.transportation_content .bottom p {
+  font-size: 11px;
+  margin-bottom: 2px;
+}
+
+.transportation_content .bottom textarea {
+  width: 530px;
+  height: 129px;
+  border: 1px solid #AAAAAA;
+  padding: 5px 10px;
+  resize: none;
+  font-size: 12px;
+}
+
+.bottom_navition {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.bottom_navition .back_btn {
+  width: 150px;
+  height: 36px;
+  border: 1px solid #B8BBBE;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.bottom_navition .back_btn p {
+  font-size: 14px;
+  color: #707070;
+  margin-left: 10px;
+}
+
+.bottom_navition .right_btn {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.bottom_navition .right_btn .submit p,
+.bottom_navition .right_btn .pdf_btn p {
+  font-size: 14px;
+  color: #4AA9AC;
+  margin-left: 6px;
+}
+
+.bottom_navition .right_btn .submit,
+.bottom_navition .right_btn .pdf_btn {
+  height: 36px;
+  border-radius: 5px;
+  border: 1px solid #4AA9AC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom_navition .right_btn .submit {
+  width: 76px;
+  margin-left: 10px;
+}
+
+.bottom_navition .right_btn .pdf_btn {
+  width: 72px;
 }
