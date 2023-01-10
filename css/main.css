@@ -85,6 +85,7 @@ textarea {
   margin: 0 auto;
 }
 
+textarea[readonly],
 input[readonly] {
   cursor: not-allowed;
   background-color: #E6E8EB;
@@ -8812,6 +8813,11 @@ table.quote02s {
   height: 47px;
 }
 
+.shipping02-table02 td:nth-child(2) div,
+.shipping02-table02 tr:nth-child(2) td:nth-child(1) div {
+  justify-content: flex-start;
+}
+
 .shipping02-table02 tr:nth-child(2) td {
   border-top: 1px solid #e6e6e6;
 }
@@ -9966,4 +9972,369 @@ table.quote02s {
 
 .bottom_navition .right_btn .pdf_btn {
   width: 72px;
+}
+
+/* ================================== */
+/* SHIPPING 02-02 08_出荷管理-タブ02（運送依頼） */
+/* ================================== */
+.shipping02-footer_section.shipping02_02 {
+  border-top: 2px solid #8E9FA4;
+  margin-top: 40px;
+}
+
+.shipping02_02-box {
+  display: flex;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #8E9FA4;
+}
+
+.shipping02_02-box dl {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.shipping02_02-box dl dt {
+  color: #758A90;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 18px;
+}
+
+.shipping02_02-box dl dd {
+  width: 170px;
+  height: 36px;
+}
+
+.shipping02_02-box dl dd input {
+  width: 100%;
+  height: 100%;
+  background-color: #E6E8EB;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #707070;
+}
+
+/* .shipping02-02-table {
+  width: 787px;
+} */
+
+.shipping02-02-table tr:first-child {
+  background-color: #EAECEC;
+}
+
+.shipping02-02-table tr th {
+  font-size: 12px;
+  color: #758A90;
+  text-align: center;
+  height: 45px;
+  vertical-align: middle;
+  position: relative;
+  padding: 0;
+}
+
+.shipping02-02-table tr th:first-child::after,
+.shipping02-02-table tr th:last-child::after {
+  display: none;
+}
+
+.shipping02-02-table tr th::after {
+  content: '';
+  height: 90%;
+  width: 1px;
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.shipping02-02-table tr td:first-child label,
+.shipping02-02-table tr th:first-child label {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.shipping02-02-table tr th:first-child {
+  width: 45px;
+}
+
+.shipping02-02-table tr th:nth-child(2),
+.shipping02-02-table tr th:nth-child(3),
+.shipping02-02-table tr th:nth-child(4) {
+  width: 248px;
+}
+
+.shipping02-02-table tr td {
+  padding-top: 4px;
+  position: relative;
+  height: 135px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.shipping02-02-table tr td .select_style {
+  margin-right: 0;
+  width: 243px;
+}
+
+.shipping02-02-table tr td select {
+  font-size: 14px;
+}
+
+.shipping02-02-table tr td textarea::placeholder {
+  color: #CCCCCC;
+}
+
+.shipping02-02-table tr td textarea {
+  font-size: 12px;
+  color: #707070;
+  border-radius: var(--radius5);
+  background-color: #F8F8F8;
+  border: 1px solid #E6E8EB;
+  width: 243px;
+  height: 100%;
+  padding: 8px 10px;
+}
+
+.shipping02-02-table tr td:first-child::after,
+.shipping02-02-table tr td:last-child::after {
+  display: none;
+}
+
+.shipping02-02-table tr td::after {
+  content: '';
+  width: 1px;
+  height: 90%;
+  background-color: #E6E8EB;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+
+.shipping02-02-table tr td:nth-child(2) textarea {
+  height: 90px;
+  background-color: #E6E8EB;
+  margin-top: 5px;
+}
+
+.shipping02-02-table tr td:first-child label {
+  padding-top: 5px;
+}
+
+.shipping02-02_left-footer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  width: 750px;
+  margin-top: 10px;
+}
+
+.shipping02-02_left-footer .box01 {
+  border-bottom: 1px solid #E6E8EB;
+  display: flex;
+}
+
+.shipping02-02_left-footer .box01 div {
+  display: flex;
+  align-items: center;
+  margin-right: 55px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #758A90;
+  line-height: 23px;
+}
+
+.shipping02-02_left-footer .box02 {
+  margin-top: 15px;
+}
+
+.shipping02-02_left-footer .box02 p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #758A90;
+  flex: none;
+}
+
+.shipping02-02_left-footer textarea {
+  width: 100%;
+  background-color: #F8F8F8;
+  border: 1px solid #E6E8EB;
+  padding: 7px 10px;
+  border-radius: var(--radius5);
+  height: 80px;
+  font-size: 14px;
+}
+
+.shipping02-02_left-footer textarea::placeholder {
+  color: #cccccc;
+  font-size: 14px;
+}
+
+.shipping02-02_left-footer .box02 {
+  display: flex;
+}
+
+.shipping02-02_block {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  border-bottom: 1px dotted #8E9FA4;
+}
+
+.shipping02-02_block .right {
+  width: 220px;
+}
+
+.shipping02-02_block .right .green_box {
+  background-color: rgba(74, 169, 172, 0.1);
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.shipping02-02_block .right .green_box h2 {
+  font-size: 12px;
+  color: #00A29A;
+  margin-bottom: 3px;
+}
+
+.shipping02-02_block .right .green_box .flex_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shipping02-02_block .right .green_box .box01 {
+  margin-bottom: 10px;
+}
+
+
+.shipping02-02_block .right .green_box .flex_box .select_style {
+  margin-right: 0;
+}
+
+.shipping02-02_block .right .green_box .flex_box .select_style select {
+  font-size: 14px;
+}
+
+.shipping02-02_block .right .green_box .flex_box .select_style:first-child {
+  width: 105px;
+}
+
+.shipping02-02_block .right .green_box .flex_box .select_style:last-child {
+  width: 84px;
+}
+
+.shipping02-02_block .right .green_box .flex_box .select_style::after {
+  right: 6px;
+}
+
+.shipping02-02_block .right .green_box .flex_box .select_style:last-child select {
+  padding-left: 6px;
+}
+
+.shipping02-02_block .right .green_box .box02 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.shipping02-02_block .right .green_box .box02:last-child {
+  margin-bottom: 0px;
+}
+
+.shipping02-02_block .right .green_box .box02 p {
+  color: #4AA9AC;
+  font-size: 11px;
+  text-decoration: underline;
+}
+
+.shipping02-02_block .right .green_box .box02 .green_link {
+  font-size: 12px;
+  width: 34px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.shipping02-02_block .right .green_box .box02 input {
+  width: 158px;
+  height: 22px;
+  background-color: #fff;
+  border: 1px solid #E6E8EB;
+  border-radius: var(--radius5);
+  font-size: 11px;
+  color: #707070;
+  padding-left: 10px;
+}
+
+.shipping02-02_block .right .flex_box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.shipping02-02_block .right .flex_box .green_link {
+  height: 36px;
+  width: 100px;
+  padding: 0;
+}
+
+.shipping02_02-section.link_btn {
+  width: 118px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #758A90;
+  font-size: 14px;
+  color: #758A90;
+  border-radius: var(--radius5);
+  margin-left: auto;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.shipping02-table.shipping02-02 tr th {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+
+.shipping02-table.shipping02-02,
+.shipping02-table02.shipping02-02 {
+  width: 998px;
+}
+
+.shipping02-table02.shipping02-02 td:nth-child(10) div {
+  text-align: start;
+  padding-left: 12px;
+  justify-content: flex-start;
+}
+
+.shipping02-table02.shipping02-02 td:nth-child(10),
+.shipping02-table.shipping02-02 th:nth-child(10) {
+  width: 173px;
+}
+
+.t_daichou_footer-nav.shipping02-02 {
+  justify-content: flex-start;
+}
+
+.t_daichou_footer-nav.shipping02-02 .center {
+  margin-left: auto;
+  margin-right: auto;
 }

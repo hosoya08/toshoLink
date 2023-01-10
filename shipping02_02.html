@@ -1,4 +1,4 @@
-<!-- 11_売上管理-検索+詳細01 -->
+<!-- 08_出荷管理-タブ02（運送依頼） -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -1132,7 +1132,7 @@
             <!-- TAB -->
             <div class="tab_switch">
                 <ul id="tab" class="tab">
-                    <li class="active">休日管理</li>
+                    <li class="active">出荷管理</li>
                 </ul>
                 <div class="tab_box02">
                     <span><img src="img/content/item02-left.svg" alt=""><img src="img/content/item02-right.svg"
@@ -1150,514 +1150,459 @@
             </div>
             <ul class="tab_content">
 
+                <!-- TORIHIKI DAICHOU -->
                 <li class="tab_content_li open">
                     <!-- content -->
-                    <div class="part_head_line earnings">
-                        <div class="part_head_content">
-                            <div class="head_line n01">
-                                <div class="head_content_part">
-                                    <p>得意先</p>
-                                    <div class="select_style">
-                                        <select name="" id="">
-                                            <option value="選択してください">選択してください</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="head_content_part">
-                                    <p>担当者</p>
-                                    <div class="select_style">
-                                        <select name="" id="">
-                                            <option value="選択してください">選択してください</option>
-                                        </select>
-                                    </div>
+                    <div class="part_background_white shipping02">
+                        <ul class="part_back_white-tab">
+                            <li><a href="shipping02.html">出荷情報</a></li>
+                            <li class="active"><a href="shipping02_02.html">運送依頼</a></li>
+                            <li><a href="shipping02_03.html">収益計算</a></li>
+                        </ul>
+
+                        <div class="content_1038">
+                            <div class="shipping02_02-section">
+                                <div class="shipping02_02-box">
+                                    <dl>
+                                        <dt>貨物管理No.</dt>
+                                        <dd><input type="text" placeholder="TS22-05-01" readonly></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>BL No.</dt>
+                                        <dd><input type="text" placeholder="TS22-05-01" readonly></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Container No.</dt>
+                                        <dd><input type="text" placeholder="TS22-05-01" readonly></dd>
+                                    </dl>
                                 </div>
 
-                                <div class="head_content_part">
-                                    <div class="head_content_part">
-                                        <p>期間</p>
-                                        <div class="select_style">
-                                            <select name="" id="">
-                                                <option value="年月選択">年月選択</option>
-                                            </select>
+                                <a href="#" style="width: fit-content; margin-bottom: 5px; margin-top: 10px;"
+                                    class="orange_link">削除</a>
+
+                                <div class="shipping02-02_block">
+                                    <div class="left">
+                                        <table class="shipping02-02-table">
+                                            <tbody>
+                                                <tr>
+                                                    <th>
+                                                        <label class="ECM_CheckboxInput">
+                                                            <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                                id="parente02"><span
+                                                                class="ECM_CheckboxInput-DummyInput orange"></span>
+                                                        </label>
+                                                    </th>
+                                                    <th>運送業者</th>
+                                                    <th>引取場所</th>
+                                                    <th>納品場所</th>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="after_none">
+                                                            <label class="ECM_CheckboxInput">
+                                                                <input class="ECM_CheckboxInput-Input parente child02"
+                                                                    type="checkbox"><span
+                                                                    class="ECM_CheckboxInput-DummyInput orange"></span>
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div>
+                                                            <div class="select_style">
+                                                                <select name="" id="" style="color: #707070;">
+                                                                    <option value="〇〇運送">〇〇運送
+                                                                    </option>
+                                                                </select>
+                                                                <textarea name="" id="" readonly>
+東京都港区六本木○○○○○
+▲▲ビルディング5F
+TEL:000-0000-0000</textarea>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <textarea name="" id="">
+ダミーダミーダミーダミー
+ダミーダミー
+ダミーダミー
+ダミーダミー</textarea>
+                                                    </td>
+                                                    <td>
+                                                        <textarea name="" id="" placeholder="入力してください"></textarea>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                        <div class="shipping02-02_left-footer">
+                                            <div class="box01">
+                                                <div>PKGS：<p>2</p>
+                                                </div>
+                                                <div>容積(M<sup>3</sup>)：<p>5</p>
+                                                </div>
+                                                <div>G.W：<p>10</p>
+                                                </div>
+                                            </div>
+                                            <div class="box02">
+                                                <p>備考：</p>
+                                                <textarea placeholder="入力してください"></textarea>
+                                            </div>
                                         </div>
-                                        <p>〜</p>
-                                        <div class="select_style">
-                                            <select name="" id="">
-                                                <option value="年月選択">年月選択</option>
-                                            </select>
+                                    </div>
+                                    <div class="right">
+                                        <div class="green_box">
+                                            <div class="box01">
+                                                <h2>納品希望日</h2>
+                                                <div class="flex_box">
+                                                    <div class="select_style">
+                                                        <select name="" id="" style="color: #707070;">
+                                                            <option value="2022-06-18">2022-06-18</option>
+                                                            <option value="2022-06-18">2022-06-18</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="select_style">
+                                                        <select name="" id="" style="color: #707070;">
+                                                            <option value="AM 10:00">AM 10:00</option>
+                                                            <option value="AM 10:00">AM 10:00</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="box01">
+                                                <h2>運送依頼</h2>
+                                                <div class="flex_box">
+                                                    <div class="select_style">
+                                                        <select name="" id="" style="color: #707070;">
+                                                            <option value="2022-06-18">2022-06-18</option>
+                                                            <option value="2022-06-18">2022-06-18</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="select_style">
+                                                        <select name="" id="" style="color: #707070;">
+                                                            <option value="本予約">本予約</option>
+                                                            <option value="本予約">本予約</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="box02">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11"
+                                                    viewBox="0 0 12 11">
+                                                    <path id="attachment-line"
+                                                        d="M3.407,12.7a2.357,2.357,0,0,1-1.658-.682L1.7,11.972A2.342,2.342,0,0,1,1,10.3a2.557,2.557,0,0,1,.75-1.816L7.562,2.707a3.24,3.24,0,0,1,4.556-.132A3.022,3.022,0,0,1,13,4.73a3.4,3.4,0,0,1-1.012,2.4l-5.224,5.2a.376.376,0,1,1-.514-.535l5.209-5.2A2.644,2.644,0,0,0,12.25,4.73a2.266,2.266,0,0,0-.66-1.62,2.493,2.493,0,0,0-3.5.132L2.294,9.018A1.805,1.805,0,0,0,1.75,10.3a1.59,1.59,0,0,0,.465,1.13l.049.049A1.734,1.734,0,0,0,4.7,11.4L9.707,6.426A1.02,1.02,0,0,0,10,5.695a.888.888,0,0,0-.259-.633.975.975,0,0,0-1.372.049L4.919,8.547a.374.374,0,0,1-.531,0,.378.378,0,0,1,0-.533L7.855,4.564a1.727,1.727,0,0,1,2.43-.049,1.636,1.636,0,0,1,.465,1.179,1.768,1.768,0,0,1-.529,1.258L5.23,11.942A2.585,2.585,0,0,1,3.407,12.7Z"
+                                                        transform="translate(-1 -1.703)" fill="#4aa9ac" />
+                                                </svg>
+                                                <p>○○ダミーダミーファイル名</p>
+                                                <a href="" class="green_link">添付</a>
+                                            </div>
+                                            <div class="box02">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11"
+                                                    viewBox="0 0 12 11">
+                                                    <path id="attachment-line"
+                                                        d="M3.407,12.7a2.357,2.357,0,0,1-1.658-.682L1.7,11.972A2.342,2.342,0,0,1,1,10.3a2.557,2.557,0,0,1,.75-1.816L7.562,2.707a3.24,3.24,0,0,1,4.556-.132A3.022,3.022,0,0,1,13,4.73a3.4,3.4,0,0,1-1.012,2.4l-5.224,5.2a.376.376,0,1,1-.514-.535l5.209-5.2A2.644,2.644,0,0,0,12.25,4.73a2.266,2.266,0,0,0-.66-1.62,2.493,2.493,0,0,0-3.5.132L2.294,9.018A1.805,1.805,0,0,0,1.75,10.3a1.59,1.59,0,0,0,.465,1.13l.049.049A1.734,1.734,0,0,0,4.7,11.4L9.707,6.426A1.02,1.02,0,0,0,10,5.695a.888.888,0,0,0-.259-.633.975.975,0,0,0-1.372.049L4.919,8.547a.374.374,0,0,1-.531,0,.378.378,0,0,1,0-.533L7.855,4.564a1.727,1.727,0,0,1,2.43-.049,1.636,1.636,0,0,1,.465,1.179,1.768,1.768,0,0,1-.529,1.258L5.23,11.942A2.585,2.585,0,0,1,3.407,12.7Z"
+                                                        transform="translate(-1 -1.703)" fill="#4aa9ac" />
+                                                </svg>
+                                                <p>○○ダミーダミーファイル名</p>
+                                                <a href="" class="green_link">添付</a>
+                                            </div>
+                                            <div class="box02">
+                                                <input type="text">
+                                                <a href="" class="green_link">添付</a>
+                                            </div>
+                                            <div class="box02">
+                                                <input type="text">
+                                                <a href="" class="green_link">添付</a>
+                                            </div>
+                                        </div>
+                                        <div class="flex_box">
+                                            <a href="" class="green_link">運送依頼発行</a>
+                                            <a href="" class="green_link">送信</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="head_line n02">
-                                <div class="head_content_part">
-                                    <p>貨物管理No.</p>
-                                    <input type="text">
-                                </div>
 
-                                <div class="head_content_part">
-                                    <div class="head_content_part">
-                                        <p>納品日</p>
-                                        <div class="select_style">
-                                            <select name="" id="">
-                                                <option value="日付選択">日付選択</option>
-                                            </select>
+
+                            <a href="" class="shipping02_02-section link_btn">運送業者を追加</a>
+
+
+
+                            <section class="shipping02-footer_section shipping02_02">
+                                <div class="shipping02-footer_section-head">
+                                    <h2 class="title">出荷詳細一覧</h2>
+                                    <div class="container">
+                                        <div class="inner">
+                                            <p>総数量：</p>
+                                            <p>100PCS</p>
                                         </div>
-                                        <p>〜</p>
-                                        <div class="select_style">
-                                            <select name="" id="">
-                                                <option value="日付選択">日付選択</option>
-                                            </select>
+                                        <div class="inner">
+                                            <p>総重量(G.W)：</p>
+                                            <p>100KGS</p>
+                                        </div>
+                                        <div class="inner">
+                                            <p>容積(M<sup>3</sup>)：</p>
+                                            <p>100CBM</p>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="the_content">
+                                    <div class="message">
+                                        出荷する商品にチェックを入れてください。
+                                    </div>
+                                    <table class="shipping02-table shipping02-02">
+                                        <tbody>
+                                            <tr class="gray ">
+                                                <th rowspan="2">
+                                                    <div class="after_none">
+                                                        <label class="ECM_CheckboxInput">
+                                                            <input class="ECM_CheckboxInput-Input parente"
+                                                                type="checkbox" id="parente01"><span
+                                                                class="ECM_CheckboxInput-DummyInput"></span>
+                                                        </label>
+                                                    </div>
+                                                </th>
+                                                <th style="border-bottom: 1px solid #fff;">
+                                                    <div class="ba-on">品番</div>
+                                                </th>
+                                                <th rowspan="2">
+                                                    <div>数量</div>
+                                                </th>
+                                                <th rowspan="2">
+                                                    <div>箱寸法(cm)</div>
+                                                </th>
+                                                <th rowspan="2">
+                                                    <div>N.W<br>
+                                                        KGS</div>
+                                                </th>
+                                                <th rowspan="2">
+                                                    <div>G.W<br>
+                                                        KGS</div>
+                                                </th>
+                                                <th rowspan="2">
+                                                    <div>PKGS</div>
+                                                </th>
+                                                <th rowspan="2">
+                                                    <div>PKGS</div>
+                                                </th>
+                                                <th rowspan="2">
+                                                    <div>合計M<sup>3</sup></div>
+                                                </th>
+                                                <th rowspan="2">
+                                                    <div>備考</div>
+                                                </th>
+                                                <th rowspan="2">
+                                                    <div class="after_none"></div>
+                                                </th>
+                                            </tr>
+                                            <tr class="gray ">
+                                                <th>
+                                                    <div class="ba-on">商品名</div>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
 
-                                <div class="head_content_part_btn-box">
-                                    <div class="green_link">検索</div>
-                                    <div class="close_btn">条件クリア</div>
+                                    <table class="shipping02-table02 shipping02-02">
+                                        <tr>
+                                            <td rowspan="2">
+                                                <div>
+                                                    <label class="ECM_CheckboxInput parente">
+                                                        <input class="ECM_CheckboxInput-Input child"
+                                                            type="checkbox"><span
+                                                            class="ECM_CheckboxInput-DummyInput"></span>
+                                                    </label>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>1234567890</div>
+                                            </td>
+                                            <td rowspan="2">
+                                                <div>10000</div>
+                                            </td>
+                                            <td rowspan="2">
+                                                <div>58×37×38</div>
+                                            </td>
+                                            <td rowspan="2">
+                                                <div>10000</div>
+                                            </td>
+                                            <td rowspan="2">
+                                                <div>10000</div>
+                                            </td>
+                                            <td rowspan="2">
+                                                <div>10000</div>
+                                            </td>
+                                            <td rowspan="2">
+                                                <div>10000</div>
+                                            </td>
+                                            <td rowspan="2">
+                                                <div>10000</div>
+                                            </td>
+                                            <td rowspan="2">
+                                                <div>
+                                                    備考欄ダミーダミー<br>備考欄ダミーダミー
+                                                </div>
+                                            </td>
+                                            <td rowspan="2">
+                                                <div style="display: flex; flex-direction: column;">
+                                                    <a href="shipping02_pop.html" class="green_link">編集</a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div>MFﾍﾞﾙﾄｶﾊﾞｰ　商品名商品名</div>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <table class="shipping02-table02 shipping02-02">
+                                        <tr>
+                                            <td rowspan="2">
+                                                <div>
+                                                    <label class="ECM_CheckboxInput parente">
+                                                        <input class="ECM_CheckboxInput-Input child"
+                                                            type="checkbox"><span
+                                                            class="ECM_CheckboxInput-DummyInput"></span>
+                                                    </label>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>1234567890</div>
+                                            </td>
+                                            <td rowspan="2">
+                                                <div>10000</div>
+                                            </td>
+                                            <td rowspan="2">
+                                                <div>58×37×38</div>
+                                            </td>
+                                            <td rowspan="2">
+                                                <div>10000</div>
+                                            </td>
+                                            <td rowspan="2">
+                                                <div>10000</div>
+                                            </td>
+                                            <td rowspan="2">
+                                                <div>10000</div>
+                                            </td>
+                                            <td rowspan="2">
+                                                <div>10000</div>
+                                            </td>
+                                            <td rowspan="2">
+                                                <div>10000</div>
+                                            </td>
+                                            <td rowspan="2">
+                                                <div>
+                                                    備考欄ダミーダミー<br>備考欄ダミーダミー
+                                                </div>
+                                            </td>
+                                            <td rowspan="2">
+                                                <div style="display: flex; flex-direction: column;">
+                                                    <a href="shipping02_pop.html" class="green_link">編集</a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div>MFﾍﾞﾙﾄｶﾊﾞｰ　商品名商品名</div>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <table class="shipping02-table02 shipping02-02">
+                                        <tr>
+                                            <td rowspan="2">
+                                                <div>
+                                                    <label class="ECM_CheckboxInput parente">
+                                                        <input class="ECM_CheckboxInput-Input child"
+                                                            type="checkbox"><span
+                                                            class="ECM_CheckboxInput-DummyInput"></span>
+                                                    </label>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>1234567890</div>
+                                            </td>
+                                            <td rowspan="2">
+                                                <div>10000</div>
+                                            </td>
+                                            <td rowspan="2">
+                                                <div>58×37×38</div>
+                                            </td>
+                                            <td rowspan="2">
+                                                <div>10000</div>
+                                            </td>
+                                            <td rowspan="2">
+                                                <div>10000</div>
+                                            </td>
+                                            <td rowspan="2">
+                                                <div>10000</div>
+                                            </td>
+                                            <td rowspan="2">
+                                                <div>10000</div>
+                                            </td>
+                                            <td rowspan="2">
+                                                <div>10000</div>
+                                            </td>
+                                            <td rowspan="2">
+                                                <div></div>
+                                            </td>
+                                            <td rowspan="2">
+                                                <div style="display: flex; flex-direction: column;">
+                                                    <a href="shipping02_pop.html" class="green_link">編集</a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div>MFﾍﾞﾙﾄｶﾊﾞｰ　商品名商品名</div>
+                                            </td>
+                                        </tr>
+                                    </table>
+
                                 </div>
-                            </div>
+                            </section>
                         </div>
                     </div>
 
-                    <section class="part_background_white earnings">
-                        <h1 class="part_green-title">売上管理</h1>
-                        <!-- TABLE -->
-                        <div class="table_wrapper">
-                            <table class="gray earnings_table01">
-                                <tbody>
-                                    <tr>
-                                        <th></th>
-                                    </tr>
-                                    <tr>
-                                        <th>Ocean Freight
-                                        </th>
-                                    </tr>
-                                    <tr>
-                                        <th>ARRIVALNOTICE</th>
-                                    </tr>
-                                    <tr>
-                                        <th>仕入合計
-                                        </th>
-                                    </tr>
-                                    <tr>
-                                        <th>輸入関税/消費税</th>
-                                    </tr>
-                                    <tr>
-                                        <th>通関費用</th>
-                                    </tr>
-                                    <tr>
-                                        <th>雑費（検査・立会等）</th>
-                                    </tr>
-                                    <tr>
-                                        <th>国内運送費</th>
-                                    </tr>
-                                    <tr>
-                                        <th>保険</th>
-                                    </tr>
-                                    <tr>
-                                        <th>その他</th>
-                                    </tr>
-                                    <tr>
-                                        <th>粗利額</th>
-                                    </tr>
-                                    <tr>
-                                        <th class="light-green">今年売上金額</th>
-                                    </tr>
-                                    <tr>
-                                        <th class="light-green">前年度売上金額</th>
-                                    </tr>
-                                    <tr>
-                                        <th class="light-green">伸長率</th>
-                                    </tr>
-                                </tbody>
-                            </table>
-
-                            <div class="div_scroll-box">
-                                <table class="earnings_table02">
-                                    <tbody>
-                                        <tr class="gray">
-                                            <th>2022-04</th>
-                                            <th>2022-05</th>
-                                            <th>2022-06</th>
-                                            <th>2022-07</th>
-                                            <th>2022-08</th>
-                                            <th>2022-09</th>
-                                            <th>2022-10</th>
-                                            <th>2022-11</th>
-                                            <th>2022-12</th>
-                                            <th>2023-01</th>
-                                            <th>2023-02</th>
-                                            <th>2023-03</th>
-                                            <th>2023-04</th>
-                                            <th>年度合計金額</th>
-                                        </tr>
-                                        <tr aling="right" valign="center">
-                                            </td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>30000</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>400000</td>
-                                        </tr>
-                                        <tr aling="right" valign="center">
-                                            </td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>400000</td>
-                                        </tr>
-                                        <tr aling="right" valign="center">
-                                            </td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>400000</td>
-                                        </tr>
-                                        <tr aling="right" valign="center">
-                                            </td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>400000</td>
-                                        </tr>
-                                        <tr aling="right" valign="center">
-                                            </td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>400000</td>
-                                        </tr>
-                                        <tr aling="right" valign="center">
-                                            </td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>400000</td>
-                                        </tr>
-                                        <tr aling="right" valign="center">
-                                            </td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>400000</td>
-                                        </tr>
-                                        <tr aling="right" valign="center">
-                                            </td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>400000</td>
-                                        </tr>
-                                        <tr aling="right" valign="center">
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>400000</td>
-                                        </tr>
-                                        <tr aling="right" valign="center">
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>400000</td>
-                                        </tr>
-                                        <tr aling="right" valign="center">
-                                            </td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>400000</td>
-                                        </tr>
-                                        <tr aling="right" valign="center">
-                                            </td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>40000</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>400000</td>
-                                        </tr>
-                                        <tr aling="right" valign="center">
-                                            <td>32%</td>
-                                            <td>32%</td>
-                                            <td>32%</td>
-                                            <td>32%</td>
-                                            <td>32%</td>
-                                            <td>32%</td>
-                                            <td>32%</td>
-                                            <td>32%</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>400000</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                    <div class="t_daichou_footer-nav shipping01 shipping02-02">
+                        <div class="left">
+                            <div class="left_btn" style="width: 147px;">
+                                <img src="img/box-icon.svg" alt="">
+                                出荷予定一覧
                             </div>
                         </div>
-                        <!-- TABLE END -->
 
-                        <!-- CHART SECTION -->
-                        <div class="chart_items">
-                            <p class="blue">前年度売上金額</p>
-                            <p class="red">今年度売上金額</p>
-                            <p class="green">伸長率</p>
+                        <div class="center">
+                            <div class="modal_close"><img src="img/content/return-down-back.svg" alt="">戻る</div>
+                            <div class="modal_check green_link"><img src="img/content/save.svg" alt="">保存</div>
                         </div>
-
-                        <!-- CHART SECTION -->
-
-                        <div class="chart_js-after">
-                            <canvas id="myChart"></canvas>
-                        </div>
-
-                        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
-                        <script>
-
-                            var ctx = document.getElementById("myChart").getContext('2d');
-                            Chart.defaults.global.defaultFontColor = '#758A90';
-                            var myChart = new Chart(ctx, {
-
-
-                                type: "bar",
-                                data: {
-                                    labels: ["2022-04", "2022-05", "2022-06", "2022-07", "2022-08", "2022-09", "2022-10", "2022-11", "2022-12", "2023-01", "2023-02", "2023-03"],
-                                    datasets: [
-                                        {
-                                            type: "line",
-                                            label: "構成比",
-                                            data: [80, 75, 100, 60, 55, 50, 75, 25, 10, -10, 125, 100],
-                                            borderWidth: 2,
-                                            borderColor: "#4AA9AC",
-                                            borderDash: [2, 2],
-                                            tension: 0,
-                                            fill: false,
-                                            pointBackgroundColor: "rgb(74,169,172)",
-                                            pointBorderWidth: 1,
-                                            pointHoverRadius: 10,
-                                            yAxisID: "Ｙ右軸",
-                                        },
-                                        {
-                                            type: "bar",
-                                            label: "生産量",
-                                            data: [400000, 400000, 250000, 250000, 20000, 180000, 200000, 430000, 130000, 5000, 380000, 50000],
-                                            backgroundColor: "#96A4E3",
-                                            yAxisID: "Ｙ左軸",
-                                            barPercentage: 0.7,
-                                            categoryPercentage: 0.5,
-                                        },
-                                        {
-                                            type: "bar",
-                                            label: "構成比",
-                                            data: [430000, 240000, 430000, 250000, 200000, 180000, 20000, 430000, -200000, 50000, 380000, 50000],
-                                            backgroundColor: "#FCA988",
-                                            barPercentage: 0.7,
-                                            categoryPercentage: 0.5,
-                                        },
-                                    ]
-                                },
-                                options: {
-                                    responsive: false,
-                                    legend: {
-                                        labels: {
-                                            fontColor: '#758A90'
-                                        },
-                                        display: false,
-                                    },
-                                    scales: {
-                                        yAxes: [
-                                            {
-                                                id: "Ｙ左軸",
-                                                position: "left",
-                                                gridLines: {
-                                                    display: true
-                                                },
-                                                grid: {
-                                                    color: function (context) {
-                                                        if (context.tick.value > 0) {
-                                                            return Utils.CHART_COLORS.green;
-                                                        } else if (context.tick.value < 0) {
-                                                            return Utils.CHART_COLORS.red;
-                                                        }
-
-                                                        return 'blue';
-                                                    },
-                                                },
-                                                scaleLabel: {
-                                                    display: true,
-                                                    labelString: "",
-                                                    fontColor: "#CCCCCC",
-                                                    fontSize: 14
-                                                },
-                                                ticks: {
-                                                    fontColor: "#CCCCCC",
-                                                    min: -400000,
-                                                    max: 1200000,
-                                                    stepSize: 200000
-                                                }
-                                            },
-                                            {
-                                                id: "Ｙ右軸",
-                                                position: "right",
-                                                gridLines: {
-                                                    display: false,
-                                                },
-                                                scaleLabel: {
-                                                    display: true,
-                                                    labelString: "",
-                                                    fontColor: "#CCCCCC",
-                                                    fontSize: 14
-                                                },
-                                                ticks: {
-                                                    fontColor: "#CCCCCC",
-                                                    min: -50,
-                                                    max: 150,
-                                                    stepSize: 25
-                                                }
-                                            }
-                                        ],
-                                        xAxes: [{
-                                            gridLines: {
-                                                display: false,
-                                            },
-                                        }
-                                        ]
-                                    }
-
-                                }
-                            });
-                        </script>
-
-                    </section>
-
+                    </div>
 
                     <!-- content -->
+
+
                 </li>
-
-
             </ul>
         </main>
     </section>
 
+
     <script>
+        function AllCheckBtn(clickClass, btnChild) {
+            document.getElementById(clickClass).addEventListener('click', function () {
+                document.querySelectorAll(btnChild).forEach((c) => {
+                    if (!c.checked && document.getElementById(clickClass).checked) {
+                        c.click();
+                    } else if (document.getElementById(clickClass).checked === !c.checked) {
+                        c.click();
+                    }
+                });
+            });
+        }
+
+        AllCheckBtn("parente02", ".child02");
+        AllCheckBtn("parente01", ".child");
+
         function changeColor(hoge) {
             if (hoge.value == 0) {
                 hoge.style.color = '';
@@ -1665,35 +1610,6 @@
                 hoge.style.color = '#707070';
             }
         }
-    </script>
-    <script>
-        const tab = document.querySelectorAll(".tab li");
-        const tab_content = document.querySelectorAll(".tab_content_li");
-        function tabBtn() {
-            for (let i = 0; i < tab.length; i++) {
-                tab[i].addEventListener("click", swithFun);
-            }
-        }
-
-        function swithFun() {
-            for (let i = 0; i < tab.length; i++) {
-                tab[i].classList.remove("active");
-            }
-
-            for (let i = 0; i < tab_content.length; i++) {
-                tab_content[i].classList.remove("open");
-            }
-
-            this.classList.add("active");
-
-            const aryTabs = Array.prototype.slice.call(tab);
-
-            const index = aryTabs.indexOf(this);
-
-            tab_content[index].classList.add("open");
-            console.log(tab_content[index]);
-        }
-        tabBtn();
     </script>
 
 
@@ -1706,7 +1622,6 @@
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-style@0.5.0"></script>
     <script src="js/main.js"></script>
     <script src="js/modal.js"></script>
-    <script src="js/check.js"></script>
     <script src="js/profil.js"></script>
 
     <script>
