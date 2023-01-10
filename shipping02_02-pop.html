@@ -1,4 +1,4 @@
-<!-- 08_出荷管理-タブ02（運送依頼） -->
+<!-- 08_出荷管理-タブ02（運送依頼）-編集画面pop -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -1586,22 +1586,86 @@ TEL:000-0000-0000</textarea>
         </main>
     </section>
 
+    <!-- pop -->
+    <section class="part_pop-back shipping02_pop shipping02-02_pop">
+        <div class="part_pop-content">
+            <a class="shipping_pop-close-btn" href="shipping02_02.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16.043" viewBox="0 0 16 16.043">
+                    <path id="クローズ"
+                        d="M13.146,12l6.632-6.632A.8.8,0,0,0,18.65,4.241l-6.632,6.632L5.386,4.233A.8.8,0,0,0,4.25,5.369L10.89,12,4.25,18.633a.8.8,0,1,0,1.128,1.128l6.64-6.632,6.632,6.632a.8.8,0,0,0,1.128-1.128Z"
+                        transform="translate(-3.97 -3.998)" fill="#929c9f" />
+                </svg>
+            </a>
+            <h1>出荷詳細編集</h1>
+            <div class="flex_box column">
+                <div class="flex_box">
+                    <p>数量</p>
+                    <input type="text" placeholder="0000000">
+                </div>
+                <div class="flex_box">
+                    <p>N.W(KGS)</p>
+                    <input type="text" placeholder="0000000">
+                </div>
+                <div class="flex_box">
+                    <p>G.W(KGS)</p>
+                    <input type="text" placeholder="0000000">
+                </div>
+                <div class="flex_box">
+                    <p>PKGS</p>
+                    <input type="text" placeholder="0000000">
+                </div>
+                <div class="flex_box">
+                    <p>PKG/M<sup>3</sup></p>
+                    <input type="text" placeholder="0000000">
+                </div>
+                <div class="flex_box" style="align-items: flex-start;">
+                    <p style="padding-top: 10px;">備考</p>
+                    <textarea></textarea>
+                </div>
+            </div>
+            <div class="flex_box n03">
+                <a href="shipping02_02.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16.125" height="8.281" viewBox="0 0 16.125 8.281">
+                        <g id="return-down-back" transform="translate(-1.125 -5.063)">
+                            <path id="パス_796" data-name="パス 796" d="M3.938,12.375l-2.25-2.25,2.25-2.25"
+                                transform="translate(0 0.173)" fill="none" stroke="#797979" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="1.125" />
+                            <path id="パス_797" data-name="パス 797" d="M2.25,10.125H12.862a3.829,3.829,0,0,0,3.826-3.8v-.7"
+                                fill="none" stroke="#797979" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="1.125" />
+                        </g>
+                    </svg>
+
+                    戻る</a>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17.143" viewBox="0 0 16 17.143">
+                        <g id="save" transform="translate(-1.125 -0.563)">
+                            <path id="パス_794" data-name="パス 794"
+                                d="M16.873,4.36,13.326.813a.851.851,0,0,0-.605-.25H1.982a.858.858,0,0,0-.857.857V16.848a.858.858,0,0,0,.857.857H16.268a.858.858,0,0,0,.857-.857V4.967a.851.851,0,0,0-.251-.606ZM11.41,1.706V5.134H6.268V1.706Zm4.571,14.856H2.268V1.706H5.125V6.277h7.429V1.706H12.6l3.379,3.379Z"
+                                fill="#fff" />
+                            <path id="パス_795" data-name="パス 795"
+                                d="M8.859,7.875a3.234,3.234,0,1,0,3.234,3.234A3.234,3.234,0,0,0,8.859,7.875Zm0,5.344a2.109,2.109,0,1,1,2.109-2.109,2.109,2.109,0,0,1-2.109,2.109Z"
+                                transform="translate(0.121 0.187)" fill="#fff" />
+                        </g>
+                    </svg>
+
+                    保存
+                </a>
+            </div>
+        </div>
+    </section>
+
 
     <script>
-        function AllCheckBtn(clickClass, btnChild) {
-            document.getElementById(clickClass).addEventListener('click', function () {
-                document.querySelectorAll(btnChild).forEach((c) => {
-                    if (!c.checked && document.getElementById(clickClass).checked) {
-                        c.click();
-                    } else if (document.getElementById(clickClass).checked === !c.checked) {
-                        c.click();
-                    }
-                });
+        document.getElementById("parente01").addEventListener('click', function () {
+            document.querySelectorAll('.child').forEach((c) => {
+                if (!c.checked && document.getElementById("parente01").checked) {
+                    c.click();
+                } else if (document.getElementById("parente01").checked === !c.checked) {
+                    c.click();
+                }
             });
-        }
-
-        AllCheckBtn("parente02", ".child02");
-        AllCheckBtn("parente01", ".child");
+        });
 
         function changeColor(hoge) {
             if (hoge.value == 0) {

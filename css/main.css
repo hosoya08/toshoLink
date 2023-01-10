@@ -8908,6 +8908,10 @@ table.quote02s {
   align-items: center;
 }
 
+.part_pop-back.shipping02_pop input::placeholder {
+  color: #cccccc;
+}
+
 .part_pop-back.shipping02_pop .flex_box input {
   border-radius: var(--radius5);
   background-color: #F8F8F8;
@@ -10337,4 +10341,18 @@ table.quote02s {
 .t_daichou_footer-nav.shipping02-02 .center {
   margin-left: auto;
   margin-right: auto;
+}
+
+/* ================================= */
+/* 出荷管理　タブ０２　ポップ */
+/* ================================= */
+.part_pop-back.shipping02_pop.shipping02-02_pop textarea {
+  width: 276px;
+  height: 87px;
+  border: 1px solid #E6E8EB;
+  background-color: #F8F8F8;
+  border-radius: var(--radius5);
+  font-size: 14px;
+  color: #707070;
+  padding: 7px 10px;
 }
