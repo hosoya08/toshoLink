@@ -1157,146 +1157,360 @@
                         <div class="u02_content-box">
 
                             <div class="u02_content-box_tab">
-                                <a href="user_management02.html" class="active">ユーザー情報</a>
-                                <a href="user_management02_02.html">権限登録</a>
+                                <a href="user_management02.html">ユーザー情報</a>
+                                <a href="user_management02_02.html" class="active">権限登録</a>
                             </div>
 
-                            <div class="u02_content-box_tab-content">
-                                <!-- 1 -->
-                                <div class="u02_content-box_tab-container">
-                                    <dvi class="u02_content-box_tab-container-con">
-                                        <p>ユーザー区分</p>
-                                        <div class="required">必須</div>
-                                        <div class="select_style">
-                                            <select id="">
-                                                <option value="社内">社内</option>
-                                            </select>
-                                        </div>
-                                    </dvi>
-                                    <div class="u02_content-box_tab-container-con">
-                                        <p>所属会社</p>
-                                        <div class="required">必須</div>
-                                        <div class="select_style">
-                                            <select id="select01" onchange="changeColor(this)">
-                                                <option value="選択してください" hidden>選択してください</option>
-                                                <option value="option02">option02</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="u02_content-box_tab-container-con">
-                                        <p>メールアドレス</p>
-                                        <div class="required">必須</div>
-                                        <input type="email">
-                                    </div>
-                                    <div class="u02_content-box_tab-container-con">
-                                        <p>ユーザー名</p>
-                                        <div class="required">必須</div>
-                                        <input type="text">
-                                    </div>
+                            <!-- 998px -->
+                            <div class="content_width user_02section">
+                                <div class="user_02section-block">
+                                    <dl>
+                                        <dt>ユーザ区分</dt>
+                                        <dd>
+                                            <input type="text" value="社外" readonly>
+                                        </dd>
+                                    </dl>
 
-                                    <div class="u02_content-box_tab-container-con w148">
-                                        <p>プロフィール写真</p>
-
-                                        <label class="upload-label">
-                                            ファイルを選択
-                                            <input type="file">
-                                        </label>
-                                    </div>
-
-                                    <div class="u02_content-box_tab-container-con w148 mt40">
-                                        <p>TEL</p>
-                                        <input type="tel" placeholder="0000000000">
-                                        <small>数字のみ</small>
-                                    </div>
-
-                                    <div class="u02_content-box_tab-container-con w148">
-                                        <p>携帯TEL</p>
-                                        <input type="tel" placeholder="0000000000">
-                                        <small>数字のみ</small>
-                                    </div>
-
-                                    <div class="u02_content-box_tab-container-con w148">
-                                        <p>FAX</p>
-                                        <input type="tel" placeholder="0000000000">
-                                        <small>数字のみ</small>
-                                    </div>
-
-                                    <div class="u02_content-box_tab-container-con w148">
-                                        <p>郵便番号</p>
-                                        <input type="number" readonly value="1110052">
-                                    </div>
-
-                                    <div class="u02_content-box_tab-container-con w148 jusho">
-                                        <p>住所</p>
-                                        <input type="text" readonly value="東京都中央区日本橋大伝馬町 13-7 日本橋大富ビル2F">
-                                    </div>
-
-                                    <div class="u02_content-box_tab-container-con w148 mt40">
-                                        <p>ログイン</p>
-                                        <div class="login_box">
-                                            <div class="check_table-box" id="check_table-box">
-                                                <p>ログイン許可</p>
-                                                <label class="ECM_CheckboxInput" id="ECM_CheckboxInput">
-                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"><span
-                                                        class="ECM_CheckboxInput-DummyInput white login_check"></span>
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <script>
-                                        document.getElementById("check_table-box").addEventListener('click', function () {
-                                            document.getElementById('ECM_CheckboxInput').click();
-                                        });
-                                    </script>
-
-                                    <div class="u02_content-box_tab-container-con w148">
-                                        <p>パスワード</p>
-                                        <input type="password" id="password">
-                                        <small>半角英数字</small>
-                                    </div>
-
-                                    <div class="u02_content-box_tab-container-con w148">
-                                        <p>パスワード確認</p>
-                                        <input type="password" id="password_check">
-                                        <small>半角英数字</small>
-                                    </div>
-
-                                    <div class="u02_content-box_tab-container-con m0 m40_01">
-                                        <div class="check_table-box checkText">
-                                            <label class="ECM_CheckboxInput">
-                                                <input class="ECM_CheckboxInput-Input" type="checkbox"><span
-                                                    class="ECM_CheckboxInput-DummyInput white"></span>
-                                            </label>
-                                            <p>このユーザーに通知メールを送る</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="u02_content-box_tab-container-con n02 m0">
-                                        <div class="check_table-box checkText">
-                                            <label class="ECM_CheckboxInput">
-                                                <input class="ECM_CheckboxInput-Input" type="checkbox"><span
-                                                    class="ECM_CheckboxInput-DummyInput white"></span>
-                                            </label>
-                                            <p>通知メールにユーザーパスワードを表示する</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="u02_content-box_tab-container-con m0">
-                                        <div class="check_table-box checkText">
-                                            <label class="ECM_CheckboxInput">
-                                                <input class="ECM_CheckboxInput-Input" type="checkbox"><span
-                                                    class="ECM_CheckboxInput-DummyInput white"></span>
-                                            </label>
-                                            <p>パスワードの変更をユーザーに許可しない</p>
-                                        </div>
-                                    </div>
+                                    <dl>
+                                        <dt>業種区分</dt>
+                                        <dd>
+                                            <div class="select_style">
+                                                <select name="" id="" style="color: #707070;">
+                                                    <option value="サービス業">サービス業</option>
+                                                </select>
+                                        </dd>
                                 </div>
-                                <!-- 2 -->
-                                <div class="u02_content-box_tab-container"></div>
+                                </dl>
                             </div>
 
-
+                            <div class="user_02section-block02 content_width">
+                                <table class="user-block02_table part_table">
+                                    <tbody>
+                                        <tr>
+                                            <th>ベージ名</th>
+                                            <th>アクセス不可</th>
+                                            <th>編集不可</th>
+                                            <th>編集可能</th>
+                                        </tr>
+                                        <tr>
+                                            <td>取引台帳</td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>休日管理</td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>ユーザ管理</td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>マスター管理</td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>お知らせ</td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>商品管理</td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>見積書</td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>受注管理</td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>工程表</td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>出荷管理</td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>売上管理</td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>メール管理</td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>商品検査依頼</td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="ECM_CheckboxInput">
+                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"
+                                                        id="parente02"><span
+                                                        class="ECM_CheckboxInput-DummyInput green"></span>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
+
+
+                    </div>
                     </div>
                     <!-- content -->
 

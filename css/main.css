@@ -3162,18 +3162,23 @@ th {
   display: flex;
 }
 
-.u02_content .u02_content-box .u02_content-box_tab div {
+.u02_content .u02_content-box .u02_content-box_tab a {
   font-size: 14px;
   font-weight: 400;
   padding-bottom: 6px;
   padding-top: 20px;
   cursor: pointer;
   margin-right: 30px;
+  color: #707070;
 }
 
-.u02_content .u02_content-box .u02_content-box_tab div.active {
+.u02_content .u02_content-box .u02_content-box_tab a.active {
   color: #00a29a;
   border-bottom: 3px solid rgba(74, 169, 172, 30%);
+}
+
+.u02_content-box_tab-container {
+  margin-top: 38px;
 }
 
 .u02_content-box_tab-container-con p {
@@ -3351,6 +3356,89 @@ th {
 .u02_content-box_tab-container-con.w148.mt40 {
   margin-top: 40px;
 }
+
+
+/* ================================= */
+/* 03_ユーザー管理-詳細02 */
+/* ================================= */
+.content_width {
+  width: 998px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.user_02section-block dl:first-child {
+  margin-bottom: 20px;
+}
+
+.user_02section-block dl {
+  display: flex;
+  align-items: center;
+}
+
+.user_02section-block dl dt {
+  font-size: 14px;
+  color: #758A90;
+  font-weight: 400;
+  width: 148px;
+}
+
+.user_02section-block dl dd input {
+  font-size: 14px;
+  width: 300px;
+  height: 36px;
+  border-radius: var(--radius5);
+}
+
+.user_02section-block dl dd .select_style {
+  width: 300px;
+  height: 36px;
+}
+
+.user_02section-block02 .user-block02_table {
+  border-spacing: 0 10px;
+  border-collapse: separate;
+  margin-top: 30px;
+}
+
+.user_02section-block02 .user-block02_table tr:not(:nth-child(even)) {
+  background-color: #F8F8F8;
+}
+
+.user_02section-block02 .user-block02_table .ECM_CheckboxInput input,
+.user_02section-block02 .user-block02_table .ECM_CheckboxInput {
+  padding: 0;
+  justify-content: center;
+}
+
+.user_02section-block02 .user-block02_table tr th {
+  text-align: center;
+  padding: 0;
+}
+
+.user_02section-block02 .user-block02_table tr th:nth-child(3),
+.user_02section-block02 .user-block02_table tr th:nth-child(1) {
+  width: 165px;
+}
+
+.user_02section-block02 .user-block02_table tr th:nth-child(4),
+.user_02section-block02 .user-block02_table tr th:nth-child(2) {
+  width: 166px;
+}
+
+.user_02section-block02 .user-block02_table tr td:nth-child(4) {
+  border: none;
+}
+
+.user_02section-block02 .user-block02_table tr td {
+  font-size: 14px;
+  color: #707070;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
 
 /* ========================================= */
 /* 04_マスター登録-検索画面 */
@@ -9363,7 +9451,6 @@ table.quote02s {
   display: flex;
 }
 
-.appraisal_section-box02_con-head .left {}
 
 .appraisal_section-box02_con-head .left .heads {
   display: flex;
