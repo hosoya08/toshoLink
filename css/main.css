@@ -1069,18 +1069,85 @@ table.space-top {
   background-color: rgba(68, 98, 177, 0.2) !important;
   color: #4462b1 !important;
   border-radius: 0 7px 7px 0;
+  position: relative;
+}
+
+.backBlue::after {
+  content: "";
+  width: 2px;
+  height: 100%;
+  background-color: #4462B1;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .back_green {
   background-color: rgba(74, 169, 172, 0.15) !important;
   color: var(--green) !important;
   border-radius: 0 7px 7px 0;
+  position: relative;
+}
+
+.back_green::after {
+  content: "";
+  width: 2px;
+  height: 100%;
+  background-color: #4AA9AC;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .back_red {
   background-color: rgba(206, 116, 81, 0.15) !important;
   color: #ce7451 !important;
   border-radius: 0 7px 7px 0;
+  position: relative;
+}
+
+.back_red::after {
+  content: "";
+  width: 2px;
+  height: 100%;
+  background-color: #CE7451;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.back_yellow {
+  background-color: rgba(238, 195, 51, 0.15) !important;
+  color: #DDAB06 !important;
+  border-radius: 0 7px 7px 0;
+  position: relative;
+}
+
+.back_yellow::after {
+  content: "";
+  width: 2px;
+  height: 100%;
+  background-color: #DDAB06;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.back_gray {
+  background-color: rgba(143, 160, 164, 0.15) !important;
+  color: #83969B !important;
+  border-radius: 0 7px 7px 0;
+  position: relative;
+}
+
+.back_gray::after {
+  content: "";
+  width: 2px;
+  height: 100%;
+  background-color: #83969B;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .kabutu_table td {
@@ -1093,6 +1160,8 @@ table.space-top {
   white-space: nowrap; */
 }
 
+.kabutu_table td.back_gray,
+.kabutu_table td.back_yellow,
 .kabutu_table td.backBlue,
 .kabutu_table td.back_green,
 .kabutu_table td.back_red {
