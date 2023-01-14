@@ -8542,6 +8542,10 @@ table.quote02s {
   width: 271px;
 }
 
+.part_pop-content.process02 input[type="text"]::placeholder {
+  color: #cccccc;
+}
+
 .part_pop-content.process02 .flex_box {
   display: flex;
   justify-content: center;
@@ -11695,10 +11699,16 @@ input.temp01 {
   content: "追跡No.";
 }
 
+.product02_wrap_box .product02_content-wrap.n02 dl:nth-of-type(2) input {
+  cursor: default;
+  outline: unset;
+}
+
 .product02_wrap_box .product02_content-wrap.n02 dl:nth-of-type(2) dd {
   width: 100%;
 }
 
+.product02_wrap_box .product02_content-wrap.n02 dl:nth-of-type(2) a:last-child,
 .product02_wrap_box .product02_content-wrap.n02 dl:nth-of-type(2) button {
   margin-left: auto;
 }
