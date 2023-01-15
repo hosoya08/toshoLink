@@ -1507,7 +1507,14 @@
         tabBtn();
     </script>
 
+    <script>
+        const navBtn = document.querySelector('.res_nav-btn');
+        const spNav = document.querySelector('.menu_section');
 
+        navBtn.addEventListener('click', function () {
+            spNav.classList.toggle('active');
+        })
+    </script>
 
 
 

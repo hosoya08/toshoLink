@@ -557,7 +557,7 @@
     .content {
         width: 100%;
         max-width: 100%;
-        margin-left: 20px;
+        /* margin-left: 20px; */
     }
 
     .new_content {
@@ -620,7 +620,9 @@
     }
 
     .section_t_daichou-main_block02 {
-        width: 1118px;
+        width: max-content;
+        margin-right: 20px;
+        margin-left: 20px;
     }
 
     .torihikidaichou_table tr th:nth-child(1),
@@ -782,6 +784,8 @@
 
     .res_content {
         width: 1118px;
+        margin-right: 20px;
+        margin-left: 20px;
     }
 
     .user_mg-content .open_num {

@@ -1763,42 +1763,9 @@
                         </div>
                     </div>
                 </div>
-    </section>
-
-
-    </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </ul>
-    </main>
+                </li>
+            </ul>
+        </main>
     </section>
 
 
@@ -1809,6 +1776,15 @@
             tr.addEventListener('click', function () {
                 tr.classList.toggle("border_on");
             })
+        })
+    </script>
+
+    <script>
+        const navBtn = document.querySelector('.res_nav-btn');
+        const spNav = document.querySelector('.menu_section');
+
+        navBtn.addEventListener('click', function () {
+            spNav.classList.toggle('active');
         })
     </script>
 

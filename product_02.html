@@ -3139,6 +3139,14 @@
         }
     </script>
 
+    <script>
+        const navBtn = document.querySelector('.res_nav-btn');
+        const spNav = document.querySelector('.menu_section');
+
+        navBtn.addEventListener('click', function () {
+            spNav.classList.toggle('active');
+        })
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-style@0.5.0"></script>
     <script src="js/main.js"></script>

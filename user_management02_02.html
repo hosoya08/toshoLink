@@ -1620,47 +1620,8 @@
                     </div>
                 </li>
 
-
-
-
-
-
-    </section>
-
-
-    </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </ul>
-    </main>
+            </ul>
+        </main>
     </section>
 
     <script>
@@ -1713,6 +1674,15 @@
     <script src="js/main.js"></script>
     <script src="js/modal.js"></script>
     <script src="js/profil.js"></script>
+
+    <script>
+        const navBtn = document.querySelector('.res_nav-btn');
+        const spNav = document.querySelector('.menu_section');
+
+        navBtn.addEventListener('click', function () {
+            spNav.classList.toggle('active');
+        })
+    </script>
 
     <script>
         modal(document.querySelector('.greenBtn'), document.querySelector(".t_daichou-pop01"));
