@@ -1538,7 +1538,7 @@
                             <a class="green_link" href="#">新規追加</a>
                         </div>
 
-                        <table>
+                        <table class="t_table-file">
                             <thead>
                                 <tr>
                                     <th>
@@ -1804,7 +1804,13 @@
 
 
 
-
+    <script>
+        document.querySelectorAll('.t_daichou-pop01 tr').forEach((tr) => {
+            tr.addEventListener('click', function () {
+                tr.classList.toggle("border_on");
+            })
+        })
+    </script>
 
 
 

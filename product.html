@@ -1308,9 +1308,11 @@
                                 </div>
                             </div>
 
-                            <div class="green_link">検索</div>
+                            <div class="flex-box">
+                                <div class="green_link">検索</div>
 
-                            <div class="close_btn">条件クリア</div>
+                                <div class="close_btn">条件クリア</div>
+                            </div>
 
 
                         </div>
@@ -1363,8 +1365,9 @@
                                     <tr>
                                         <th>
                                             <div class="check_table-box">
-                                                <label class="ECM_CheckboxInput parente" id="parente">
-                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"><span
+                                                <label class="ECM_CheckboxInput parente">
+                                                    <input class="ECM_CheckboxInput-Input" id="padre"
+                                                        type="checkbox"><span
                                                         class="ECM_CheckboxInput-DummyInput orange"></span>
                                                 </label>
                                             </div>
@@ -1382,7 +1385,7 @@
                                         <td>
                                             <div class="check_table-box">
                                                 <label class="ECM_CheckboxInput parente" id="parente">
-                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"><span
+                                                    <input class="ECM_CheckboxInput-Input child" type="checkbox"><span
                                                         class="ECM_CheckboxInput-DummyInput orange"></span>
                                                 </label>
                                             </div>
@@ -1400,7 +1403,7 @@
                                         <td>
                                             <div class="check_table-box">
                                                 <label class="ECM_CheckboxInput parente" id="parente">
-                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"><span
+                                                    <input class="ECM_CheckboxInput-Input child" type="checkbox"><span
                                                         class="ECM_CheckboxInput-DummyInput orange"></span>
                                                 </label>
                                             </div>
@@ -1418,7 +1421,7 @@
                                         <td>
                                             <div class="check_table-box">
                                                 <label class="ECM_CheckboxInput parente" id="parente">
-                                                    <input class="ECM_CheckboxInput-Input" type="checkbox"><span
+                                                    <input class="ECM_CheckboxInput-Input child" type="checkbox"><span
                                                         class="ECM_CheckboxInput-DummyInput orange"></span>
                                                 </label>
                                             </div>
@@ -1498,7 +1501,24 @@
     </main>
     </section>
 
+
     <script>
+        // all chack
+        function AllCheckBtn(clickClass, btnChild) {
+            document.getElementById(clickClass).addEventListener('click', function () {
+                document.querySelectorAll(btnChild).forEach((c) => {
+                    if (!c.checked && document.getElementById(clickClass).checked) {
+                        c.click();
+                    } else if (document.getElementById(clickClass).checked === !c.checked) {
+                        c.click();
+                    }
+                });
+            });
+        }
+
+        AllCheckBtn("padre", ".child");
+
+        // chage color select
         function changeColor(hoge) {
             if (hoge.value == 0) {
                 hoge.style.color = '';
@@ -1507,6 +1527,7 @@
             }
         }
     </script>
+
     <script>
         const tab = document.querySelectorAll(".tab li");
         const tab_content = document.querySelectorAll(".tab_content_li");

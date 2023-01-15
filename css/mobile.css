@@ -1,4 +1,12 @@
 @media (max-width: 1024px) {
+    .borderRadius {
+        width: fit-content;
+    }
+
+    .t_daichou_footer-nav {
+        width: 100%;
+    }
+
     .content {
         max-width: 90%;
     }
@@ -194,7 +202,355 @@
         display: flex;
         align-items: center;
     }
+
+    /* 取引台帳 */
+    .row input[type="tel"],
+    .row input[type="email"],
+    .row input[type="text"] {
+        width: 150px;
+    }
+
+    .section_t_daichou-shousai .row .select_style {
+        width: 200px;
+    }
+
+    /* 01_取引台帳-詳細02（工場） */
+    .flex_block.n01 {
+        flex-direction: column;
+        width: fit-content;
+        margin: auto;
+    }
+
+    .flex_block.n02 {
+        width: 542px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+
+    /* 02_祝日管理-検索画面 */
+    .part_head_content {
+        width: 95%;
+    }
+
+    .m_content {
+        width: 95%;
+    }
+
+    .m_content.holiday_contnet .part_table tr td:nth-child(2),
+    .m_content.holiday_contnet .part_table tr th:nth-child(2) {
+        width: 400px;
+    }
+
+    .m_content.holiday_contnet .part_table tr td:nth-child(3),
+    .m_content.holiday_contnet .part_table tr th:nth-child(3) {
+        width: 350px;
+    }
+
+
+
+    /* 03_ユーザー管理-検索画面 */
+    .user_mg-content .user_mg-content_head .u_content {
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .user_mg-content .user_mg-content_head .u_content .flex-boxs {
+        justify-content: space-between;
+    }
+
+    .user_mg-content .user_mg-content_head .u_content div.flex_box {
+        justify-content: flex-end;
+        margin-top: 10px;
+    }
+
+    .u_content {
+        width: 95%;
+    }
+
+    /* 03_ユーザー管理-詳細01 */
+    .u02_content {
+        width: 95%;
+    }
+
+    .u02_content-box_tab-container-con.w148.jusho input[type="text"] {
+        width: 500px;
+    }
+
+    /* 04_マスター登録-検索画面 */
+    .m_content .part_table tr td:nth-child(2),
+    .m_content .part_table tr th:nth-child(2) {
+        width: 168px;
+    }
+
+    .m_content .part_table tr td:nth-child(3),
+    .m_content .part_table tr th:nth-child(3) {
+        width: 257px;
+    }
+
+    .m_content .part_table tr td:nth-child(4),
+    .m_content .part_table tr th:nth-child(4) {
+        width: 220px;
+    }
+
+    /* 14_お知らせ−検索画面 */
+    .news_head_child {
+        width: 95%;
+        padding-left: 0;
+        align-items: flex-end;
+    }
+
+    .news_head_child.n02 .head_content_part_btn-box {
+        flex-wrap: wrap;
+    }
+
+    .news_table-coner {
+        width: 95%;
+    }
+
+    .news_table-coner .part_table thead tr th:nth-child(5),
+    .news_table-coner .part_table tbody tr td:nth-child(5) {
+        width: 275px;
+    }
+
+    .news_head_child-box {
+        flex-direction: column;
+    }
+
+    .news_head_child.n01 .style_select {
+        width: 215px;
+    }
+
+    .news_head_child-box input[type="text"] {
+        width: 215px;
+    }
+
+    .news_content-block .green_link.mr10.newBtn {
+        margin-left: 10px;
+    }
+
+    /* 14_お知らせ-詳細01 */
+    .part_background_white.news_edit .flex_box:nth-child(4) textarea {
+        width: 550px;
+    }
+
+    .part_background_white.news_edit,
+    .content_1058 {
+        width: 95%;
+    }
+
+    .part_background_white.news_edit .flex_box p {
+        width: 100px;
+    }
+
+    /* 06_商品管理−検索画面 */
+    .product_head .product_head_block,
+    .p_content {
+        width: 95%;
+    }
+
+    .p_content .open_num {
+        padding-right: 20px;
+    }
+
+
+
+    /* 06_商品管理−詳細 */
+    .part_background_white,
+    .product02_wrap_box {
+        width: 95%;
+    }
+
+    .part_background_white.product02 .flex_box:first-child {
+        flex-direction: column;
+    }
+
+    .product02_content-wrap {
+        width: 95%;
+    }
+
+    .product02_content-wrap.n03 .pro02_content.part_background_white,
+    .product02_content-wrap.n01 .pro02_content.part_background_white {
+        width: 32%;
+    }
+
+    /* 05_受注管理-検索画面 */
+    .order_content {
+        width: 95%;
+    }
+
+    .order_content .part_table .tr td:nth-child(2),
+    .order_content .part_table .tr th:nth-child(2) {
+        width: 139px;
+    }
+
+    .order_content .part_table .tr td:nth-child(6),
+    .order_content .part_table .tr th:nth-child(6) {
+        width: 231px;
+    }
+
+    .order_content .part_table .tr td:nth-child(3),
+    .order_content .part_table .tr th:nth-child(3) {
+        width: 217px;
+    }
+
+    /* 05_受注管理-詳細01 */
+
+    .order02_content {
+        width: 95%;
+    }
+
+    .order02_content .w140,
+    .order02_content .w169 {
+        width: 110px;
+    }
+
+    /* 07_見積書-詳細01 –商品複数時 */
+    .quote02_section {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    /* 07_見積書-詳細02（A型） */
+    .quote03_section {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    /* 07_見積書-詳細03（B型）  */
+    .part_background_white.quote04 {
+        width: 1118px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    /* 12_工程表−検索 */
+    .process_head .product_head-box.n01 input {
+        width: 150px;
+    }
+
+    .quote_head.process_head .product_head-box.n02-02 input[type="text"] {
+        width: 170px;
+    }
+
+    .quote_head.process_head .product_head_block.n02-02 .product_head-box.n01-02 input[type="text"] {
+        width: 110px;
+    }
+
+    .quote_head.process_head .product_head_block.n02-02 .product_head-box.n02-02 .select_style {
+        width: 160px;
+    }
+
+    /* 08_出荷管理-検索画面 */
+    .part_head_line.shipping .head_content_part {
+        flex-direction: column;
+    }
+
+    .part_head_line.shipping .head_content_part br {
+        display: none;
+    }
+
+    .part_head_line.shipping .head_line .head_line-flex,
+    .part_head_line.shipping .head_line {
+        align-items: flex-end;
+    }
+
+    .order_content.shipping_res {
+        width: 1118px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    /* 08_出荷管理-詳細01（出荷予定一覧） */
+
+    .part_background_white.shipping01 .content_1038 {
+        width: auto;
+    }
+
+    .part_background_white.shipping01 {
+        width: 1118px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    /* 08_出荷管理-タブ01（出荷情報） */
+    .shipping02-footer_section {
+        overflow-x: scroll;
+    }
+
+    .part_background_white.shipping02 .content_1038 {
+        width: 98%;
+    }
+
+    .shipping02-footer_section .the_content {
+        width: max-content;
+    }
+
+    .shipping02--wrap_left {
+        margin-right: 50px;
+    }
+
+    .part_background_white.shipping02 {
+        width: 1118px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    /* 09_メール管理−検索画面 */
+    .mail_page-section .section_t_daichou-main_block01 .section_t_daichou-main_block01-box {
+        margin-left: 50px;
+    }
+
+    .mail_head .product_head-box.n01-02 input[type="text"] {
+        width: 130px;
+    }
+
+    .mail_head .product_head_block.n02-02 {
+        align-items: flex-end;
+    }
+
+    .mail_head .product_head_block.n02-02 br {
+        display: none;
+    }
+
+    .mail_head .product_head_block.n02-02 p {
+        font-size: 12px;
+    }
+
+    .mail_head .product_head-box.n02-02 input[type="text"] {
+        width: 145px;
+    }
+
+    /* 11_売上管理-検索+詳細01 */
+    .chart_js-after::before,
+    .chart_js-after::after {
+        display: none;
+    }
+
+    /* 10_商品検査依頼−検索画面 */
+    .part_head_line.shouhin .head_content_part {
+        flex-direction: column;
+    }
+
+    .shouhin_content {
+        width: max-content;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    /* 15_運送依頼−検索画面 */
+    .part_head_line.transportion .head_line:nth-child(2) .head_content_part input {
+        width: 200px;
+    }
+
+    .p_content.mail_content.transportation_n01 {
+        width: max-content;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
 }
+
 
 
 @media (max-width: 768px) {
@@ -355,8 +711,289 @@
         width: 130px;
     }
 
+    .section_t_daichou .t_daichou-header .t_daichou-header_box {
+        flex-direction: column;
+    }
+
+    .section_t_daichou .t_daichou-header .t_daichou-header_box br {
+        display: none;
+    }
+
     .section_t_daichou .t_daichou-header .t_daichou-header_box p {
         margin-right: 5px;
         font-size: 12px;
     }
+
+    /* 取引台帳 */
+    .section_t_daichou-shousai.content {
+        max-width: 90%;
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .row.long.sp_long input[type="text"] {
+        width: 250px;
+    }
+
+    /* 01_取引台帳-詳細02（工場） */
+    .img_block.n02 {
+        gap: 17px;
+    }
+
+    .img_block.n02 .box_cover {
+        width: 169px;
+        height: 110px;
+    }
+
+    /* 02_祝日管理-検索画面 */
+    .part_head_content {
+        padding-left: 0;
+    }
+
+    .head_content_part p {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    .head_content_part {
+        margin-right: 5px;
+    }
+
+    .holiday .head_line.n01.head_line-flex {
+        flex-direction: column;
+    }
+
+    .holiday .head_content_part_btn-box {
+        margin-top: 10px;
+    }
+
+    .m_content.holiday_contnet .part_table tr td:nth-child(2),
+    .m_content.holiday_contnet .part_table tr th:nth-child(2) {
+        width: 310px;
+    }
+
+    .m_content.holiday_contnet .part_table tr td:nth-child(3),
+    .m_content.holiday_contnet .part_table tr th:nth-child(3) {
+        width: 230px;
+    }
+
+    /* 03_ユーザー管理-検索画面 */
+
+    .res_content {
+        width: 1118px;
+    }
+
+    .user_mg-content .open_num {
+        margin-right: 50px;
+    }
+
+    .user_mg-content .user_mg-content_head .u_content .div:nth-child(4) input {
+        width: 150px;
+    }
+
+    .user_mg-content .user_mg-content_head .u_content .div p {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .user_mg-content .user_mg-content_head .u_content .div {
+        flex-direction: column;
+    }
+
+    .user_mg-content .user_mg-content_head .u_content .div br {
+        display: none;
+    }
+
+    /* 04_マスター登録-詳細01 */
+    .m02_content02_flex {
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .m02_content02_left .part_table tbody {
+        height: auto;
+    }
+
+    .m02_content {
+        width: 95%;
+    }
+
+
+
+    /* 06_商品管理−検索画面 */
+
+    .p_content .part_table tr td:nth-child(2),
+    .p_content .part_table tr th:nth-child(2) {
+        width: 98px;
+    }
+
+    .p_content .part_table tr td:nth-child(3),
+    .p_content .part_table tr th:nth-child(3),
+    .p_content .part_table tr th:nth-child(4),
+    .p_content .part_table tr td:nth-child(4) {
+        width: 129px;
+    }
+
+    .p_content .part_table tr th:nth-child(5),
+    .p_content .part_table tr td:nth-child(5) {
+        width: 113px;
+    }
+
+    .p_content .part_table tr th:nth-child(6),
+    .p_content .part_table tr td:nth-child(6) {
+        width: 124px;
+    }
+
+    .product_head .product_head_block .product_head-box {
+        flex-direction: column;
+    }
+
+    .product_head_block.n02 .product_head-box.n01 .select_style {
+        width: 190px;
+    }
+
+    .product_head_block.n02 {
+        align-items: flex-end;
+    }
+
+
+    /* 06_商品管理−詳細 */
+
+    .product02_content-wrap.n03,
+    .product02_content-wrap.n01 {
+        flex-direction: column;
+    }
+
+    .product02_content-wrap.n03 .pro02_content.part_background_white,
+    .product02_content-wrap.n01 .pro02_content.part_background_white {
+        width: 100%;
+    }
+
+    .product02_content-wrap.n03 .body ul li button {
+        margin-left: 0;
+    }
+
+    .product02_content-wrap.n03 li .flex {
+        align-items: center;
+        width: 230px;
+    }
+
+    .product02_content-wrap.n03 .pro02_content.part_background_white:last-child li {
+        justify-content: flex-start;
+    }
+
+    .product02_content-wrap.n03 .pro02_content.part_background_white:last-child li .flex {
+        width: 106px;
+    }
+
+    /* 05_受注管理-検索画面 */
+    .part_head_line.order .head_content_part {
+        flex-direction: column;
+    }
+
+    .order .head_line.n03 .head_line-flex,
+    .part_head_line.order .head_line {
+        align-items: flex-end;
+    }
+
+    .order_content .part_table .tr td:nth-child(2),
+    .order_content .part_table .tr th:nth-child(2) {
+        width: 88px;
+    }
+
+    .order_content .part_table .tr td:nth-child(3),
+    .order_content .part_table .tr th:nth-child(3) {
+        width: 147px;
+    }
+
+    .order_content .part_table .tr td:nth-child(4),
+    .order_content .part_table .tr th:nth-child(4) {
+        width: 125px;
+    }
+
+    .order_content .part_table .tr td:nth-child(5),
+    .order_content .part_table .tr th:nth-child(5) {
+        width: 103px;
+    }
+
+    .order_content .part_table .tr td:nth-child(6),
+    .order_content .part_table .tr th:nth-child(6) {
+        width: 171px;
+    }
+
+    .order_content .part_table .tr td:nth-child(7),
+    .order_content .part_table .tr th:nth-child(7) {
+        width: 61px;
+    }
+
+    /* 07_見積書−検索画面 */
+    .p_content.q_content {
+        width: 1118px;
+        margin-left: 20px;
+    }
+
+    .quote_head .product_head_block.n02-02,
+    .quote_head .product_head_block.n01 {
+        padding-left: 0;
+        align-items: flex-end;
+    }
+
+    .quote_head .product_head-box.n02-02 input[type="text"] {
+        width: 235px;
+    }
+
+    .quote_head .product_head_block.n02-02 .product_head-box.n01-02 input[type="text"] {
+        width: 210px;
+    }
+
+    /* 07_見積書-詳細01 –商品複数時 */
+    .t_daichou_footer-nav.quote02 .footer_nav_btn {
+        gap: 5px;
+    }
+
+    .t_daichou_footer-nav.quote02 .modal_check.green_link {
+        margin: 0;
+        width: 100px;
+    }
+
+    .t_daichou_footer-nav.quote02 .modal_close {
+        width: 100px;
+    }
+
+    .t_daichou_footer-nav.quote02 .fotter_meniu_content {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+
+    /* 12_工程表−検索 */
+
+    .process_head .product_head-box.n01 input {
+        width: 200px;
+    }
+
+    .quote_head.process_head .product_head-box.n02-02 input[type="text"] {
+        width: 210px;
+    }
+
+    .quote_head.process_head .product_head_block.n02-02 .product_head-box.n01-02 input[type="text"] {
+        width: 160px;
+    }
+
+    .p_content.process_content.n01 {
+        width: 1118px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    /* 12_工程表-詳細01 */
+    .part_head_line.process02 .head_content_part {
+        flex-direction: column;
+    }
+
+
+    /* 08_出荷管理-検索画面 */
+
+
 }
