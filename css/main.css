@@ -2476,9 +2476,9 @@ table.space-top {
   background-repeat: no-repeat;
 }
 
-.t_daichou_shousai02-block02_box.three .img_block.n01 .box_cover.onimg:nth-child(1) {}
+/* .t_daichou_shousai02-block02_box.three .img_block.n01 .box_cover.onimg:nth-child(1) {}
 
-.t_daichou_shousai02-block02_box.three .img_block.n01 .box_cover.onimg:nth-child(2) {}
+.t_daichou_shousai02-block02_box.three .img_block.n01 .box_cover.onimg:nth-child(2) {} */
 
 .flex_block.n02 {
   display: flex;
@@ -2514,11 +2514,11 @@ table.space-top {
   background-repeat: no-repeat;
 }
 
-.img_block.n02 .box_cover.onimg:nth-child(1) {}
+/* .img_block.n02 .box_cover.onimg:nth-child(1) {}
 
 .img_block.n02 .box_cover.onimg:nth-child(2) {}
 
-.img_block.n02 .box_cover.onimg:nth-child(3) {}
+.img_block.n02 .box_cover.onimg:nth-child(3) {} */
 
 /* pop 01 */
 .t_daichou-pop01,
