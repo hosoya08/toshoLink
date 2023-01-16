@@ -1360,7 +1360,8 @@
                                             <th>
                                                 <div class="check_table-box">
                                                     <label class="ECM_CheckboxInput parente" id="parente">
-                                                        <input class="ECM_CheckboxInput-Input" type="checkbox"><span
+                                                        <input class="ECM_CheckboxInput-Input" id="padre"
+                                                            type="checkbox"><span
                                                             class="ECM_CheckboxInput-DummyInput orange"></span>
                                                     </label>
                                                 </div>
@@ -1380,7 +1381,8 @@
                                             <td>
                                                 <div class="check_table-box">
                                                     <label class="ECM_CheckboxInput parente" id="parente">
-                                                        <input class="ECM_CheckboxInput-Input" type="checkbox"><span
+                                                        <input class="ECM_CheckboxInput-Input child"
+                                                            type="checkbox"><span
                                                             class="ECM_CheckboxInput-DummyInput orange"></span>
                                                     </label>
                                                 </div>
@@ -1400,7 +1402,8 @@
                                             <td>
                                                 <div class="check_table-box">
                                                     <label class="ECM_CheckboxInput parente" id="parente">
-                                                        <input class="ECM_CheckboxInput-Input" type="checkbox"><span
+                                                        <input class="ECM_CheckboxInput-Input child"
+                                                            type="checkbox"><span
                                                             class="ECM_CheckboxInput-DummyInput orange"></span>
                                                     </label>
                                                 </div>
@@ -1420,7 +1423,8 @@
                                             <td>
                                                 <div class="check_table-box">
                                                     <label class="ECM_CheckboxInput parente" id="parente">
-                                                        <input class="ECM_CheckboxInput-Input" type="checkbox"><span
+                                                        <input class="ECM_CheckboxInput-Input child"
+                                                            type="checkbox"><span
                                                             class="ECM_CheckboxInput-DummyInput orange"></span>
                                                     </label>
                                                 </div>
@@ -1460,50 +1464,26 @@
                     <!-- content -->
                 </li>
 
-
-
-
-
-
+            </ul>
+        </main>
     </section>
-
-
-    </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </ul>
-    </main>
-    </section>
-
     <script>
+        // all chack
+        function AllCheckBtn(clickClass, btnChild) {
+            document.getElementById(clickClass).addEventListener('click', function () {
+                document.querySelectorAll(btnChild).forEach((c) => {
+                    if (!c.checked && document.getElementById(clickClass).checked) {
+                        c.click();
+                    } else if (document.getElementById(clickClass).checked === !c.checked) {
+                        c.click();
+                    }
+                });
+            });
+        }
+
+        AllCheckBtn("padre", ".child");
+
+        // chage color select
         function changeColor(hoge) {
             if (hoge.value == 0) {
                 hoge.style.color = '';
