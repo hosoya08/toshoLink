@@ -5029,6 +5029,7 @@ table.quote02s {
   padding-top: 10px;
   padding-left: 10px;
   font-size: 14px;
+  color: #707070;
 }
 
 /* Fotter Navegation */
@@ -11923,12 +11924,18 @@ input.temp01 {
 }
 
 /* 日本語ルビ付　項目名 */
+.table_head_invoice-item_name,
 .rubi_on_item_name {
   color: var(--styBlue);
   display: flex;
   flex-direction: column;
 }
 
+.table_head_invoice-item_name {
+  text-align: center;
+}
+
+.table_head_invoice span,
 .rubi_on_item_name span {
   font-size: 10px;
 }
@@ -12035,4 +12042,216 @@ input.temp01 {
 
 .quote02_section_block-box.n02.block-right .quote02_section_block-box-input_box {
   margin-bottom: 0;
+}
+
+.table_head_invoice {
+  display: flex;
+}
+
+.table_head_invoice-item_name {
+  background-color: #EAECEC;
+  border-right: 1px solid #fff;
+  font-size: 12px;
+  padding-top: 4px;
+  padding-bottom: 6px;
+}
+
+.table_head_invoice-item_name:nth-child(1) {
+  width: 557px;
+}
+
+.table_head_invoice-item_name:nth-child(2) {
+  width: 129px;
+}
+
+.table_head_invoice-item_name:nth-child(3) {
+  width: 128px;
+}
+
+.table_head_invoice-item_name:nth-child(4) {
+  width: 129px;
+}
+
+.table_head_invoice-item_name:nth-child(5) {
+  border: none;
+  width: 53px;
+}
+
+.invoice_page-table input {
+  background-color: #F8F8F8;
+  border: 1px solid #E6E8EB;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 0;
+  font-size: 14px;
+  color: #707070;
+  height: 38px;
+}
+
+.invoice_page-table tr {
+  border-bottom: 2px solid #E6E8EB;
+}
+
+.invoice_page-table tr:nth-last-child(1) {
+  border-bottom: 1px solid #8E9FA4;
+}
+
+.invoice_page-table-td {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.invoice_page-table-td:nth-child(1) {
+  width: 30px;
+  font-size: 14px;
+  color: #707070;
+}
+
+.invoice_page-table-td:nth-child(1) div,
+.invoice_page-table-td:nth-child(7) div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+}
+
+.invoice_page-table-td:nth-child(2) {
+  width: 126px;
+}
+
+.invoice_page-table-td:nth-child(2) input {
+  width: 121px;
+}
+
+.invoice_page-table-td:nth-child(3) {
+  width: 406px;
+}
+
+.invoice_page-table-td:nth-child(3) input {
+  width: 397px;
+}
+
+.invoice_page-table-td:nth-child(4) {
+  width: 129px;
+}
+
+.invoice_page-table-td:nth-child(4) input {
+  width: 120px;
+}
+
+.invoice_page-table-td:nth-child(5) {
+  width: 129px;
+}
+
+.invoice_page-table-td:nth-child(5) input {
+  width: 120px;
+}
+
+.invoice_page-table-td:nth-child(6) {
+  width: 124px;
+}
+
+.invoice_page-table-td:nth-child(6) input {
+  width: 120px;
+}
+
+.invoice_page-table-td:nth-child(7) {
+  width: 53px;
+}
+
+.invoice_page-table .orange_link {
+  font-size: 12px;
+  padding: 0;
+  width: 34px;
+  height: 22px;
+}
+
+.invoice_page {
+  width: 998px;
+  max-width: 998px;
+  margin: 0 auto;
+}
+
+.invoice_page_hr {
+  width: 1039px;
+  border-width: 2px;
+  color: #8E9FA4;
+  margin: auto;
+  margin-bottom: 6px;
+  margin-top: 6px;
+}
+
+.invoice_page_hr.small {
+  border-width: 1px;
+  margin-bottom: 3px;
+}
+
+.quote02_section_block.voice_commericial_page {
+  padding-bottom: 0;
+  max-width: 1039px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.total_sec,
+.add_row_sec {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding-bottom: 6px;
+}
+
+.add_row_sec-btn {
+  font-size: 14px;
+  font-weight: 400;
+  color: #8E9FA4;
+  border: 1px solid #8E9FA4;
+  border-radius: 5px;
+  width: 78px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.add_row_sec-btn:hover {
+  opacity: 0.8;
+}
+
+.rubi_on_item_name.total_sec-item_name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.total_sec {
+  max-width: 1039px;
+  width: 1039px;
+  margin: 0 auto;
+}
+
+.total_sec-01,
+.total_sec-02 {
+  display: flex;
+  align-items: center;
+}
+
+.total_sec-01 {
+  margin-right: 55px;
+}
+
+.total_sec-02 input,
+.total_sec-01 input {
+  margin: 0 10px;
+  width: 120px;
+  height: 42px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.total_sec-02 input {
+  margin: 0;
+  margin-left: 10px;
+  width: 177px;
 }
