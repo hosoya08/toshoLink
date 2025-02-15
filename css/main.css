@@ -12322,6 +12322,13 @@ input.temp01 {
   overflow-y: scroll;
   padding-bottom: 100px;
   color: #424242;
+
+  opacity: 0;
+  visibility: hidden;
+}
+.invoice_pop_section.open {
+opacity: 1;
+visibility: visible;
 }
 
 .invoice_pop_section-preview {
@@ -12333,6 +12340,7 @@ input.temp01 {
   padding-left: 39px;
   padding-right: 51px;
   height: max-content;
+  position: relative;
 }
 
 .invoice_pop_section-preview-h3 {
@@ -12556,11 +12564,12 @@ input.temp01 {
   margin-right: 0;
   margin-left: auto;
 }
+
 .invoice_pop_section-preview-p {
-font-size: 9px;
-margin-top: 18px;
-margin-right: 45px;
-text-align: end;
+  font-size: 9px;
+  margin-top: 18px;
+  margin-right: 45px;
+  text-align: end;
 }
 
 .invoice_pop_section-preview-footer {
@@ -12570,12 +12579,14 @@ text-align: end;
   margin-top: 118px;
   padding-right: 18px;
 }
-.invoice_pop_section-preview-footer > img {
+
+.invoice_pop_section-preview-footer>img {
   width: 187px;
   height: 57px;
   margin-right: 66px;
   margin-top: -5px;
 }
+
 .invoice_pop_section-preview-footer div {
   border-top: 1px dotted #000;
   border-bottom: 1px dotted #000;
@@ -12583,13 +12594,39 @@ text-align: end;
   flex-direction: column;
   height: fit-content;
 }
+
 .invoice_pop_section-preview-footer div span {
-font-size: 10px;
+  font-size: 10px;
 }
+
 .invoice_pop_section-preview-footer div img {
   width: 238px;
   height: 35px;
 }
+
+.invoice_pop_section-preview .modal_close img {
+  margin-right: 10px;
+}
+
+.invoice_pop_section-preview .modal_close {
+  background-color: #fff;
+  width: 150px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #B8BBBE;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #707070;
+  margin: 0 auto;
+  margin-top: 65px;
+  cursor: pointer;
+}
+.overflow {
+  overflow: hidden;
+}
+
 
 /* MOBILE SECTION */
 @media screen and (max-width: 1345px) {

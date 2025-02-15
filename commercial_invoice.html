@@ -1629,7 +1629,7 @@ FAX:050-3737-6948</textarea>
                         </div>
 
                         <div class="footer-nav_right">
-                            <a href="quote_pop.html" class="menu_btn button-right"><img
+                            <a id="pop2_btn" class="menu_btn button-right"><img
                                     src="img/bottom_icon/bottom_menu_icon03.svg">プレビュー</a>
                             <div class="menu_btn button-right"><img src="img/bottom_icon/bottom_menu_icon04.svg">PDF
                             </div>
@@ -1649,6 +1649,8 @@ FAX:050-3737-6948</textarea>
     <!-- POP SECTION -->
     <section class="invoice_pop_section">
         <div class="invoice_pop_section-preview">
+
+            <a class="close_btn-clos" style="background-image: url(img/content/close.svg);"></a>
 
             <section class="invoice_pop_section-preview-head">
                 <h3 class="invoice_pop_section-preview-h3">
@@ -1759,8 +1761,10 @@ FAX:050-3737-6948</textarea>
                 </div>
             </section>
 
+            <div class="modal_close pops"><img src="img/content/return-down-back.svg" alt="">戻る</div>
         </div>
     </section>
+
 
 
 
@@ -1793,12 +1797,10 @@ FAX:050-3737-6948</textarea>
     <script src="js/profil.js"></script>
 
     <script>
-        modal(document.querySelector('.greenBtn'), document.querySelector(".t_daichou-pop01"));
-        modal(document.querySelector('.close_pop'), document.querySelector(".t_daichou-pop01"));
-        modal(document.querySelector('.close_pop-num02'), document.querySelector(".t_daichou-pop01"));
-        modal(document.querySelector('#pop2_btn'), document.querySelector(".t_daichou-pop02"));
-        modal(document.querySelector('.close_pop02'), document.querySelector(".t_daichou-pop02"));
-        modal(document.querySelector('.modal_close02'), document.querySelector(".t_daichou-pop02"));
+        let target = document.querySelector(".invoice_pop_section");
+        modal(document.querySelector('#pop2_btn'), target);
+        modal(document.querySelector('.modal_close.pops'), target);
+        modal(document.querySelector('.close_btn-clos'), target);
     </script>
 </body>
 
