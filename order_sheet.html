@@ -1285,7 +1285,7 @@
                                             </p>
                                             <div class="item_flexs_box block01-left-content">
                                                 <div class="item_flex_box">
-                                                <textarea readonly class="textarea_readOnly">
+                                                    <textarea readonly class="textarea_readOnly">
 NEW GREEN WOODS
 GREEN STREET 888-123
 SHENZEN  CHINA
@@ -1351,7 +1351,8 @@ SHENZEN  CHINA
                                                 <div class="item_flex_box">
                                                     <div
                                                         class="quote02_section_block-box-input_box block01-left-section">
-                                                        <input type="text" value="MF-012134567T" readonly class="normal">
+                                                        <input type="text" value="MF-012134567T" readonly
+                                                            class="normal">
                                                     </div>
                                                 </div>
                                             </div>
@@ -1476,8 +1477,16 @@ FAX:050-3737-6948</textarea>
                             <section class="invoice_page">
                                 <div class="table_head_invoice">
                                     <div class="table_head_invoice-item_name">
-                                        <span>品番・商品詳細</span>
-                                        DESCRIPTION
+                                        <span>品番</span>
+                                        No.
+                                    </div>
+                                    <div class="table_head_invoice-item_name">
+                                        <span>製品番号 / 摘要</span>
+                                        Product No. / Description
+                                    </div>
+                                    <div class="table_head_invoice-item_name">
+                                        <span>製品画像</span>
+                                        Image
                                     </div>
                                     <div class="table_head_invoice-item_name">
                                         <span>数量</span>
@@ -1501,12 +1510,42 @@ FAX:050-3737-6948</textarea>
                                         <td class="invoice_page-table-td">
                                             <div>1</div>
                                         </td>
-                                        <td class="invoice_page-table-td"><input type="text" value="CT-3156"></td>
-                                        <td class="invoice_page-table-td"><input type="text"
-                                                value="Breastfeeding  Cape"></td>
-                                        <td class="invoice_page-table-td"><input type="text" value="500"></td>
-                                        <td class="invoice_page-table-td"><input type="text" value="2.67 "></td>
-                                        <td class="invoice_page-table-td"><input type="text" value="1,335.00 " readonly>
+                                        <td class="invoice_page-table-td">
+                                            <div style="flex-direction: column; align-items: center;" class="flex">
+                                                <input type="text" value="CT-3156">
+                                                <input type="text" value="CT-3156">
+                                            </div>
+                                        </td>
+                                        <td class="invoice_page-table-td">
+                                            <div class="flex">
+                                                <img src="img/content/画像入れた時.png" alt="sample">
+                                            </div>
+                                        </td>
+                                        <td class="invoice_page-table-td">
+                                            <div class="flex">
+                                                <input type="text" value="1200">
+                                                <div class="select_style">
+                                                    <select>
+                                                        <option value="PCS">PCS</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="invoice_page-table-td">
+                                            <div class="flex">
+                                                <div class="select_style">
+                                                    <select>
+                                                        <option value="USD">USD</option>
+                                                    </select>
+                                                </div>
+                                                <input type="text" value="2.67 ">
+                                            </div>
+                                        </td>
+                                        <td class="invoice_page-table-td">
+                                            <div class="flex">
+                                                <p>USD</p>
+                                                <input type="text" value="1,335.00 " readonly>
+                                            </div>
                                         </td>
                                         <td class="invoice_page-table-td">
                                             <div>
@@ -1518,12 +1557,45 @@ FAX:050-3737-6948</textarea>
                                         <td class="invoice_page-table-td">
                                             <div>2</div>
                                         </td>
-                                        <td class="invoice_page-table-td"><input type="text" value="CT-3156"></td>
-                                        <td class="invoice_page-table-td"><input type="text"
-                                                value="Breastfeeding  Cape"></td>
-                                        <td class="invoice_page-table-td"><input type="text" value="500"></td>
-                                        <td class="invoice_page-table-td"><input type="text" value="2.67 "></td>
-                                        <td class="invoice_page-table-td"><input type="text" value="1,335.00 " readonly>
+                                        <td class="invoice_page-table-td">
+                                            <div style="flex-direction: column; align-items: center;" class="flex">
+                                                <input type="text" value="CT-3156">
+                                                <input type="text" value="CT-3156">
+                                            </div>
+                                        </td>
+                                        <td class="invoice_page-table-td">
+                                            <div class="flex">
+                                                <label for="" class="quote02_img_up-lable">
+                                                    <input type="file" class="quote02_img_up">
+                                                    画像を選択してくだい。
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td class="invoice_page-table-td">
+                                            <div class="flex">
+                                                <input type="text" value="600">
+                                                <div class="select_style">
+                                                    <select>
+                                                        <option value="PCS">PCS</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="invoice_page-table-td">
+                                            <div class="flex">
+                                                <div class="select_style">
+                                                    <select>
+                                                        <option value="MYR">MYR</option>
+                                                    </select>
+                                                </div>
+                                                <input type="text" value="2.67 ">
+                                            </div>
+                                        </td>
+                                        <td class="invoice_page-table-td">
+                                            <div class="flex">
+                                                <p>USD</p>
+                                                <input type="text" value="1,335.00 " readonly>
+                                            </div>
                                         </td>
                                         <td class="invoice_page-table-td">
                                             <div>
@@ -1533,14 +1605,47 @@ FAX:050-3737-6948</textarea>
                                     </tr>
                                     <tr>
                                         <td class="invoice_page-table-td">
-                                            <div>3</div>
+                                            <div></div>
                                         </td>
-                                        <td class="invoice_page-table-td"><input type="text" value="CT-3156"></td>
-                                        <td class="invoice_page-table-td"><input type="text"
-                                                value="Breastfeeding  Cape"></td>
-                                        <td class="invoice_page-table-td"><input type="text" value="500"></td>
-                                        <td class="invoice_page-table-td"><input type="text" value="2.67 "></td>
-                                        <td class="invoice_page-table-td"><input type="text" value="1,335.00 " readonly>
+                                        <td class="invoice_page-table-td">
+                                            <div style="flex-direction: column; align-items: center;" class="flex">
+                                                <input type="text" value="">
+                                                <input type="text" value="">
+                                            </div>
+                                        </td>
+                                        <td class="invoice_page-table-td">
+                                            <div class="flex">
+                                                <label for="" class="quote02_img_up-lable">
+                                                    <input type="file" class="quote02_img_up">
+                                                    画像を選択してくだい。
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td class="invoice_page-table-td">
+                                            <div class="flex">
+                                                <input type="text" value="">
+                                                <div class="select_style">
+                                                    <select>
+                                                        <option value="PCS">PCS</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="invoice_page-table-td">
+                                            <div class="flex">
+                                                <div class="select_style">
+                                                    <select>
+                                                        <option value="USD">USD</option>
+                                                    </select>
+                                                </div>
+                                                <input type="text" value="">
+                                            </div>
+                                        </td>
+                                        <td class="invoice_page-table-td">
+                                            <div class="flex">
+                                                <p>USD</p>
+                                                <input type="text" value="" readonly>
+                                            </div>
                                         </td>
                                         <td class="invoice_page-table-td">
                                             <div>
@@ -1552,11 +1657,46 @@ FAX:050-3737-6948</textarea>
                                         <td class="invoice_page-table-td">
                                             <div></div>
                                         </td>
-                                        <td class="invoice_page-table-td"><input type="text"></td>
-                                        <td class="invoice_page-table-td"><input type="text"></td>
-                                        <td class="invoice_page-table-td"><input type="text"></td>
-                                        <td class="invoice_page-table-td"><input type="text"></td>
-                                        <td class="invoice_page-table-td"><input type="text" readonly></td>
+                                        <td class="invoice_page-table-td">
+                                            <div style="flex-direction: column; align-items: center;" class="flex">
+                                                <input type="text" value="">
+                                                <input type="text" value="">
+                                            </div>
+                                        </td>
+                                        <td class="invoice_page-table-td">
+                                            <div class="flex">
+                                                <label for="" class="quote02_img_up-lable">
+                                                    <input type="file" class="quote02_img_up">
+                                                    画像を選択してくだい。
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td class="invoice_page-table-td">
+                                            <div class="flex">
+                                                <input type="text" value="">
+                                                <div class="select_style">
+                                                    <select>
+                                                        <option value="PCS">PCS</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="invoice_page-table-td">
+                                            <div class="flex">
+                                                <div class="select_style">
+                                                    <select>
+                                                        <option value="USD">USD</option>
+                                                    </select>
+                                                </div>
+                                                <input type="text" value="">
+                                            </div>
+                                        </td>
+                                        <td class="invoice_page-table-td">
+                                            <div class="flex">
+                                                <p>USD</p>
+                                                <input type="text" value="" readonly>
+                                            </div>
+                                        </td>
                                         <td class="invoice_page-table-td">
                                             <div>
                                                 <button class="orange_link" href="">削除</button>
@@ -1567,26 +1707,46 @@ FAX:050-3737-6948</textarea>
                                         <td class="invoice_page-table-td">
                                             <div></div>
                                         </td>
-                                        <td class="invoice_page-table-td"><input type="text"></td>
-                                        <td class="invoice_page-table-td"><input type="text"></td>
-                                        <td class="invoice_page-table-td"><input type="text"></td>
-                                        <td class="invoice_page-table-td"><input type="text"></td>
-                                        <td class="invoice_page-table-td"><input type="text" readonly></td>
                                         <td class="invoice_page-table-td">
-                                            <div>
-                                                <button class="orange_link" href="">削除</button>
+                                            <div style="flex-direction: column; align-items: center;" class="flex">
+                                                <input type="text" value="">
+                                                <input type="text" value="">
                                             </div>
                                         </td>
-                                    </tr>
-                                    <tr>
                                         <td class="invoice_page-table-td">
-                                            <div></div>
+                                            <div class="flex">
+                                                <label for="" class="quote02_img_up-lable">
+                                                    <input type="file" class="quote02_img_up">
+                                                    画像を選択してくだい。
+                                                </label>
+                                            </div>
                                         </td>
-                                        <td class="invoice_page-table-td"><input type="text"></td>
-                                        <td class="invoice_page-table-td"><input type="text"></td>
-                                        <td class="invoice_page-table-td"><input type="text"></td>
-                                        <td class="invoice_page-table-td"><input type="text"></td>
-                                        <td class="invoice_page-table-td"><input type="text" readonly></td>
+                                        <td class="invoice_page-table-td">
+                                            <div class="flex">
+                                                <input type="text" value="">
+                                                <div class="select_style">
+                                                    <select>
+                                                        <option value="PCS">PCS</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="invoice_page-table-td">
+                                            <div class="flex">
+                                                <div class="select_style">
+                                                    <select>
+                                                        <option value="USD">USD</option>
+                                                    </select>
+                                                </div>
+                                                <input type="text" value="">
+                                            </div>
+                                        </td>
+                                        <td class="invoice_page-table-td">
+                                            <div class="flex">
+                                                <p>USD</p>
+                                                <input type="text" value="" readonly>
+                                            </div>
+                                        </td>
                                         <td class="invoice_page-table-td">
                                             <div>
                                                 <button class="orange_link" href="">削除</button>
@@ -1617,7 +1777,7 @@ FAX:050-3737-6948</textarea>
                                         <span>金額</span>
                                         USD
                                     </p>
-                                    <input type="text" readonly value="US$4,005.00 ">
+                                    <input type="text" readonly value="22100.00 ">
                                 </div>
                             </div>
 
