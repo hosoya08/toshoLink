@@ -15004,6 +15004,55 @@ padding-left: 10px;
   font-family: "Noto Sans JP", "YuMincho", serif;
 }
 
+/* order sheet page */
+#ORDER_SHEET_PAGE .quote02_input-box.n01.block01-left {
+  flex-direction: column;
+}
+#ORDER_SHEET_PAGE .quote02_input-box.n01.block01-left input[type=text] {
+  border: 1px solid #E6E8EB;
+  background-color: #F8F8F8;
+  border-radius: 5px;
+  height: 36px;
+  width: 200px;
+}
+#ORDER_SHEET_PAGE .quote02_section_block-box .quote02_input-box .flex:nth-child(2) p,
+#ORDER_SHEET_PAGE .quote02_section_block-box .quote02_input-box .flex:nth-child(3) p,
+#ORDER_SHEET_PAGE .quote02_section_block-box .quote02_input-box .flex:nth-child(4) p {
+  width: 168px;
+}
+#ORDER_SHEET_PAGE .quote02_section_block-box .quote02_input-box .flex:nth-child(3) .select_style {
+  width: 200px;
+}
+#ORDER_SHEET_PAGE .quote02_section_block-box .quote02_input-box .flex:nth-child(2) textarea {
+  width: 300px;
+}
+#ORDER_SHEET_PAGE .quote02_section_block-box .quote02_input-box .flex {
+  margin-bottom: 10px;
+}
+#ORDER_SHEET_PAGE .quote02_section_block-box .quote02_input-box .flex:nth-child(3) {
+  margin-bottom: 30px;
+}
+#ORDER_SHEET_PAGE .quote02_section_block-box.n02.block-right .quote02_input-box.n01 {
+  margin-top: 9px;
+}
+#ORDER_SHEET_PAGE .quote02_section_block-box.n02.block-right .flex:nth-child(1) p,
+#ORDER_SHEET_PAGE .quote02_section_block-box.n02.block-right .flex:nth-child(2) p,
+#ORDER_SHEET_PAGE .quote02_section_block-box.n02.block-right .flex:nth-child(3) p {
+  font-size: 13px;
+}
+#ORDER_SHEET_PAGE .quote02_section_block-box.n02.block-right .flex:nth-child(1) span,
+#ORDER_SHEET_PAGE .quote02_section_block-box.n02.block-right .flex:nth-child(2) span,
+#ORDER_SHEET_PAGE .quote02_section_block-box.n02.block-right .flex:nth-child(3) span {
+  font-size: 9px;
+}
+#ORDER_SHEET_PAGE .quote02_section_block-box.n02.block-right .flex:nth-child(8) .select_style,
+#ORDER_SHEET_PAGE .quote02_section_block-box.n02.block-right .flex:nth-child(3) .select_style {
+  width: 146px;
+  height: 26px;
+}
+#ORDER_SHEET_PAGE .quote02_section_block.voice_commericial_page {
+  margin-bottom: 24px;
+}
 /* MOBILE SECTION */
 @media screen and (max-width: 1345px)
 {
