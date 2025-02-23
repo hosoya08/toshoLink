@@ -1,4 +1,13 @@
 @media (max-width: 1024px) {
+
+    /* 230711 検索バー調整 */
+    .product_head,
+    .news_head,
+    .user_mg-content .user_mg-content_head,
+    .part_head_line {
+        min-width: 100%;
+    }
+
     .borderRadius {
         width: fit-content;
     }
@@ -47,7 +56,7 @@
     .menu_section .menu_section-box:nth-of-type(3),
     .menu_section .menu_section-box:nth-of-type(2) {
         padding-left: 30px;
-        width: 215px;
+        width: min(20.996vw, 215px);
     }
 
     .menu_section .menu_section-box:nth-of-type(3) {
@@ -65,6 +74,7 @@
     .section02 {
         padding-left: 20px;
         padding-right: 20px;
+        min-width: 100%;
     }
 
     .title_part {
@@ -168,7 +178,10 @@
     .calendar_wrap {
         display: flex;
         align-items: center;
-        margin-left: 57px;
+
+        /* 2023-01-31追加 */
+        margin-left: min(5.566vw, 57px);
+        flex-wrap: wrap;
     }
 
     .calendar_box.mobile_none {
@@ -441,6 +454,11 @@
         width: 160px;
     }
 
+    .p_content .part_table {
+        width: 100vw;
+    }
+
+
     /* 08_出荷管理-検索画面 */
     .part_head_line.shipping .head_content_part {
         flex-direction: column;
@@ -616,6 +634,7 @@
 
     .section03 {
         margin-left: 20px;
+        margin-right: 20px;
         overflow-x: scroll;
     }
 
@@ -997,7 +1016,7 @@
     }
 
 
-    /* 08_出荷管理-検索画面 */
 
+    /* 08_出荷管理-検索画面 */
 
 }
